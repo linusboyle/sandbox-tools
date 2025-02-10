@@ -1,7 +1,7 @@
 import os
 import json
 import argparse
-from random_table import load_random_table_from_json
+from random_table import load_random_table_from_json, load_random_table, save_random_table_to_json
 
 def find_json_files(directory):
     json_files = []
@@ -15,7 +15,16 @@ class RandomTableManager:
 
     def __init__(self, directory):
         self.tables = {}
+        self.directory = directory
+
         self.load(directory)
+
+    def add_table(self, data):
+        table = load_random_table(data)
+        self.tables[table.name] = table
+        # persist
+        path = os.path.join(self.directory, table.name+".json")
+        save_random_table_to_json(table, path)
 
     def load(self, directory):
         json_files = find_json_files(directory)
@@ -35,6 +44,11 @@ class RandomTableManager:
     def formatted_draw(self, name):
         table = self.tables[name]
         return table.formatted_draw(self.tables)
+
+    def get_tables(self):
+        return list(self.tables.keys())
+
+    
        
 
 if __name__ == '__main__':

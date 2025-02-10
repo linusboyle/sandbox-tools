@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Table Manager</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Random Table Manager</h1>
+    <div>
+        <h2>Add a New Table</h2>
+        <form id="addTableForm">
+            <textarea id="tableJson" name="tableJson" rows="10" cols="50" placeholder="Enter table JSON here"></textarea>
+            <button type="submit">Add Table</button>
+        </form>
+    </div>
+    <div>
+        <label for="tableName">Select Table:</label>
+        <select id="tableName" name="tableName">
+            <!-- Table options will be populated here -->
+        </select>
+        <button onclick="formattedDrawFromTable()">Formatted Draw</button>
+    </div>
+    <div id="result"></div>
+    <script src="static/app.js"></script>
+</body>
+</html>

@@ -125,6 +125,11 @@ class Entry:
     def __repr__(self):
          return f"Entry(type={self.type}, min_roll={self.min_roll}, max_roll={self.max_roll}, target='{self.target}')"
 
+def load_random_table(data):
+    name = data['name']
+    roll_formula = data['formula']
+    entries = [Entry(e['type'], e['range'][0], e['range'][1], e['text']) for e in data['results']]
+    return RandomTable(name, roll_formula, entries)
 
 def load_random_table_from_json(file_path):
     """
@@ -138,11 +143,7 @@ def load_random_table_from_json(file_path):
     """
     with open(file_path, 'r') as f:
         data = json.load(f)
-
-    name = data['name']
-    roll_formula = data['formula']
-    entries = [Entry(e['type'], e['range'][0], e['range'][1], e['text']) for e in data['results']]
-    return RandomTable(name, roll_formula, entries)
+        return load_random_table(data)
 
 
 def save_random_table_to_json(table, file_path):
