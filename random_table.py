@@ -2,6 +2,16 @@ import json
 from dice_roller import roll_formula
 
 class RandomTable:
+    """
+    Represents a random table used to generate random results based on dice rolls.
+    This class is commonly used in tabletop games and simulations to provide a structured way
+    of generating random outcomes.
+
+    Attributes:
+        name (str): The name of the table.
+        roll_formula (str): The dice roll formula (e.g., "1d100").
+        entries (list): A list of Entry objects that define the possible outcomes.
+    """
     def __init__(self, name, roll_formula, entries):
         """
         Initializes a RandomTable object.
@@ -9,7 +19,7 @@ class RandomTable:
         Args:
             name (str): The name of the table.
             roll_formula (str): The dice roll formula (e.g., "1d100").
-            entries (list): A list of Entry objects.
+            entries (list): A list of Entry objects that define the possible outcomes.
         """
         self.name = name
         self.roll_formula = roll_formula
@@ -90,6 +100,7 @@ class Entry:
         Initializes an Entry object.
 
         Args:
+            type (str): The type of the entry (e.g., "text", "document").
             min_roll (int): The minimum roll for this entry (inclusive).
             max_roll (int): The maximum roll for this entry (inclusive).
             target (str or RandomTable): The target of this entry.  Can be a string or a link to another RandomTable.
