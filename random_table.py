@@ -1,6 +1,9 @@
 import json
 from dice_roller import roll_formula
 
+def flatten(xss):
+    return [x for xs in xss for x in xs]
+
 class RandomTable:
     """
     Represents a random table used to generate random results based on dice rolls.
@@ -24,6 +27,8 @@ class RandomTable:
         self.name = name
         self.roll_formula = roll_formula
         self.entries = entries
+
+        self.roll_results_stash = []
 
     def roll(self):
         """
@@ -60,12 +65,14 @@ class RandomTable:
         """
         match entry.type:
             case "text":
-                return entry.target
+                return [entry.target]
             case "document":
                 if tables and entry.target in tables:
                     #Recursively roll the linked table by name
                     linked_table = tables[entry.target]
-                    return linked_table.draw()
+                    linked_result = linked_table.draw()
+                    self.roll_results_stash += linked_result['roll']
+                    return linked_result['result']
         print(f"Warning: Cann't resolve target for {entry}")
         return ''
 
@@ -80,15 +87,16 @@ class RandomTable:
             str: The resolved target.
         """
         roll_result = self.roll()
+        self.roll_results_stash = [roll_result]
         entries = self.get_entry(roll_result)
         return {
-            'result': '\n'.join([self.resolve_target(entry, tables) for entry in entries]),
-            'roll': roll_result
+            'result': flatten([self.resolve_target(entry, tables) for entry in entries]),
+            'roll': self.roll_results_stash
         }
 
     def formatted_draw(self, tables=None):
         result = self.draw(tables)
-        return f"{result['roll']} : {result['result']}"
+        return f"{result['roll']} : {'\n'.join(result['result'])}"
 
     def __repr__(self):
         return f"RandomTable(name='{self.name}', roll_formula='{self.roll_formula}', entries={self.entries})"
@@ -160,5 +168,5 @@ def save_random_table_to_json(table, file_path):
         json.dump(data, f, indent=4)
 
 if __name__ == '__main__':
-    loaded_table = load_random_table_from_json("wilderness_tags.json")
+    loaded_table = load_random_table_from_json("tables/wilderness_tags.json")
     print(f"{loaded_table.formatted_draw()}")
