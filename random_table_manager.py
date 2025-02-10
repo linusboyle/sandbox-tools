@@ -48,7 +48,6 @@ class RandomTableManager:
     def get_tables(self):
         return list(self.tables.keys())
 
-    
        
 
 if __name__ == '__main__':

@@ -96,7 +96,7 @@ class RandomTable:
 
     def formatted_draw(self, tables=None):
         result = self.draw(tables)
-        return f"{result['roll']} : {'\n'.join(result['result'])}"
+        return f"{result['roll']} : {' '.join(result['result'])}"
 
     def __repr__(self):
         return f"RandomTable(name='{self.name}', roll_formula='{self.roll_formula}', entries={self.entries})"
@@ -154,19 +154,25 @@ def save_random_table_to_json(table, file_path):
         table (RandomTable): The RandomTable object to save.
         file_path (str): The path to the JSON file.
     """
+    def prepare_entry(e):
+        res = {
+            'type': e.type,
+            'text': e.target,
+            'range': [e.min_roll, e.max_roll]
+        }
+        if e.type == "document":
+            res['documentCollection'] = "RollTable" # for FVTT
+        return e
+
     data = {
         'name': table.name,
         'formula': table.roll_formula,
         'results': [
-            {
-                'type': e.type,
-                'text': e.target,
-                'range': [e.min_roll, e.max_roll]
-            } for e in table.entries
+           prepare_entry(e) for e in table.entries
         ]
     }
-    with open(file_path, 'w') as f:
-        json.dump(data, f, indent=4)
+    with open(file_path, 'w', encoding="utf8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 if __name__ == '__main__':
     loaded_table = load_random_table_from_json("tables/wilderness_tags.json")
