@@ -15,7 +15,7 @@ def load_tables():
 def add_tables():
     data = request.json
     table = data.get('table')
-    manager.add_table(table)
+    manager.add_table_json(table)
     return jsonify({"message": "Tables added successfully"}), 200
 
 @app.route('/tables', methods=['GET'])

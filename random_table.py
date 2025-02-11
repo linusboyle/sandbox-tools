@@ -105,12 +105,11 @@ class RandomTable:
     def __repr__(self):
         return f"RandomTable(name='{self.name}', roll_formula='{self.roll_formula}', entries={self.entries})"
 
-    def save_to_json(table, file_path):
+    def save_to_json(self, file_path):
         """
         Saves a random table to a JSON file.
 
         Args:
-            table (RandomTable): The RandomTable object to save.
             file_path (str): The path to the JSON file.
         """
         def prepare_entry(e):
@@ -124,12 +123,12 @@ class RandomTable:
             return res
 
         data = {
-            'name': table.name,
-            'formula': table.roll_formula,
-            'displayRoll' : table.displayRoll,
-            'replacement' : table.replacement,
+            'name': self.name,
+            'formula': self.roll_formula,
+            'displayRoll' : self.displayRoll,
+            'replacement' : self.replacement,
             'results': [
-            prepare_entry(e) for e in table.entries
+               prepare_entry(e) for e in self.entries
             ]
         }
         with open(file_path, 'w', encoding="utf8") as f:
@@ -145,6 +144,8 @@ class RandomTable:
         """
         with open(file_path, 'w') as f:
             writer = csv.writer(f, delimiter='\t')
+            # Write header
+            writer.writerow([self.roll_formula, self.name])
             for entry in self.entries:
                 range_str = f"{entry.min_roll}-{entry.max_roll}" if entry.min_roll != entry.max_roll else f"{entry.min_roll}"
                 target_str = f"[[{entry.target}]]" if entry.type == "document" else entry.target
@@ -208,10 +209,9 @@ def load_random_table_from_tsv_file(file_path):
     with open(file_path, 'r') as f:
         return load_random_table_from_tsv(f)
 
-def load_random_table_from_tsv(data):
+def load_random_table_from_tsv(src):
     """
-    Loads a random table from a TSV file. The TSV file has three columns: range start, range end, and target.
-    The formula is a single dice with sides equal to the number of entries.
+    Loads a random table from a TSV file of a string of text in TSV format. The TSV text has two columns: range and target.
 
     Args:
         file_path (str): The path to the TSV file.
@@ -219,18 +219,28 @@ def load_random_table_from_tsv(data):
     Returns:
         RandomTable: A RandomTable object.
     """
-    src = data.split('\n') if data is str else data
-
+    data = src.split('\n') if src is str else src
     reader = csv.reader(src, delimiter='\t')
-    # header = next(reader)  
-    # assume there's no header
+    header = next(reader)
+
+    roll_formula, name = header
+    max_roll_target = 0
+
     entries = []
     for row in reader:
         try:
-            min_roll = int(row[0])
-            max_roll = int(row[1])
-            target = row[2]
-            entry = Entry("text", min_roll, max_roll, target)
+            range_str = row[0]
+            if '-' in range_str:
+                min_roll, max_roll = map(int, range_str.split('-'))
+            else:
+                min_roll = max_roll = int(range_str)
+            max_roll_target = max(max_roll_target, max_roll)
+
+            target = row[1]
+            entry_type = "document" if target.startswith("[[") and target.endswith("]]") else "text"
+            if entry_type == "document":
+                target = target.strip('[]')
+            entry = Entry(entry_type, min_roll, max_roll, target)
             entries.append(entry)
         except (ValueError, IndexError) as e:
             raise ValueError(f"Invalid TSV data: {e}") from e
@@ -238,8 +248,10 @@ def load_random_table_from_tsv(data):
     if not entries:
         raise ValueError("TSV file is empty or contains no valid data.")
 
-    name = os.path.splitext(os.path.basename(file_path))[0]
-    roll_formula = f"1d{len(entries)}"
+    if roll_formula.strip() == "":
+        roll_formula = f"1d{max_roll_target}" 
+    if name.strip() == "":
+        name = "Random Table" 
     return RandomTable(name, roll_formula, entries)
 
 if __name__ == '__main__':

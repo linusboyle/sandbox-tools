@@ -56,6 +56,11 @@ class RandomTableManager:
             path = os.path.join(directory, f"{table_name}.json")
             table.save_to_json(path)
 
+    def export_to_tsv(self, directory):
+        for table_name, table in self.tables.items():
+            path = os.path.join(directory, f"{table_name}.tsv")
+            table.save_to_tsv(path)
+
     def draw(self, name):
         table = self.tables[name]
         return table.draw(self.tables)
