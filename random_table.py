@@ -1,21 +1,48 @@
 import json
 import csv
 import os
+import re
 from dice_roller import roll_formula
+from dice_util import guess_dice_formula
 
 def flatten(xss):
     return [x for xs in xss for x in xs]
 
+def replace_inline_rolls(pattern):
+    try:
+        def replacer(match):
+            formula = match.group(1)
+            result = roll_formula(formula)
+            return str(result["result"])
+        
+        # Replace all occurrences of [[string]] with the result of roll_formula(string)
+        return re.sub(r'\[\[(.*?)\]\]', replacer, pattern)
+    except Exception as e:
+        print(f"Error replacing inline rolls: {e}")
+        return pattern
+
 class RandomTable:
     """
-    Represents a random table used to generate random results based on dice rolls.
-    This class is commonly used in tabletop games and simulations to provide a structured way
-    of generating random outcomes.
+    Represents a random table used to generate random results based on dice rolls,
+    commonly utilized in tabletop games and simulations. This class provides a structured
+    way of defining and rolling tables with various entry types, including text and links
+    to other tables.
 
     Attributes:
         name (str): The name of the table.
-        roll_formula (str): The dice roll formula (e.g., "1d100").
+        roll_formula (str): The dice roll formula used for generating random results (e.g., "1d100").
         entries (list): A list of Entry objects that define the possible outcomes.
+        displayRoll (bool): Whether to display the roll result when drawing from the table. Defaults to True.
+        replacement (bool): Whether to disable an entry when it is drawn. Defaults to True.
+
+    Methods:
+        roll(): Rolls the dice and returns the result.
+        get_entry(roll_result): Finds the appropriate entry based on the roll result.
+        resolve_target(entry, tables=None): Resolves the target of an entry, handling text and document types.
+        draw(tables=None): Rolls on the table and resolves the target, returning a dictionary with results and rolls.
+        formatted_draw(tables=None): Returns a formatted string of the roll and resolved target.
+        save_to_json(file_path): Saves the random table to a JSON file.
+        save_to_tsv(file_path): Saves the random table to a TSV file.
     """
     def __init__(self, name, roll_formula, entries, displayRoll=True, replacement=True):
         """
@@ -69,7 +96,7 @@ class RandomTable:
         """
         match entry.type:
             case "text":
-                return [entry.target]
+                return [replace_inline_rolls(entry.target)]
             case "document":
                 if tables and entry.target in tables:
                     #Recursively roll the linked table by name
@@ -78,7 +105,7 @@ class RandomTable:
                     self.roll_results_stash += linked_result['roll']
                     return linked_result['result']
         print(f"Warning: Cann't resolve target for {entry}")
-        return ''
+        return []
 
     def draw(self, tables=None):
         """
@@ -224,7 +251,8 @@ def load_random_table_from_tsv(src):
     header = next(reader)
 
     roll_formula, name = header
-    max_roll_target = 0
+    max_roll_target = []
+    min_roll_target = []
 
     entries = []
     for row in reader:
@@ -234,7 +262,8 @@ def load_random_table_from_tsv(src):
                 min_roll, max_roll = map(int, range_str.split('-'))
             else:
                 min_roll = max_roll = int(range_str)
-            max_roll_target = max(max_roll_target, max_roll)
+            max_roll_target.append(max_roll)
+            min_roll_target.append(min_roll)
 
             target = row[1]
             entry_type = "document" if target.startswith("[[") and target.endswith("]]") else "text"
@@ -249,11 +278,11 @@ def load_random_table_from_tsv(src):
         raise ValueError("TSV file is empty or contains no valid data.")
 
     if roll_formula.strip() == "":
-        roll_formula = f"1d{max_roll_target}" 
+        roll_formula = guess_dice_formula(max(max_roll_target), min(min_roll_target)) 
     if name.strip() == "":
         name = "Random Table" 
     return RandomTable(name, roll_formula, entries)
 
 if __name__ == '__main__':
-    loaded_table = load_random_table_from_json_file("tables/wilderness_tags.json")
+    loaded_table = load_random_table_from_tsv_file("tables/Wilderness Tags.tsv")
     print(f"{loaded_table.formatted_draw()}")

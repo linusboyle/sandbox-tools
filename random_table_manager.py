@@ -80,3 +80,4 @@ if __name__ == '__main__':
 
     print(manager.formatted_draw("Wilderness Tags"))
     print(manager.formatted_draw("Wilderness Tags"))
+    print(manager.formatted_draw("姓名"))
