@@ -1,7 +1,7 @@
 import os
 import json
 import argparse
-from random_table import load_random_table_from_json, load_random_table, save_random_table_to_json, load_random_table_from_tsv
+from random_table import *
 
 def find_data_files(directory):
     data_files = []
@@ -19,19 +19,19 @@ class RandomTableManager:
 
         self.load(directory)
 
-    def add_table(self, data):
-        table = load_random_table(data)
+    def add_table_json(self, data):
+        table = load_random_table_from_json(data)
         self.tables[table.name] = table
         # persist
         path = os.path.join(self.directory, table.name+".json")
-        save_random_table_to_json(table, path)
+        table.save_to_json(path)
 
     def add_table_tsv(self, data):
         table = load_random_table_from_tsv(data)
         self.tables[table.name] = table
         # persist
         path = os.path.join(self.directory, table.name+".json")
-        save_random_table_to_json(table, path)
+        table.save_to_json(path)
    
     def load(self, directory):
         data_files = find_data_files(directory)
@@ -40,9 +40,9 @@ class RandomTableManager:
             try:
                 (root ,ext) = os.path.splitext(data_file)
                 if ext == '.json':
-                    random_table = load_random_table_from_json(data_file)
+                    random_table = load_random_table_from_json_file(data_file)
                 elif ext in ('.tsv', '.txt'):
-                    random_table = load_random_table_from_tsv(data_file)
+                    random_table = load_random_table_from_tsv_file(data_file)
                 else:
                     print(f"Unsupported file type: {data_file}, Skipping")
                     continue
@@ -54,7 +54,7 @@ class RandomTableManager:
     def export_to_json(self, directory):
         for table_name, table in self.tables.items():
             path = os.path.join(directory, f"{table_name}.json")
-            save_random_table_to_json(table, path)
+            table.save_to_json(path)
 
     def draw(self, name):
         table = self.tables[name]

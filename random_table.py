@@ -105,6 +105,50 @@ class RandomTable:
     def __repr__(self):
         return f"RandomTable(name='{self.name}', roll_formula='{self.roll_formula}', entries={self.entries})"
 
+    def save_to_json(table, file_path):
+        """
+        Saves a random table to a JSON file.
+
+        Args:
+            table (RandomTable): The RandomTable object to save.
+            file_path (str): The path to the JSON file.
+        """
+        def prepare_entry(e):
+            res = {
+                'type': e.type,
+                'text': e.target,
+                'range': [e.min_roll, e.max_roll]
+            }
+            if e.type == "document":
+                res['documentCollection'] = "RollTable" # for FVTT
+            return res
+
+        data = {
+            'name': table.name,
+            'formula': table.roll_formula,
+            'displayRoll' : table.displayRoll,
+            'replacement' : table.replacement,
+            'results': [
+            prepare_entry(e) for e in table.entries
+            ]
+        }
+        with open(file_path, 'w', encoding="utf8") as f:
+            json.dump(data, f, indent=4, ensure_ascii=False)
+
+    def save_to_tsv(self, file_path):
+        """
+        Saves a random table to a TSV file. The TSV file has two columns: range and target.
+        If the target is a link to another table, it is formatted as [[tablename]].
+
+        Args:
+            file_path (str): The path to the TSV file.
+        """
+        with open(file_path, 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            for entry in self.entries:
+                range_str = f"{entry.min_roll}-{entry.max_roll}" if entry.min_roll != entry.max_roll else f"{entry.min_roll}"
+                target_str = f"[[{entry.target}]]" if entry.type == "document" else entry.target
+                writer.writerow([range_str, target_str])
 
 class Entry:
     def __init__(self, type, min_roll, max_roll, target):
@@ -129,7 +173,7 @@ class Entry:
     def __repr__(self):
          return f"Entry(type={self.type}, min_roll={self.min_roll}, max_roll={self.max_roll}, target='{self.target}')"
 
-def load_random_table(data):
+def load_random_table_from_json(data):
     name = data['name']
     entries = [Entry(e['type'], e['range'][0], e['range'][1], e['text']) for e in data['results']]
 
@@ -146,7 +190,7 @@ def load_random_table(data):
         roll_formula = f"1d{len(entries)}"
     return RandomTable(name, roll_formula, entries, displayRoll=displayRoll, replacement=replacement)
 
-def load_random_table_from_json(file_path):
+def load_random_table_from_json_file(file_path):
     """
     Loads a random table from a JSON file.
 
@@ -158,39 +202,13 @@ def load_random_table_from_json(file_path):
     """
     with open(file_path, 'r') as f:
         data = json.load(f)
-        return load_random_table(data)
+        return load_random_table_from_json(data)
 
-def save_random_table_to_json(table, file_path):
-    """
-    Saves a random table to a JSON file.
+def load_random_table_from_tsv_file(file_path):
+    with open(file_path, 'r') as f:
+        return load_random_table_from_tsv(f)
 
-    Args:
-        table (RandomTable): The RandomTable object to save.
-        file_path (str): The path to the JSON file.
-    """
-    def prepare_entry(e):
-        res = {
-            'type': e.type,
-            'text': e.target,
-            'range': [e.min_roll, e.max_roll]
-        }
-        if e.type == "document":
-            res['documentCollection'] = "RollTable" # for FVTT
-        return res
-
-    data = {
-        'name': table.name,
-        'formula': table.roll_formula,
-        'displayRoll' : table.displayRoll,
-        'replacement' : table.replacement,
-        'results': [
-           prepare_entry(e) for e in table.entries
-        ]
-    }
-    with open(file_path, 'w', encoding="utf8") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
-
-def load_random_table_from_tsv(file_path):
+def load_random_table_from_tsv(data):
     """
     Loads a random table from a TSV file. The TSV file has three columns: range start, range end, and target.
     The formula is a single dice with sides equal to the number of entries.
@@ -201,28 +219,29 @@ def load_random_table_from_tsv(file_path):
     Returns:
         RandomTable: A RandomTable object.
     """
-    with open(file_path, 'r') as f:
-        reader = csv.reader(f, delimiter='\t')
-        # header = next(reader)  
-        # assume there's no header
-        entries = []
-        for row in reader:
-            try:
-                min_roll = int(row[0])
-                max_roll = int(row[1])
-                target = row[2]
-                entry = Entry("text", min_roll, max_roll, target)
-                entries.append(entry)
-            except (ValueError, IndexError) as e:
-                raise ValueError(f"Invalid TSV data: {e}") from e
+    src = data.split('\n') if data is str else data
 
-        if not entries:
-            raise ValueError("TSV file is empty or contains no valid data.")
+    reader = csv.reader(src, delimiter='\t')
+    # header = next(reader)  
+    # assume there's no header
+    entries = []
+    for row in reader:
+        try:
+            min_roll = int(row[0])
+            max_roll = int(row[1])
+            target = row[2]
+            entry = Entry("text", min_roll, max_roll, target)
+            entries.append(entry)
+        except (ValueError, IndexError) as e:
+            raise ValueError(f"Invalid TSV data: {e}") from e
 
-        name = os.path.splitext(os.path.basename(file_path))[0]
-        roll_formula = f"1d{len(entries)}"
-        return RandomTable(name, roll_formula, entries)
+    if not entries:
+        raise ValueError("TSV file is empty or contains no valid data.")
+
+    name = os.path.splitext(os.path.basename(file_path))[0]
+    roll_formula = f"1d{len(entries)}"
+    return RandomTable(name, roll_formula, entries)
 
 if __name__ == '__main__':
-    loaded_table = load_random_table_from_json("tables/wilderness_tags.json")
+    loaded_table = load_random_table_from_json_file("tables/wilderness_tags.json")
     print(f"{loaded_table.formatted_draw()}")
