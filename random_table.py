@@ -1,4 +1,6 @@
 import json
+import csv
+import os
 from dice_roller import roll_formula
 
 def flatten(xss):
@@ -15,7 +17,7 @@ class RandomTable:
         roll_formula (str): The dice roll formula (e.g., "1d100").
         entries (list): A list of Entry objects that define the possible outcomes.
     """
-    def __init__(self, name, roll_formula, entries):
+    def __init__(self, name, roll_formula, entries, displayRoll=True, replacement=True):
         """
         Initializes a RandomTable object.
 
@@ -27,6 +29,8 @@ class RandomTable:
         self.name = name
         self.roll_formula = roll_formula
         self.entries = entries
+        self.displayRoll = displayRoll
+        self.replacement = replacement
 
         self.roll_results_stash = []
 
@@ -127,9 +131,20 @@ class Entry:
 
 def load_random_table(data):
     name = data['name']
-    roll_formula = data['formula']
     entries = [Entry(e['type'], e['range'][0], e['range'][1], e['text']) for e in data['results']]
-    return RandomTable(name, roll_formula, entries)
+
+    displayRoll = True
+    if 'displayRoll' in data:
+        displayRoll = data['displayRoll']
+    replacement = True
+    if 'replacement' in data:
+        replacement = data['replacement']
+
+    if data['formula']:
+        roll_formula = data['formula']
+    else:
+        roll_formula = f"1d{len(entries)}"
+    return RandomTable(name, roll_formula, entries, displayRoll=displayRoll, replacement=replacement)
 
 def load_random_table_from_json(file_path):
     """
@@ -144,7 +159,6 @@ def load_random_table_from_json(file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
         return load_random_table(data)
-
 
 def save_random_table_to_json(table, file_path):
     """
@@ -162,17 +176,52 @@ def save_random_table_to_json(table, file_path):
         }
         if e.type == "document":
             res['documentCollection'] = "RollTable" # for FVTT
-        return e
+        return res
 
     data = {
         'name': table.name,
         'formula': table.roll_formula,
+        'displayRoll' : table.displayRoll,
+        'replacement' : table.replacement,
         'results': [
            prepare_entry(e) for e in table.entries
         ]
     }
     with open(file_path, 'w', encoding="utf8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+def load_random_table_from_tsv(file_path):
+    """
+    Loads a random table from a TSV file. The TSV file has three columns: range start, range end, and target.
+    The formula is a single dice with sides equal to the number of entries.
+
+    Args:
+        file_path (str): The path to the TSV file.
+
+    Returns:
+        RandomTable: A RandomTable object.
+    """
+    with open(file_path, 'r') as f:
+        reader = csv.reader(f, delimiter='\t')
+        # header = next(reader)  
+        # assume there's no header
+        entries = []
+        for row in reader:
+            try:
+                min_roll = int(row[0])
+                max_roll = int(row[1])
+                target = row[2]
+                entry = Entry("text", min_roll, max_roll, target)
+                entries.append(entry)
+            except (ValueError, IndexError) as e:
+                raise ValueError(f"Invalid TSV data: {e}") from e
+
+        if not entries:
+            raise ValueError("TSV file is empty or contains no valid data.")
+
+        name = os.path.splitext(os.path.basename(file_path))[0]
+        roll_formula = f"1d{len(entries)}"
+        return RandomTable(name, roll_formula, entries)
 
 if __name__ == '__main__':
     loaded_table = load_random_table_from_json("tables/wilderness_tags.json")

@@ -1,15 +1,15 @@
 import os
 import json
 import argparse
-from random_table import load_random_table_from_json, load_random_table, save_random_table_to_json
+from random_table import load_random_table_from_json, load_random_table, save_random_table_to_json, load_random_table_from_tsv
 
-def find_json_files(directory):
-    json_files = []
+def find_data_files(directory):
+    data_files = []
     for root, _, files in os.walk(directory):
         for file in files:
-            if file.endswith('.json'):
-                json_files.append(os.path.join(root, file))
-    return json_files
+            if os.path.splitext(file)[1] in ('.json', '.tsv', '.txt'):
+                data_files.append(os.path.join(root, file))
+    return data_files
 
 class RandomTableManager:
 
@@ -26,16 +26,35 @@ class RandomTableManager:
         path = os.path.join(self.directory, table.name+".json")
         save_random_table_to_json(table, path)
 
+    def add_table_tsv(self, data):
+        table = load_random_table_from_tsv(data)
+        self.tables[table.name] = table
+        # persist
+        path = os.path.join(self.directory, table.name+".json")
+        save_random_table_to_json(table, path)
+   
     def load(self, directory):
-        json_files = find_json_files(directory)
-        for json_file in json_files:
-            print(f"Processing {json_file}...")
+        data_files = find_data_files(directory)
+        for data_file in data_files:
+            print(f"Processing {data_file}...")
             try:
-                random_table = load_random_table_from_json(json_file)
-            except:
-                print(f"Error loading {json_file}, Skipping")
+                (root ,ext) = os.path.splitext(data_file)
+                if ext == '.json':
+                    random_table = load_random_table_from_json(data_file)
+                elif ext in ('.tsv', '.txt'):
+                    random_table = load_random_table_from_tsv(data_file)
+                else:
+                    print(f"Unsupported file type: {data_file}, Skipping")
+                    continue
+            except Exception as e:
+                print(f"Error loading {data_file}, Skipping: {e}")
             else:
                 self.tables[random_table.name] = random_table
+
+    def export_to_json(self, directory):
+        for table_name, table in self.tables.items():
+            path = os.path.join(directory, f"{table_name}.json")
+            save_random_table_to_json(table, path)
 
     def draw(self, name):
         table = self.tables[name]
@@ -47,12 +66,10 @@ class RandomTableManager:
 
     def get_tables(self):
         return list(self.tables.keys())
-
        
-
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Convert JSON files to random tables.')
-    parser.add_argument('directory', type=str, nargs='?', default='tables', help='The directory containing JSON files (default: tables)')
+    parser = argparse.ArgumentParser(description='convert json files to random tables.')
+    parser.add_argument('directory', type=str, nargs='?', default='tables', help='the directory containing json files (default: tables)')
     args = parser.parse_args()
     manager = RandomTableManager(args.directory)
 
