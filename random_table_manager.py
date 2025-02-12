@@ -49,6 +49,8 @@ class RandomTableManager:
             except Exception as e:
                 print(f"Error loading {data_file}, Skipping: {e}")
             else:
+                if random_table.name in self.tables:
+                    print(f"Warning: Duplicate Table Names {random_table.name}, Overwritten")
                 self.tables[random_table.name] = random_table
 
     def export_to_json(self, directory):
@@ -80,4 +82,4 @@ if __name__ == '__main__':
 
     print(manager.formatted_draw("Wilderness Tags"))
     print(manager.formatted_draw("Wilderness Tags"))
-    print(manager.formatted_draw("姓名"))
+    print(manager.formatted_draw("人类姓名"))
