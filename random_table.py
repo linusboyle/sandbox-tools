@@ -203,7 +203,7 @@ class Entry:
 
 def load_random_table_from_json(data):
     name = data['name']
-    entries = [Entry(e['type'], e['range'][0], e['range'][1], e['text']) for e in data['results']]
+    entries = [Entry(e['type'] if e['type'] != 'pack' else 'text', e['range'][0], e['range'][1], e['text']) for e in data['results']]
 
     displayRoll = True
     if 'displayRoll' in data:
@@ -246,8 +246,8 @@ def load_random_table_from_tsv(src):
     Returns:
         RandomTable: A RandomTable object.
     """
-    data = src.split('\n') if src is str else src
-    reader = csv.reader(src, delimiter='\t')
+    data = src.split('\n') if isinstance(src, str) else src
+    reader = csv.reader(data, delimiter='\t')
     header = next(reader)
 
     roll_formula, name = header

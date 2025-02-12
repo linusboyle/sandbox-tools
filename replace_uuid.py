@@ -1,6 +1,7 @@
 #! python3
 import sys
 import re
+import os
 
 def replace_uuid_in_file(file_path):
     # Define the pattern and replacement string
@@ -27,9 +28,21 @@ def replace_uuid_in_file(file_path):
         print(f"An error occurred while processing {file_path}: {e}")
 
 # 删除从FVTT导出的随机表中的引用
+
+def process_directory(directory):
+    for root, _, files in os.walk(directory):
+        for file_name in files:
+            full_path = os.path.join(root, file_name)
+            replace_uuid_in_file(full_path)
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python replace_uuid.py <filename1> [filename2 ... filenameN]")
     else:
-        for file_path in sys.argv[1:]:
-            replace_uuid_in_file(file_path)
+        for path in sys.argv[1:]:
+            if os.path.isdir(path):
+                process_directory(path)
+            elif os.path.isfile(path):
+                replace_uuid_in_file(path)
+            else:
+                print(f"Path not found or invalid: {path}")

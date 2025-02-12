@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 from random_table_manager import RandomTableManager
+import traceback
 
 app = Flask(__name__)
 manager = RandomTableManager('tables')
@@ -13,10 +14,16 @@ def load_tables():
 
 @app.route('/addTable', methods=['POST'])
 def add_tables():
-    data = request.json
-    table = data.get('table')
-    manager.add_table_json(table)
-    return jsonify({"message": "Tables added successfully"}), 200
+    try:
+        data = request.json
+        table = data.get('table')
+        manager.add_table_tsv(table)
+    except Exception as e:
+        print(f"Error while adding table {e}")
+        print(traceback.format_exc())
+        return jsonify({"message": f"Error while adding table: {e}"}), 404
+    else:
+        return jsonify({"message": "Tables added successfully"}), 200
 
 @app.route('/tables', methods=['GET'])
 def get_tables():
