@@ -26,9 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function addTable() {
-        const tableJson = document.getElementById('tableJson').value;
+        const tableData = document.getElementById('tableJson').value;
         try {
-            const tableData = JSON.parse(tableJson);
             fetch('/addTable', {
                 method: 'POST',
                 headers: {
@@ -46,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('result').innerText = 'Error adding table';
             });
         } catch (e) {
-            console.error('Invalid JSON:', e);
-            document.getElementById('result').innerText = 'Invalid JSON format';
+            console.error('Invalid Table:', e);
+            document.getElementById('result').innerText = 'Invalid format';
         }
     }
 
