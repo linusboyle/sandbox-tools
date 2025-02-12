@@ -278,7 +278,7 @@ def load_random_table_from_tsv(src):
         raise ValueError("TSV file is empty or contains no valid data.")
 
     if roll_formula.strip() == "":
-        roll_formula = guess_dice_formula(max(max_roll_target), min(min_roll_target)) 
+        roll_formula = guess_dice_formula(min(min_roll_target), max(max_roll_target)) 
     if name.strip() == "":
         name = "Random Table" 
     return RandomTable(name, roll_formula, entries)
