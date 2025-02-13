@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(data => {
                 const dropdown = document.getElementById('tableName');
                 dropdown.innerHTML = ''; // Clear existing options
-                data.tables.forEach(table => {
+                data.tables.sort().forEach(table => {
                     const option = document.createElement('option');
                     option.value = table;
                     option.textContent = table;
