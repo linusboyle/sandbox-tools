@@ -25,9 +25,47 @@ button {
     margin-left: 5px;
 }
 
-#result {
-    margin-top: 20px;
+.text-display {
+    /* margin-top: 20px; */
     padding: 10px;
     border: 1px solid #ccc;
     background-color: #f9f9f9;
+}
+
+.full-width-textarea {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none; /* Disable resizing */
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #ddd;
 }

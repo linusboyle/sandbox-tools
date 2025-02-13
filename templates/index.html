@@ -9,20 +9,38 @@
 <body>
     <h1>Random Table Manager</h1>
     <div>
-        <h2>Add a New Table</h2>
-        <form id="addTableForm">
-            <textarea id="tableJson" name="tableJson" rows="10" cols="50" placeholder="Enter table JSON here"></textarea>
-            <button type="submit">Add Table</button>
-        </form>
-    </div>
-    <div>
         <label for="tableName">Select Table:</label>
         <select id="tableName" name="tableName">
             <!-- Table options will be populated here -->
         </select>
         <button onclick="formattedDrawFromTable()">Formatted Draw</button>
     </div>
-    <div id="result"></div>
+    <div style="display: flex;">
+        <div style="flex: 1; padding-right: 20px;">
+            <form id="addTableForm">
+                <textarea class="full-width-textarea" id="tableJson" name="tableJson" rows="20" placeholder="Enter table TSV here"></textarea>
+                <button type="submit">Add Table</button>
+            </form>
+        </div>
+        <div style="flex: 1;">
+            <div id="result" class="text-display"></div>
+            <div id="entries" class="text-display" >
+                <h3>Entries:</h3>
+                <table id="entryTable" border="1" style="width: 100%; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Target</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody id="entryTableBody">
+                        <!-- Entries will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <script src="static/app.js"></script>
 </body>
 </html>

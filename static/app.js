@@ -75,6 +75,41 @@ document.addEventListener('DOMContentLoaded', function() {
 
     populateTableDropdown();
 
+    function fetchTableEntries() {
+        const tableName = document.getElementById('tableName').value;
+        if (tableName) {
+            fetch(`/table_entries/${tableName}`)
+                .then(response => response.json())
+                .then(data => {
+                    const entryTableBody = document.getElementById('entryTableBody');
+                    entryTableBody.innerHTML = ''; // Clear existing entries
+                    data.entries.forEach(entry => {
+                        const row = document.createElement('tr');
+                        const minRollCell = document.createElement('td');
+                        const targetCell = document.createElement('td');
+                        const typeCell = document.createElement('td');
+
+                        const rollRange = entry.min_roll === entry.max_roll ? entry.min_roll : `${entry.min_roll}-${entry.max_roll}`;
+                        minRollCell.textContent = rollRange;
+                        targetCell.textContent = entry.target;
+                        typeCell.textContent = entry.type;
+
+                        row.appendChild(minRollCell);
+                        row.appendChild(targetCell);
+                        row.appendChild(typeCell);
+
+                        entryTableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching table entries:', error);
+                    document.getElementById('entryList').innerHTML = 'Error fetching data';
+                });
+        }
+    }
+
+    document.getElementById('tableName').addEventListener('change', fetchTableEntries);
+
     window.drawFromTable = drawFromTable;
     window.formattedDrawFromTable = formattedDrawFromTable;
 });

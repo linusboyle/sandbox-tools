@@ -25,6 +25,13 @@ def add_tables():
     else:
         return jsonify({"message": "Tables added successfully"}), 200
 
+@app.route('/table_entries/<name>', methods=['GET'])
+def get_table_entries(name):
+    if name not in manager.tables:
+        return jsonify({"error": "Table not found"}), 404
+    entries = [{'min_roll': entry.min_roll, 'max_roll': entry.max_roll, 'target': entry.target, 'type': entry.type} for entry in manager.tables[name].entries]
+    return jsonify({"table_name": name, "entries": entries}), 200
+
 @app.route('/tables', methods=['GET'])
 def get_tables():
     tables = manager.get_tables()
