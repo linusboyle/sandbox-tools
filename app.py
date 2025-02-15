@@ -25,6 +25,19 @@ def add_tables():
     else:
         return jsonify({"message": "Tables added successfully"}), 200
 
+@app.route('/addTableJson', methods=['POST'])
+def add_tables_json():
+    try:
+        data = request.json
+        table = data.get('table')
+        manager.add_table_json(table)
+    except Exception as e:
+        print(f"Error while adding table {e}")
+        print(traceback.format_exc())
+        return jsonify({"message": f"Error while adding table: {e}"}), 404
+    else:
+        return jsonify({"message": "Tables added successfully"}), 200
+
 @app.route('/table_entries/<name>', methods=['GET'])
 def get_table_entries(name):
     if name not in manager.tables:

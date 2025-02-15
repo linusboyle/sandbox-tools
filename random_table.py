@@ -101,7 +101,7 @@ class RandomTable:
                 if tables and entry.target in tables:
                     #Recursively roll the linked table by name
                     linked_table = tables[entry.target]
-                    linked_result = linked_table.draw()
+                    linked_result = linked_table.draw(tables)
                     self.roll_results_stash += linked_result['roll']
                     return linked_result['result']
         print(f"Warning: Cann't resolve target for {entry}")

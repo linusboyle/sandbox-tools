@@ -37,7 +37,7 @@ class RandomTableManager:
     def load(self, directory):
         data_files = find_data_files(directory)
         for data_file in data_files:
-            print(f"Processing {data_file}...")
+            # print(f"Processing {data_file}...")
             try:
                 (root ,ext) = os.path.splitext(data_file)
                 if ext == '.json':
