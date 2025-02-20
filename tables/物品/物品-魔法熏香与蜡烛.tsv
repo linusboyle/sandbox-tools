@@ -1,0 +1,101 @@
+1d100	物品-魔法熏香与蜡烛
+1	班-沙兰香：免疫宁芙与树精的魅惑，常用于德鲁伊条约中 Ban-Shalan: Immunity to the Charms of Nymphs, Dryads. Used in Druid Treaties
+2	暴风雪香膏：治疗并治愈冻伤及长期暴露于寒冷环境的影响 Blizzard Balm: Treats and Heals Frostbite and long term Exposure to Cold
+3	盐水女王的香水：加速船只建造，修补船体漏洞与破洞 Brine Queen's Perfume: Speeds up Shipbuilding, Mends Hull Leaks and Holes
+4	扫帚之光：以芬芳烟雾清扫地板、清洁床单、整理床铺 Broom Bright: Will sweep a Floor, clean Linens, tidy a Bed with fragrant smoke
+5	盗贼之烟：烟雾凝结成一根直立绳索（可达三层楼高），持续1小时 Burgleblot: Smoke solidifies into an upright Rope (up to 3 stories,) lasts 1 hour
+6	狂笑护符：女巫与巫婆无法说谎，其魔法效果被抑制一回合 Cackle Ward: Witches and Hags cannot tell a Lie, their Magic muted for a Turn
+7	金丝雀守护者：火焰颜色在有毒气体/蒸汽周围发生变化 Canary Saver: Color of flame changes around Toxic Gasses/Vapors
+8	香炉净化：通过其烟雾去除大多数金属上的污渍或轻微锈迹 Censer Scour: Removes Tarnish/Light Rust from most Metals with its Smoke
+9	防腐香：掩盖腐烂/腐朽的气味，常与葬礼相关的香气 Charnelproof: Masks smell of Rot/Decay, scent often associated with Funerals
+10	清空地穴：烟雾对穴居动物和侏儒具有绝对的驱散效果 Clear Warren: Smoke is absolutely repellant to Burrowing Animals and Gnomes
+11	干衣香：去除织物和衣物上的湿气 Cloakdry: Removes Dampness from Fabrics and Clothing
+12	隐匿帷幕：烟雾形成临时屏障，阻挡视线与声音 Concealing Curtain: Smoke forms a temporary screen, blocking Vision and Sound
+13	尸指：燃烧时强化操纵死尸法术（HD翻倍），阻碍驱散亡灵 Corpse Fingers: Bolsters Animate Dead when burned (x2 HD), hinders Turning
+14	牛群安抚香：对大多数草食动物也有效，但会使它们感到饥饿 Cow Calmer: Works on most Herbivores as well, makes them hungry though
+15	黑暗喷溅：火花中夹杂着墨黑的暗斑，染污一切 Dark Sputter: Sparks with inky Black Blots of Darkness that stain Everything
+16	死亡场景：匕首划过烟雾，制造出逼真但虚假的伤口 Death Scene: Dagger waved through Smoke produces convincing but false Wound
+17	深度昏睡：点燃此香时，沉睡者将无法自然醒来。 Deep Drowse: Sleepers will not wake naturally whilst this is being burnt
+18	门扉膨胀：门发出呻吟声，变得异常卡涩（需尝试两次才能打开） Door-Sweller: Door groans and becomes quite Stuck (takes 2 attempts to Open)
+19	龙舌香；点燃时，区域内所有人都能说龙语 Drake Tongue; While lit, everyone in the area can speak the language of Dragons
+20	梦者低语：与无意识者、昏迷者或沉睡者对话 Dreamer's Whispers: Converse with the Unconscious, Comatose, or Sleeping
+21	干燥家园：烟雾填补屋顶和茅草上的小裂缝与孔洞 Dry Home: Smoke patches smaller cracks and holes in Roofs and Thatch
+22	仙灵探寻者：在仙灵族、侏儒和精灵附近时，会发出更明亮的光芒 Faerie Finder: Glows Brighter in the presence of the Faerie Folk, Gnomes, and Elfs
+23	牙止香：燃烧时使吸血鬼保持昏睡状态 Fang Forfend: Keeps Vampires in a state of Torpor while being burnt
+24	速食者之友：吸入烟雾可消除饥饿感，但仍可能饿死 Faster's Friend: Inhaling Smoke eliminates Hunger Pains, but one can still Starve
+25	灵魂眷顾：在转世过程中允许投掷三次并选择最理想的结果 Favor Soul: Allows Roll-Thrice take preferred during Reincarnation
+26	羽翼絮语：各类鸟儿皆能以通用语交谈与歌唱 Feathered Prattle: Birds of all sorts can speak and sing in Common
+27	假死烟雾：区域内所有生物看起来如同死亡，效果持续最多4小时 Feigning Fumes: All in area appear to be Dead for up to 4 Hours
+28	雾之指：缕缕烟雾如手般向任何魔法物品蜿蜒伸展 Fog Fingers: Wisps of Smoke curl out like hands toward any Magic Items
+29	驱散幻象：在存在时，幻象会闪烁不定，时隐时现。 Foil Phantasms: Illusions tend to Stutter/Blink In-And-Out in Presence
+30	芳香安息：尸体无法被复活为不死生物，且不会腐烂 Fragrant Repose: Corpse Cannot be raised as Undead and will not Rot
+31	惊魂灯笼：置于空心萝卜/南瓜/葫芦中，可引发轻微恐惧 Fright Lantern: Placed in hollow Turnip/Pumpkin/Gourd generates mild Fear
+32	霜火：区域温度迅速降至冰点，随后再度回升 Frost Fire: Area swiftly drops in temperature to Freezing before rising again
+33	皮匠之友：安抚马匹，效果过于显著，据说对独角兽也有效 Furrier's Friend: Calms Horses, almost too well, works on Unicorns they say
+34	鬼蜂：召唤出一群鬼蜂：无伤害，但能造成恐惧或遮挡视线 Ghost Wasps: Summons a Swarm of 'em: No damage, frightening/block vision
+35	驱尸香：掩盖食尸鬼/穴居者的恶臭，其气味能唤醒被麻痹的食尸鬼 Ghoulbane: Mask terrible stench of Ghasts/Trogs, smell revives Ghoul Paralyzed
+36	微光气体：淡紫色轮廓短暂“附着”在隐形生物或物体上 Glimmer Gas: Puce outline “sticks” to Invisible Creatures/Objects for a brief time
+37	"格伦迪安香料：赋予肉类即时“慢熏”风味，美味无比 Glundian Spice: Gives Meats an instant ""slow-smoked"" Flavor that is quite tasty"
+38	哥布林的悲恸：似乎能驱赶哥布林，或吸引它们：只有在点燃时才能辨别效果 Gob Grief: Seems to repel Goblins, or attract them: Can only tell when Lit
+39	墓语低喃：烟雾在剥皮的头骨上形成死者面容：可提出1个问题 Grave Whisper: Smoke forms Face of the Dead on a flensed Skull: Ask 1 Question
+40	绿色启示者：使范围内的所有拟形怪变为明亮的黄绿色 Green Revelator: Turns any Mimics in range a bright Chartreuse color
+41	污浊探测者：能发现隐藏之物，前提是那些东西是软泥怪/史莱姆等。 Grimy Dowser: Finds hidden things, provided those things are Oozes/Slimes/etc.
+42	半碎：木质武器有3/6的几率断裂（魔法武器几率降低） Haft Shatter: Wooden Weapons break on a 3-in-6 (reduced for Magical Ones)
+43	快乐议价者：商人焚烧，据说能使顾客变得易于说服 Happy Haggler: Burned by Merchants, said to make Customers Suggestible
+44	速孵香：使蛋瞬间孕育，数秒内孵化 Hatchquick: Causes Eggs to gestate instantly, hatch within a handful of seconds
+45	心速剂：仅在阅读、学习及奇特的是在花园除草时，发挥加速术的效果。 Heartracer: Acts as Haste only for Reading, Studying, and oddly: Weeding Gardens
+46	心之祝福：点燃时“渗出”约一瓶圣水量的圣水 Hearty Blessing: “Sweats” about a Vials worth of Holy Water when lit
+47	猎犬迷惑香：使大多数犬类困惑，令它们变得兴奋并渴望关注 Hound Foiler: Confuses most Canines, making them giddy and crave attention
+48	猎手迷惑香：消除露营或休息的气味与痕迹 Hunter Befuddler: Eliminates Odors/Signs of Camping or Rest
+49	瞬间微风：点燃后可产生轻柔、微凉且清新的微风 Instant Breeze: Burn for a light, slightly cool, and refreshing Breeze
+50	嫉妒火花：逐渐熄灭区域内的其他火焰 Jealous Spark: Gradually snuffs out other Flames in the area
+51	解结香：解开绳结，磨损绳索，松开带子和鞋带 Knot-thwart: Unties Knots, Frays Ropes, loosens Straps and Laces
+52	谎言之醉：酒精不再影响判断，且可无宿醉之虞地享受。 Liarlush: Alcohol no longer impairs, and can be enjoyed without Hangover
+53	面具融合者：将面具或伪装固定两小时 Mask Melder: Fuses Mask/Disguises in Place for two hours
+54	水鬼苔藓：深吸几口后，能够屏息长达一小时 Merrow Moss: After a few big inhales, can hold your breath for up to an Hour
+55	助产士之助：由半身人点燃时，可缓解难产之苦 Midwife’s Aide: Eases difficult Births when lit by a Halfling
+56	米克威克的修复者：袋中烟雾可修补任何破洞或撕裂 Mikwick's Mender: Smoke in a sack/bag/pouch mends any holes or tears
+57	心灵填充：魔法使用者在准备法术时，有3/6的几率随机获得一个法术。 Mind Filler: While Preparing Spells, Magic Users receive a Random one (3-in-6)
+58	月云香：燃烧时抑制狼人化，令普通狼群惊恐不已 Moon Clouder: Suppresses Lycanthropy as it Burns, terrifies Normal Wolves
+59	永葆鲜妍：当此香燃烧时，花朵的绽放不会褪色或失去其品质。 Neverwilt: Flower Blooms do not lose their color or quality while this burns
+60	鼻液之香：所有嗅到此香者将在30秒后开始流鼻涕和打喷嚏 Nose Sap: Runny Noses and Sneezes for all who Smell this, onset 30 seconds
+61	鼻惑香：消除一个生物的嗅觉，效果可持续长达一天 Nosefool: Eliminates a creatures sense of Smell for up to a day
+62	努格-托加：古老的尼安德特人方法，用于将阵营转变为守序 Nug-thogga: Ancient Neanderthal method of altering Alignments to Lawful
+63	奥普尔的干扰香：魔杖停止运作（仍会消耗充能） Opul's Interferer: Wands cease to function (charges are still expended)
+64	翻页者：阅读时燃烧，可意念翻动书籍或典籍的页面 Page Turner: Burn whilst Reading to Mentally turn Pages of a Book or Tome
+65	驱疫香：据说能阻止（5/6概率）传染性疾病和病症的传播 Plague-fend: Said to stop the Spread of (most 5-in 6) Contagious Disease and Illness
+66	位面交错：将一个元素生物替换为另一种随机类型的元素生物 Planar Juxtaposition: Replaces an Elemental with another, random Type
+67	烟幕隐匿：投入营火中，可在数小时内消除显眼的烟雾 Plume Hider: Thrown in Campfires, eliminates tell-tale Smoke for a few hours
+68	绒毯搬运工：垫子、地毯或挂毯在一小时内变为漂浮碟 Plush Porter: Cushion, Rug, or Carpet become as Floating Disc for an hour
+69	池塘疏浚者：燃烧此香时，溺亡的尸体有时会浮起 Pond Dredger: Drowned Corpses sometimes rise when this is burned
+70	水洼辉光：奇迹般地在水下或浸没时仍能保持燃烧 Puddle Shine: Miraculously stays alight underwater or when submerged
+71	净化之烟：即刻催吐，可为任何摄入的毒素提供额外一次豁免检定 Purge Plumes: Instant Emetic, can allow another Save for any Ingested Poisons
+72	颤栗祝福：烟雾修复最多10支破损的箭矢，这些箭矢同时被视为“魔法”属性。 Quiver Bless: Smoke mends up to 10 broken Arrows, they also count as “Magic”
+73	王者之香：被大多数木乃伊视为友好，但潮湿环境会带来痛苦 Redolence of Kings: Treated Friendly by most Mummies, but Moisture is painful
+74	尽情狂欢：自发跳舞直至精疲力尽，如同塔兰泰拉舞 Revel With Abandon: Spontaneous Dancing until exhaustion, as Tarantella
+75	腐雾：非智能、肉质的亡灵在持续时间内转变为骷髅 Rot Mist: Non-Intelligent, fleshy Undead become Skeletons for the Duration
+76	罗夫钟声：异界钟鸣/钟声充斥空气，逐渐变得低沉而微弱 Rov Bells: Otherworldly Chimes/Peals fill the air, growing muffled and faint
+77	冷铁之息：其他魔法运作时略显困难（每六次中有两次失效） Scent of Cold Iron: Other Magic has some difficulty functioning (fails 2-in-6)
+78	窥探阻断：燃烧时，任何魔法探测都无法作用于该区域 Scry Breaker: Whilst Burning no Magical Detection will work on the area
+79	沉沦香：饥饿的泥沼与湿地，即便是善泳者也易陷入困境 Sinker: Hungry Muds and Mires, even the Swimming tend to Flounder
+80	静坐不动：若有人正在布道，则此香可发挥轻微的定身术效果。 Sit Still: Acts as a minor Hold Person provided someone is giving a Sermon
+81	臭鼬香：气味极其难闻，如同穴居人恶臭，强烈到令人流泪 Skunk Sticks: Very foul-smelling, as Troglodyte Stench, eye-wateringly strong
+82	滑烟：在表面覆盖一层油腻滑溜的薄膜：必须用油清洗 Slicksmoke: Coats surfaces with a greasy, slippery film: Must be washed with Oil
+83	烟雾蛇：烟雾盘旋形成一条正常大小的紫色蛇，六分之二概率带毒 Smoke Snake: Smoke curls into a Normal-sized, Violet Serpent, 2-in-6 Venomous
+84	潜行香：在场时产生的阴影提高了盗贼隐匿的成功率 Sneaklings: Shadows created in the presence improve Thief Hide chances
+85	探洞者的救星：烟雾总是飘向地下最近的出口 Spelunker's Savior: Smoke always billows toward nearest Exit Underground
+86	静止之鳞：使爬行动物/蜥蜴人麻痹，对龙类仅二十分之一概率生效 Still Scale: Reptiles/Lizard Men are Paralyzed, only 1-in-20 it works on Dragons
+87	石之歌：使石像鬼、雕像、半身像（甚至石化者）能够自由地以歌唱形式说话 Stone Song: Golems/Statues/Busts (even the Petrified) can Speak freely (in Song)
+88	坚定信念：中立阵营者无法接近至长矛长度以内 Strong Convictions: Neutral Aligned cannot approach within a Pike's Length
+89	日辉消逝：奇异范围，消除阳光效果 Sun-sputter: Strange radius that eliminates the effects of Sunlight
+90	甘霖净化：可清除多达3加仑水中的寄生虫、污秽或毒素 Sweet Quench: Parasites/Foulness/Poisons removed from up to 3 gallons of water
+91	献金守护者：识别一枚硬币或珠宝的所有者 Tithe Minder: Identify the Owner of a Coin or piece of Jewelry
+92	蟾蜍迷雾：未能通过豁免的闻香者皆会误以为自己是只蟾蜍 Toad Fog: Everyone who smells this believes they are a Toad on a failed Save
+93	巨魔脂油：四肢变得细长，可伸展至原长度的两倍 Troll Tallow: Arms/Legs grow spindly and can stretch up to twice their length
+94	暴君之盲：使眼魔失明，其射线有3/6的几率失效 Tyrant Blinder: Renders Eye Tyrant's Blind, Rays have 3-in-6 chance of Failing
+95	藤枯香：强力除草剂，其烟雾对矮人具有轻微欣快感 Vinewither: Potent Herbicide, fumes mildly euphoric to Dwarfs
+96	守望者：刺痛双眼，但使其保持睁开：一夜无眠，但次日睡眠效果翻倍 Watcher: Stings eyes, but keeps them open: No Sleep for a Night, but 2x more next
+97	欢迎防护：此香燃烧时，能量吸取无法生效 Welcome Warding: Energy Drain does not function while this burns
+98	胡须轻嗅：吸引猫科动物，在持续时间内它们会变得温顺友好 Whisker-whiff: Attracts Felines, who are docile and Friendly for the Duration
+99	虫蜡：沐浴在其烟雾中，污垢与尘垢难以附着 Wormwax: Bathed in Smoke from this, Dirt/Grime refuses to Stick
+100	伊特尔熏香：清除图书馆中的书虱、蛀虫和衣鱼 Ytle's Fumigator: Rids Libraries of Booklice, Worms, and Silverfish

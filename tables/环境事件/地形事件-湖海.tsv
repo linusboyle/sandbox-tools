@@ -1,0 +1,13 @@
+1d12	地形事件-湖海
+1	强流涌动；下一步移动随机 Strong currents; next move is random
+2	水源受污染；损失一半的供水 Water fouled; lose half of water supplies
+3	老鼠：5%的货物被害虫毁坏 Rats: 5% of cargo is ruined by vermin
+4	蛀虫对船体造成Td6点伤害骰 Borers do Td6 damage dice to ship hull
+5	深渊中浮现一场遭遇 An Encounter rises from the depths
+6	无风停航；帆船无法移动，持续1d6天 Becalmed; no sail move for 1d6 days
+7	岩石；检定或承受Td6船体伤害 Rocks; check or take Td6 hull damage
+8	不祥之兆；全体船员士气-1 Bad omen; any crew suffer -1 Morale
+9	捣蛋鬼；安抚或遭受-2士气惩罚 Troublemaker; pacify or suffer -2 Morale
+10	桅杆开裂；修理需要1d4天 Cracked mast; repairs take 1d4 days
+11	遭遇海盗或类似的海上劫掠者 An Encounter with pirates or the like
+12	一场狂暴的风暴造成Td6船体伤害 A savage storm inflicts Td6 hull damage

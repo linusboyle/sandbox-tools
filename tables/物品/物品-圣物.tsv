@@ -1,0 +1,101 @@
+1d100	物品-圣物
+1	阿德雷苏斯的喉结：佩戴于项链上，每日可施展一次腹语术，每周可施展一次呐喊术 Adresus’ Larynx: Worn on Necklace, Ventriloquism 1/day, Shout 1/week
+2	艾森圣袍：血迹斑斑，护甲值如板甲，据传能复活死去的动物 Aeson’s Vestments: Bloodstained, AC as Plate, said to Raise Dead Animals
+3	圣乌巴鲁姆的玛瑙之眼：头饰，随意侦测邪恶，每季一次石化转血肉 Agate Eye of St. Ubarum: Diadem, Detect Evil at Will, Stone to Flesh 1/season
+4	阿尔刻提斯之足：干瘪褪色，每月一次，在虔诚膜拜后获得加速效果 Alkestis’ Foot: Desiccated, discolored, Haste within 1/month of Veneration
+5	卢沙利姆之臂：铁铸圣锤，赐予提升士气的幻象 Arm of Lu-Shalim: Ironbound, as a Mace Holy grants Visions to Improve Morale
+6	阿斯塔科斯箭矢：手镯，每日一次抵御飞弹，治愈疤痕 Arrowhead of Astacos: Bracelet, Protection from Missiles 1/day, Heals Scars
+7	涅菲尔梅特的裹尸布：每周一次，腐朽的亚麻布可提供对不死生物的保护 Bandages of Nefermaet: Moldering Linen as Protection from Undead 1/week
+8	阿胡姆-瓦卡尔的胡须：编有金丝，每日重新编织可获得+2力量 Beard of Ahum-Waqar: Braided with Gold, +2 STR if re-braided Daily
+9	圣欧格纳斯之胆汁：梨形小瓶，为使用者提供一次额外的疾病豁免检定机会。 Bile of St. Oeagnus: Pear-shaped Vial, grants for another Save vs Disease
+10	安菲翁之血：展示时，可使吸血鬼如同13级牧师般行事。 Blood of Amphion: Turns Vampires as a 13th Level Cleric when Presented
+11	希什之骨：棺椁圣物，可在战前为最多3d100名士兵赐福 Bones of Hish: Coffin Reliquary, Blesses up to 3d100 Soldiers prior to Battle
+12	纳索斯之碗：简单的木制碗，从中取食可治愈重伤 Bowl of Narthos: Simple Wooden, Food eaten from it Cures Serious Wounds
+13	圣尤巴卢斯之脑：浸泡在罐中，每周随机授予一个法师法术 Brain of St. Eubalus: Pickled in Jar, grants a Random MU Spell 1/week
+14	提莫纳克斯之烙印：燃烧的火炬，抗火且免疫龙焰 Brand of Timonax: Burnt Torch, Resist Fire and Immunity to Dragon Fire
+15	圣卢加胸甲：如同+3板甲，邪恶生物攻击时受到d4点伤害 Breastplate of St. Luga: As Plate +3, Evil Creatures take d4 damage on Attacks
+16	塔明修士的羽毛笔：每月一次，可随机抄录祈祷文或神学卷轴 Brother Tamin’s Quill: Dictates Prayers/Theology, 1/month Random Scroll
+17	布鲁卡姆的骨灰：可补充。涂抹于眼上，每周获得一次真视能力。 Burrukam’s Ashes: Refills. Smeared on Eyes True Sight 1/week
+18	圣德摩利昂的锁链：据说在受到崇敬时能解除任何形式的麻痹。 Chains of St. Demoleon: Said to Remove any Kind of Paralysis when Venerated
+19	圣拉莫斯之疣：藏于挂坠盒中，佩戴者免疫诅咒 Wart of St. Lamus: Kept in a Locket, wearer Immune to Curses
+20	伊姆布里乌斯王冠：若被不敬者佩戴会紧缩致死，否则智力+2 Crown of Imbrius: Constricts and Kills if worn by Impious, +2 INT otherwise
+21	西利克斯匕首：因其舞动之特性，为圣洁之物，牧师亦可使用。 Dagger of Cilix: Holy and usable by Clerics due to it’s Dancing Nature
+22	伊布尼-阿穆鲁之卵：龙蛋，触碰者将消失无踪 Egg of Ibni-Amurru: Dragon Egg, those who touch it Disappear
+23	伊瓦尔松的双尖牙：镶嵌于戒指中，当谎言被说出时会变为绿色 Evalthon’s Bicuspid: Set in Ring, Turns Green when a Lie is Uttered
+24	达摩埃塔斯之面：铁魔像头颅，永久性沉默术笼罩其周围15尺范围 Face of Damoetas: Iron Golem Head, permanent Silence 15’ Radius Surrounds It
+25	卢尔之牙：串有珠链，每周可对1d4名人类施放死亡一指 Fangs of Lool: Strung with Beads, Finger of Death on 1d4 Humans 1/week
+26	卡利诺斯神父的烟斗：质朴陶土，每日一次，仅对敌人施放遮蔽之雾 Father Kallinos’ Pipe: Humble Clay, Obscuring Mist only affects Foes 1/day
+27	米海尔之羽：巨鹏羽翼，其周围十英里内无法进行传送 Feather of Mihail: Roc Pinion, Teleportation impossible within 10 miles of it
+28	佐卡拉尔之指甲：传闻能复活被野兽利爪所杀之人 Fingernails of Zo-Kalar: Rumored to Resurrect those slain by Beast Claws
+29	卡利马科斯之拳：任何城堡大门都无法抵挡其猛烈的撞击 Fist of Kallimachos: No Castle Gate has Stood against it’s Battering
+30	弗鲁里奥之喙：神圣鸣禽，若涂抹圣油，可与鸟类交谈 Fruilio’s Beak: Beatified Songbird, Speak with Birds if anointed with Oil
+31	圣西莫之杯：倒入其中的任何液体皆化为圣水 Goblet of St. Simo: Any Liquid Poured within becomes Holy Water
+32	尼克拉托斯之手：触碰物品，可窥见该物品的过往景象 Hand of Nikeratos: Touched to Objects, grants Visions of that Item’s Past
+33	哈斯德鲁巴的权杖：如同人类控制之戒，功能相当于+2钉头锤 Hasdrubal’s Scepter: As Ring of Human Control, functions as Mace +2
+34	图伊之首：玻璃般的眼睛睁开并追踪隐形生物 Head of Tui: Glassy Eyes Open and Follow Invisible Creatures
+35	希波达弥亚的股骨：吸收持有者遭受的至多3次等级吸取攻击 Hippodameia’s Femur: Absorbs up to 3 Level Draining Attacks on Bearer
+36	涅希之蹄：半人马圣者，三日内陆上移动速度翻倍 Hooves of Neshi: Centaur Saint, Doubles Overland Movement for 3 days
+37	修复者森努威的舌骨：智者言，若折断此骨，时间将停滞 Hyoid of Mended Sennuwy: Sages suggest, if Snapped it will Stop Time
+38	伊卡里昂的头骨：眼眶镶嵌宝石，无需言语，所有人心意相通 Icarion’s Skull: Orbits Inset with Gems, Speech unnecessary All Share Thoughts
+39	忒奥格尼斯的纯净唾液：真实性存疑，偶尔能治愈擦伤 Immaculate Saliva of Theognis: Dubious Authenticity, sometimes mends Scrapes
+40	不朽的奥泰西昂：未腐化的尸体，其所在之处食物永不腐败或变质 Incorruptible Autesion: Undecayed Corpse, No Food will Spoil or Rot in Presence
+41	伊恩敏之鼻：镀金厚重，据传能复活溺水者 Iunmin’s Nose: Heavily Gilt, said to revive the Drowned
+42	赫利刻之颌：死者在其附近倾向于复苏，受持有者控制 Jaw of Helice: The Dead tend to Animate in it’s presence, controlled by Bearer
+43	卡诺斯之角：牛头人隐士，饮下其中的酒可发挥英雄药水的效果 Kaunos’ Horn: Minotaur Hermit, Wine drunk from it acts as Potion of Heroism
+44	克法洛斯之耳：据说向其低语可直接传达祈祷 Kephalos’ Ear: Whispering into it is said to send Prayers directly
+45	特拉西尔迪的肾结石：护腕，佩戴者永远不会醉酒 Kidney Stones of Trasildi: Bracer, Wearer never becomes Inebriated
+46	格洛姆溃烂之拳：每日两次以9级牧师身份命令亡灵 Knuckles of Glom the Festering: Command Undead as a 9th Level Cleric 2/day
+47	科斯的骨盆：教义称其为孕妇带来迅速无痛的分娩祝福 Koth’s Pelvis: Doctrine says it Blesses the Pregnant with Swift/Painless Delivery
+48	喇嘛格拉姆帕尔之杯：若受尊崇，下次对抗毒素的豁免检定可掷两次并取较好结果。 Lama Grampal’s Cup: If Venerated, roll twice take best for next Save vs Poison
+49	奥瑞苏斯之狮：标本化的殉道者吞噬者，触碰可消除饥饿感 Lion of Oresus: Taxidermized Martyr Eater, touching Removes Hunger Pangs
+50	忠诚米西亚的项圈：食罪之犬，据说其触碰能加速赎罪 Loyal Mithiah’s Collar: Dog who Ate Sins, touch is said to hasten Atonement
+51	安德拉蒙之肺：充当风箱，用于锻造魔法物品 Lungs of Andraemon: Act as Bellows, used to forge Magic Items
+52	卢文之指：石质食指，对抗石化效果时，取两次豁免中较好的一次。 Luven’s Finger: Stone Index Finger, Take best on 2 Saves vs Petrification
+53	渴者马索琉斯之鬃：圣武士坐骑，药剂效果可减半 Mane of Masaulius the Thirsty: Paladin’s Mount, Potions can be halved
+54	努布卡斯之髓：神圣之牛，用其熬制的汤锅足以喂饱一支军队 Marrow of Nubkhas: Sacred Cow, Pot of Soup made with this can Feed an Army
+55	马塔洛斯之典：皮装书，传说能囚禁灵魂，奇迹般地坚不可摧 Matallos’ Tome: Skinbound Book, said to Trap Spirits, Miraculously Indestructible
+56	梅洛普斯之趾：半身人先知，所有攻击对巨人均视为致命一击 Merops’ Toe: Halfling Prophet, all attacks as Slaying versus Giants
+57	梅兹隆的号角：黄铜助听器，据说能治愈耳聋 Mezron’s Trumpet: Brass Hearing Aid, said to Remedy Deafness
+58	涅考的最后餐食：半块硬如岩石的面包，因能提高作物产量而受到尊崇 Nekau’s Last Meal: Half Loaf, Rock Hard, Venerated for Higher Crop Yields
+59	涅姆胡之唇：将手按于其上，可重生任何缺失的指节 Nemhu’s Lips: Hand pressed to these regrows any lost Digits
+60	尼西亚斯的尺骨：据说与任何魔杖存放一个月后，便能复制其能力 Nicias’ Ulna: Said to Copy any Wand it’s stored alongside after 1 Month
+61	格尔吉斯绞索：对违法者而言是传奇之物，四次处决尝试均告失败 Noose of Gergis: Legendary to Lawbreakers, Four Execution attempts Fail
+62	佩拉贡红油：一滴即可永久且愉悦地散发香气 Oil of Pelagon the Red: Mere drop Permanently and Pleasantly Perfumes
+63	帕莱莫娜的浆果：从尸体口中秘密藤蔓上生长，2/6几率提升属性 Palemona’s Berries: Grow from a Secret Vine, in a Corpse’s Mouth 2-in-6 Raises
+64	帕忒尼亚的凉鞋：受运动员崇敬，据说能赋予优势 Parthenia’s Sandal: Venerated by Athletes, said to grant an Edge
+65	菲德拉之桩：触碰后，善良吸血鬼可获得为期一个月的魅惑免疫 Phaedra’s Stake: Virtuous Vampire, Immunity to Charms for 1 Month if touched
+66	圣马多尼乌斯之枕：据说能为入睡者带来预言梦境 Pillow of St. Mardonius: Prophetic Dreams are said to be Granted to Sleepers
+67	圣贝蒂斯之环：据传仅凭其触碰便能摧毁不死生物 Radius of St. Betis: Several Tales purport it’s mere touch Destroys Undead
+68	欧布洛斯的肋骨：经过打磨，用此物处理过的猎物可喂饱两倍人数。 Rib of Eubulus: Sharpened, Game Dressed with this Feeds Twice as Many
+69	加勒努斯之岩：巨石，邪教徒的粉碎者，10英里内反转法术失效 Rock of Galenus: Boulder, Crusher of Cultists, Reversed Spells fail within 10 miles
+70	圣徒阿莱娜的发辫：在虔诚敬拜后，取两次魔法豁免中最佳结果 Sainted Aleena’s Braid: Take best 2 of Magic Saves after Veneration
+71	德鲁姆领主之鳞：蜥蜴人国王祭司，每日3次对哺乳动物或鸟类施放睡眠 Scales of Lord Droom: Lizard Man King-Priest, Sleep on Mammals or Birds 3/day
+72	塞拉皮翁的胸针：如同打击之杖的伤害，无法通过魔法治愈 Serapion’s Fibula: As Rod of Striking damage cannot be Healed via Magic
+73	阿尔霍之盾饰：自动通过接下来的两次对抗龙息的豁免检定 Shield Boss of Alho: Automatically Pass next Two Saves vs Dragon Breath
+74	肖巴夫姆的干枯之舌：献上精致美食，可在魔杖豁免中取两次最佳结果 Shobaffum’s Shriveled Tongue: Offerings of Fine Foods, take best of 2 Wand Saves
+75	帕卡鲁斗篷碎片：著名遗迹猎人的遗物，使盗贼转变为守序阵营 Shred of Pakharu’s Cloak: Famous Relic Hunter, turns Thieves Lawful
+76	梅加尔修女的念珠：通常由2d12颗珠子串联而成，每颗都附有治愈轻伤的法术。 Sister Megar’s Beads: Usually strings of 2d12, each imbued with Cure Light Wounds
+77	玛哈雷特的投石索：多位目击者声称它能再生断臂 Sling of Maharet: Multiple Witnesses have said it will Regrow a Severed Arm
+78	佩达苏斯之矛：传说中它能召唤出清新的泉水之源 Spear of Pedasus: Legends tell how it called forth Fresh Springs of Water
+79	塔里巴特辛之脾：腰带扣，佩戴时体质+2 Spleen of Taribat-sin: Belt Buckle, while worn grants +2 to CON
+80	圣阿尔杜拉的阑尾：无此圣徒记录，触碰后一次性增加1点生命值 St. Aldura’s Appendix: No Records of this Saint, Touched grants +1 HP once
+81	圣梅利刻尔忒斯的臼齿：在劣质或伪造钱币附近会变黑 St. Melicertes’ Molar: Blackens in Presence of Debased Coinage/Counterfeits
+82	圣乌奈之匙：独角兽角制成，能净化其触碰的任何食物中的毒素 St. Oonai’s Spoon: Of Unicorn Horn, Removes Poison from any Food it touches
+83	圣佩里奥斯之焰：永不熄灭，仅焚烧混沌或异界生物 St. Perios’ Flame: Unquenchable, only Burns the Chaotic or Extra-Planar
+84	圣福修斯之肝：浸入毒井中，使井水变得可饮用 St. Phausius’ Liver: Dipped in Poisoned Wells to make them Drinkable
+85	圣塞特普的脊椎骨：存放于一座塔中，据说使其坚不可摧 St. Setep’s Vertebrae: Kept in a Tower, said to make them Impossible to Topple
+86	圣索菲昂西巴的睫毛：置于玻璃珠中，每日可施展一次妖火术 St. Sophionsiba’s Eyelashes: In Glass Beads, cast Faerie Fire 1/day
+87	圣泽图斯的头皮：祭司们用它来审问见习僧侣，能够读取心灵 St. Xethus’ Scalp: Priests use it to Interrogate Acolytes, Reads Minds
+88	圣普罗库斯特的胸骨：据说携带此遗物者将不再流血 Sternum of St. Prokustes: Said that the Bearer of this Relic will no longer Bleed
+89	圣德克西科斯之胃：神圣食尸鬼，能以10级牧师身份指挥食尸鬼 Stomach of St. Dexicos: Holy Ghoul, can Command Ghouls as 10th Level Cleric
+90	塞努伊之剑：众多赝品中，真品能令击败邪恶敌人所获经验值翻倍 Sword of Senui: Many Fakes, genuine article Doubles XP from Defeated Evil Foes
+91	尤多基亚之爪：颂歌与诅咒的鹰身女妖，以不谐之音惩罚不忠者 Talon of Eudokia: Harpy of Hymns, Curses Unfaithful with Discordant Noise
+92	圣埃尔梅斯达之泪：储存于小瓶中，据说一滴即可平息狂暴的海浪 Tears of St. Ermesda: Stored in Vials, Single Drop is said to Calm a Stormy Sea
+93	泰阿诺的王座：摇晃的木凳，在其上可额外准备一个牧师法术 Theano’s Throne: Wobbly Wooden Stool, Prepare an Extra Cleric Spell on it
+94	遗忘之尤巴洛斯拇指：始终指向最近的寺庙或教堂 Thumb of Forgotten Eubalus: Always points to the nearest Temple/Church
+95	佩里莫斯胫骨：泰坦之骨，立为方尖碑：被尊为降雨之神 Tibia of Perimos: A Titan’s Bone, Erected as Obelisk: Venerated for Rain
+96	奎尼利脐带：吸收最多20点伤害后消失 Umbilicus of Quinilli: Absorbs up to 20 points of Damage before Disappearing
+97	泽塔拉面纱：蕾丝与珍珠制成，使佩戴者免受窥探法术影响 Veil of Zitara: Lace and Pearls, Renders bearer Immune to Scrying
+98	沃特鲁姆的权杖：多节拐杖，持有者在旅途中无需休息 Watrum’s Cudgel: Knotted Walking Stick, Owner needn’t Rest on Journeys
+99	圣阿尔西莫斯的胡须：神圣猫科，触摸据说可治愈狼人症 Whiskers of St. Alcimos: Divine Feline, touching said to Cure Lycanthropy
+100	克桑提波斯之甲状腺：佩戴于项链中，每日可使佩戴者巨大化一次 Xanthippos’ Thyroid: Worn in Pendant, Enlarge the bearer 1/day

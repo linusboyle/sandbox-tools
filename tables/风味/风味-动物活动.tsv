@@ -1,0 +1,89 @@
+1d88	风味-动物活动
+1	一只野猫懒洋洋地从树上的栖木处注视着你。 A wild cat watches at you from a perch in its tree, lazily.
+2	一只野猫坐在附近的树上，用其大舌头细致地梳理着毛发。 A wild cat sits in a tree nearby, meticulously grooming fur with their large tongue.
+3	一只野猫正在树桩上蹭脸，进行气味标记。 A wild cat is rubbing their face on a stump: scent marking.
+4	一群{牛 | 麋鹿 | 鹿}正在躺下休息，踩出了一圈圈的草地。 A herd of {kine | elk | deer} are bedding down to rest, tramping down circles of grass.
+5	一群{牛群 | 麋鹿 | 鹿}正在啃食低矮灌木丛中的美味叶子。 A herd of {kine | elk | deer} are browsing ground-hugging shrubs for delicious leaves.
+6	一群{牛群 | 麋鹿 | 鹿}正闷闷不乐地咀嚼着无味的荨麻。 A herd of {kine | elk | deer} are chewing sullenly on flavorless nettles.
+7	一群{牛 | 麋鹿 | 鹿}正满足地咕哝着，在石质露头上蹭来蹭去。 A herd of {kine | elk | deer} are grunting contentedly as they rub against a stony outcrop.
+8	一群{牛群 | 麋鹿 | 鹿}正将一只顽固的<b>名叫咕哝皮特的巨魔</b>扔进峡谷。 A herd of {kine | elk | deer} are hurling a persistent <b>troll named Mumble Pete</b> into a ravine.
+9	蝴蝶或飞蛾在你周围翩翩起舞。 {Butterflies|Moths} flutter around you.
+10	空气中弥漫着蜜蜂的嗡嗡声，附近肯定有蜂巢。 The sound of bees fills the air. There must be a hive nearby.
+11	空气中充斥着蠓虫和叮咬昆虫的嗡嗡声。^10 The air is thick with the sound of midges and stinging insects. ^10
+12	蜻蜓慵懒地在空中盘旋 Dragonflies lazily wind through the air
+13	一个黄蜂窝悬挂在树洞中。 A paper wasp nest sits in the bowl of a tree.
+14	一只巨型蜗牛正缓缓地沿着树干爬行。 A giant snail is slowly inching up a tree.
+15	一只牛虻叮咬了行进队列中最后一个人的脖子。哎哟！ A gadfly bites at the neck of the person last in the marching order. Ouch!
+16	一只机灵的獾正注视着你，一旦你发现它，便迅速钻回洞中。 A clever badger watches you, darting back into its hole as soon as you see it.
+17	一只獾正在挖掘肥沃的土壤，以建造一个育雏的巢穴。 A badger is excavating loamy soil to form a brooding den.
+18	一只獾从一堆垃圾和破布中猛然窜出。 A badger comes erupting out from a pile of rubbish and rags.
+19	一只獾正从翻倒的巨型黄蜂巢中挖出幼虫，塞进嘴里。 A badger is shoveling larvae from a toppled giant wasp nest into their mouth.
+20	一只獾正在偷窃一颗获奖的南瓜，滑稽地滚动着它。 A badger is stealing a prize-winning pumpkin, rolling it comically.
+21	一只獾正在惊扰一群蜜蜂。 A badger is alarming a swarm of bees.
+22	一只獾正咬着一颗巨大的蘑菇。 A badger is biting into a massive mushroom.
+23	一只獾正在一棵巨大的古老白蜡树根部挖洞。 A badger is burrowing at the base of a massive, ancient ash tree.
+24	一只獾正在占用一条巨型鼹鼠的隧道。 A badger is co-opting a giant mole tunnel.
+25	一只獾正疯狂地挖掘着一条和你手臂一样长的蚯蚓。 A badger is digging furiously after an earthworm as long as your arm.
+26	一只獾正用其灵敏的鼻子探测地下的块茎。 A badger is dowsing for buried tubers with their sensitive snout.
+27	一只獾正将美味的萝卜藏匿于一处储藏点，以备不时之需。 A badger is concealing tasty turnips in a cache for leaner times.
+28	一只獾正在泥潭中挖掘，寻找美味的肥青蛙。 A badger is dredging a puddle in search of tasty fat frogs.
+29	一只机灵的獾正在挖掘肥沃的土壤，准备建造一个育雏的巢穴。 A clever badger is excavating loamy soil to form a brooding den.
+30	一只獾在挖掘时扬起大量尘土。 A badger is flinging a prodigious amount of dirt up as they delve.
+31	一只獾正在研究一个胆怯矮人逃跑时丢弃的头盔。 A badger is investigating a cowardly dwarf's helmet, cast off when he fled.
+32	一只獾正威胁着<b>伊里奥，一位多尔温尼翁的葡萄酒商人，</b>以及他满载酒桶的骡子。 A badger is menacing <b>Illio, a Dorwinion wine merchant,</b> and his cask-laden mule.
+33	獾崽的吱吱声围绕着一只自豪且戒备的母亲。 The squeaking of badger cubs surrounds a proud and defensive mother.
+34	一只獾正喧闹地在一顶废弃的帐篷里嗅探翻找。 A badger is vociferously snuffling through an abandoned tent.
+35	一只獾因领地内出现竞争对手而勃然大怒。 A badger is outraged at the appearance of a rival badger in its territory.
+36	一条蝰蛇正愤怒地咬向一只笨拙的熊崽。 An adder is angrily biting a blundering bear cub.
+37	一条蝰蛇在交通繁忙区域附近筑巢。 An adder is nesting a little to near a heavily trafficked area.
+38	一条蝰蛇正盘踞在一件虽已生锈但仍显华丽的胸甲上晒太阳。 An adder is basking atop a rusting, but still ornate breastplate.
+39	一条蝰蛇正在捕食一只飞得太低的巨型蝙蝠。 An adder is preying upon a giant bat that flew too low.
+40	一条蝰蛇正孕育着已经相当有毒的活幼崽。 An adder is bearing already quite venomous live young.
+41	一条蝮蛇正盘踞成防御姿态，头部抬起，随时准备发出响尾声。 An adder is coiling in a defense posture, head raised and rattle-ready.
+42	一条蝰蛇正退向山丘巨人的靴子寻求安全。 An adder is retreating to the safety of a hill giant's boot.
+43	一条蝰蛇正在消化几天前吞下的一只巨型鼩鼱。 An adder is digesting a giant shrew, swallowed a few days ago.
+44	一条蝰蛇滑过地面时，搅动了落叶和碎屑。 An adder rustles leaves and debris as they glide across the ground.
+45	一条蝰蛇咬了一位名叫塞勒贡的游侠，他本该穿上更高的靴子；他现在急需你的帮助。 An adder has bitten a <b>ranger named Celegorn</b> who should have worn taller boots; he is in dire need of your help.
+46	蝰蛇感知到附近的震动并寻求隐蔽。 An adder senses nearby vibrations and seeks concealment.
+47	一条蝰蛇饥渴地盯着正在梳理毛发的野猫。 An adder eyes a preening wildcat hungrily.
+48	一条蝰蛇正循着雌性留下的信息素踪迹前进。 An adder is following the pheromone trail of a female.
+49	一条蝰蛇正暴躁地咬向一个过于自信的巨魔，名叫老埃里克。 An adder is snapping testily at an overconfident <b>troll named Old Eric.</b>
+50	一条蝰蛇正在猎捕一只喘息着、缓慢死去的巨型蟾蜍。 An adder is hunting a gasping, slowly dying giant toad.
+51	一条蝰蛇惊扰了布理商队的马匹，导致马群受惊失控。 An adder startles a caravan of Bree traders, panicking their horses.
+52	蝰蛇遍布每个角落，聚集于此繁衍生息。 Adders infest every nook and cranny, gathered here to breed.
+53	一条蝰蛇正攻击着一只座狼，而它的狼群则在旁吠叫咆哮。 An adder is striking at a warg as its pack yelps and growls.
+54	一条色彩鲜艳的蝮蛇悬挂在树枝上，其身体上布满黄色边框的黑色菱形斑纹。 An adder hanging off of a tree branch is vibrantly colored with yellow-bordered black diamonds.
+55	一条蝰蛇正在思考如何最好地吞下一只巨大的豪猪。 An adder is mulling over how to best to swallow a giant porcupine.
+56	一条蝰蛇正猛烈扭动，对一位名叫格洛伊·金手的惊讶矮人怒目而视。 An adder is whipping around, seething at a surprised <b>dwarf named Gloi Goldhand</b>.
+57	鸟群突然安静下来，一只猎鹰的影子从头顶掠过。 The birds suddenly go quiet as the shadow of a hunting hawk passes overhead.
+58	队伍中视力最敏锐的成员发现高空中一只猎食巨鹰的影子。 The sharpest eyed member of the party spots the shadow of a hunting great eagle, far overhead.
+59	一只路过的猫头鹰将一条被部分啃食的蛇丢在队伍面前。这对队伍中任何迷信的人来说都是不祥之兆。 A passing owl drops a partially eaten snake in front of the party. This is an ill omen to anyone superstitious within the party.
+60	一只{鹰 | 乌鸦 | 渡鸦}正在攻击一群喜鹊，名副其实地展现其恶作剧本性。 A {hawk | crow | raven} is attacking a mischief of magpies, living up to their name.
+61	一只{鹰 | 乌鸦 | 渡鸦}正在一座仍在运作但早已被遗弃的喷泉中沐浴。 A {hawk | crow | raven} is bathing in a still operating, but long abandoned fountain.
+62	一只{鹰 | 乌鸦 | 渡鸦}突然坠落，被一阵弩箭射中了翅膀。 A {hawk | crow | raven} is plummeting suddenly, winged by a volley of crossbow fire.
+63	一只鹰正在捕捉逆流而上跃过瀑布的鲑鱼。 An eagle is catching salmon as they leap upstream to surmount falls.
+64	一只{鹰 | 乌鸦 | 渡鸦}正扑向一只松鼠。 A {hawk | crow | raven} is pouncing on a squirrel.
+65	两只{鹰 | 乌鸦 | 渡鸦}嬉戏地追逐着彼此，磨练它们的飞行技巧 Two {hawks | crows | ravens} are chasing one another playfully, honing their flying skills
+66	一只猫头鹰正鼓起胸前的羽毛，变得相当圆润 An owl is puffing up their chest feathers and becoming quite round
+67	一只鹰爪紧紧抓着一只死兔子 A hawk is clutching a dead rabbit tightly in their talons
+68	一只鹰拒绝回到主人臂上，主人是布理的一位名叫托马斯·法洛的猎人。 A hawk is refusing to return to their master's arm, a Bree-ish <b>hunter named Thomas Fallow</b>.
+69	一只鹰正俯冲向一只匆忙逃窜的老鼠。 A hawk is diving toward a scurrying rat.
+70	一只{鹰 | 乌鸦 | 渡鸦}正从一只死鸡身上啄下满嘴的羽毛。 A {hawk | crow | raven} is ripping out beakfuls of feathers from a dead chicken.
+71	一只{鹰 | 乌鸦 | 渡鸦}正将一只不幸的乌龟从高空抛下，企图砸开它的壳。 A {hawk | crow | raven} is dropping a luckless tortoise, in hopes of cracking it's shell.
+72	一只{鹰 | 乌鸦 | 渡鸦}栖息在一棵好斗的<huorn>稳固枝干上。 A {hawk | crow | raven} is roosting in the secure boughs of a bellicose <b>huorn.</b>
+73	一只{鹰 | 乌鸦 | 渡鸦}正从她驯养者的皮手套上啄食残渣，这位驯养者是一位来自布理地区的猎人，名叫坦塞尔·法洛。 A {hawk | crow | raven} is eating scraps from the leather gloved hand of her handler, a Bree-ish <b>hunter named Tanselle Fallow.</b>
+74	一只{鹰 | 乌鸦 | 渡鸦}正在声嘶力竭地尖叫。 A {hawk | crow | raven} is screeching at the top of their lungs.
+75	一只{鹰 | 乌鸦 | 渡鸦}肩负着向林地精灵王国传递重要信息的使命。 A {hawk | crow | raven} is entrusted with an important message to the kingdom of the Woodland Elves.
+76	一只{鹰 | 乌鸦 | 渡鸦}正舒展开翅膀，满足地打着哈欠并伸展身体。 A {hawk | crow | raven} is fanning out their wing in a satisfying yawn and stretch.
+77	一只{鹰 | 乌鸦 | 渡鸦}正在用柔软的胸羽为第三年的巢穴添羽。 A {hawk | crow | raven} is feathering a third-year nest with soft chest down.
+78	一只{鹰 | 乌鸦 | 渡鸦}正竭力挣脱一张错综复杂的地精网。 A {hawk | crow | raven} is struggling to untangle from an intricately woven goblin net.
+79	一只{鹰 | 乌鸦 | 渡鸦}正在贪婪地啄食山羊的尸体。 A {hawk | crow | raven} is gorging on the carcass of a goat.
+80	一只{鹰 | 乌鸦 | 渡鸦}正在整只吞下一只田鼠。 A {hawk | crow | raven} is swallowing a vole whole.
+81	一只{鹰 | 乌鸦 | 渡鸦}被拴在指向遗弃旅店的路标上，偶尔发出哀伤的啼鸣。 A {hawk | crow | raven} is tethered to a signpost pointing to the Forsaken Inn, occasionally croaking mournful cries.
+82	一只{鹰 | 乌鸦 | 渡鸦}正在猎捕狐狸，因其皮毛珍贵而受到驯养者的青睐。 A {hawk | crow | raven} is hunting foxes, prized by their trainer for their fur.
+83	一只{鹰 | 乌鸦 | 渡鸦}因左腿系着的铂金铃铛而发出清脆的声响。 A {hawk | crow | raven} is tinkling due to the platinum bells tied to their left leg.
+84	一只{鹰 | 乌鸦 | 渡鸦}正心满意足地梳理羽毛，发出哨声和喙的咔嗒声。 A {hawk | crow | raven} is whistling and clicking their beak contentedly as they groom.
+85	一只被开膛破肚的雄鹿尸体。整个骨架消失无踪，血迹斑斑的脚印延伸至更深的蕨丛中。 An eviscerated stag corpse. The entire skeleton is missing, and there are bloody footprints leading deeper into the bracken.
+86	灰松鼠在树干周围互相追逐。 Grey squirrels chase each other around the trunk of a tree.
+87	一只灰松鼠将一颗坚果掉在你头上，它似乎在嘲笑你。 A grey squirrel drops a nut on your head. It seems to be laughing.
+88	周围响起了一片青蛙的鸣叫声。 A chorus of frogs chirrups around you.

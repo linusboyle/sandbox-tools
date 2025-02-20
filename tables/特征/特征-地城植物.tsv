@@ -1,0 +1,101 @@
+1d100	特征-地城植物
+1	醉泥：黏滑残留物似乎寻找酒精，有些人喜欢它的味道 Ale-Fond: Slimy Residue seems to seek out Alcohol, some like the Taste
+2	愤怒射手：手形生长物，总是少一根手指 Angry Archer: Hand-shaped Growths, inevitably missing a Finger
+3	灰蕨：发现于壁炉/火炉中，火橙色/红色带蓝尖 Ash Fern: Found in Hearths/Fireplaces, Fiery Orange/Red with Blue Tips
+4	女妖蕾丝：白色且透明，仿佛能听到它轻柔的呻吟 Banshee Lace: White and Diaphanous, swear you can hear it Moan softly
+5	蝙蝠花：淡粉色开花植物，生长在蝙蝠粪堆上 Bat Blossom: Pale Pink Flowering Plant, grows atop mounds of Guano
+6	黑叶蕨：在不死生物踏过的地方繁茂 Blackfrond: Fern that flourishes where Undead have Stepped
+7	血牙：看似尖锐象牙，实则海绵状，一触即萎 Bloody Tusks: Resembling Sharp Ivory, actually spongy and wilt at a Touch
+8	蓝沫：灰色碎屑团，遇水膨胀变蓝并起泡 Blue Foamer: Glop of Grey Detritus, swells bright Blue and bubbles if Wet
+9	噬骨者：生长在骨骼上，精致的海军蓝地衣片 Bonemuncher: Grows on Skeletons, Delicate Navy Lichen sheets
+10	书害：羊皮纸/牛皮纸/纸莎草上的蓝色斑点，侦测魔法可杀死它 Bookbane: Blue Splotches on Parchment/Vellum/Papyrus, Detect Magic kills it
+11	脑菇：形似大脑，在心灵感应/影响心智法术周围发光 Brainstools: Look like Brains, glow around ESP/Mind Affecting Spells
+12	砖疱：肉色，恰如其名的霉菌，生长在砖石上 Brick Blisters: Flesh colored, aptly named Mold that grows on Masonry
+13	虫克星：虫草，专攻巨型昆虫 Bug Buster: Cordyceps, specializing in Insects of the Giant Variety
+14	烛帽：看似蜡质/滴落的蜡烛，极度耐火 Candle Cap: Look like Waxy/Dripping Candles, positively Fire Resistant
+15	世纪豆：豆类植物生长缓慢，味道极其糟糕 Century Nut: Legume takes a long time to grow, tastes absolutely Awful
+16	链织者：带刺藤蔓，喜欢编织成链状 Chain Weaver: Thorny Tendrils that love to Braid themselves into Chains
+17	喋喋帽：啮齿动物啃食，据说能赋予它们一个“说话”的词 Chatter Caps: Nibbled by Rodents, said to grant them 1 Word of “Speech”
+18	棺材把手：生长在棺材上，大而坚固的巧克力色菌盖 Coffin Handles: Grow on Caskets, large sturdy Chocolate colored Shelves
+19	普通打嗝者：不起眼的蘑菇，受扰时易“打嗝” Common Belcher: Nondescript Puffballs, prone to “Burp” softly if disturbed
+20	角落凝块：将箱子/盒子的接缝染成深靛蓝色 Corner Clot: Stains the joints of Chests/Boxes a Deep Indigo Color
+21	尸体垫：据说在牧师死亡处萌发 Corpse Cushion: Said to Sprout at the scene of Cleric Deaths
+22	猩红爬藤：红叶藤蔓，不知何故能在无光处生存 Crimson Creeper: Vines with Red Leaves, somehow survive without Light
+23	畏缩帘：鲑鱼色黏液片从门口/拱门垂下 Cringe Curtain: Slimy Salmon Sheets drape down from Doorways/Arches
+24	毁容者：生长在挂毯上的红色霉菌，破坏刺绣 Defacer: Crimson Mold that grows on Tapestries, obliterating the Stitching
+25	龙苔：翠绿色，释放孢子时如烟雾般飘渺 Dragon Moss: Emerald Green, Wispy Smoke-like Tendrils as it looses Spores
+26	梦蜡：睡在这种黑色地衣附近的人会梦到温暖舒适 Dream Wax: Those who Sleep near this Black Lichen dream of Cozy Warmth
+27	精灵胡须：从天花板和拱门垂下的灰白色蓬乱团块 Elfbeard: Droops in scraggly pale Grey clumps from Ceilings and Archways
+28	恩达之耳：摩卡色菌盖，通常成对生长在头部高度 Enda's Ears: Mocha Colored Shelf Fungi, usually grow in pairs head-high
+29	仙鸡冠：亮蓝色，如鸡冠，喜欢生长在雕塑元素上 Fairy Wattle: Bright Blue, like a Coxcomb, at home on Sculptural Elements
+30	假粥：棕色，燕麦状菌落，倾向于覆盖并抛光铜/黄铜 False Porridge: Brown, Oatmeal Like Colony, tends to coat and polish Copper/Brass
+31	羽少：形似鸟翼，低矮生长的菌盖真菌 Featherfew: Resembles a Bird-Wing, Shelf Fungus grows low to ground
+32	费德林卷：螺旋状菌落，由球茎状、蛆虫般的蘑菇组成 Fedrin's Coil: Spiral Colonies of bulbous, grub-like Mushrooms
+33	愚者之路：滑腻的绿色痕迹蜿蜒于地板至墙壁，约匕首宽 Fool's Path: Slick Green Trails meander along Floors into Walls, about dagger-wide
+34	皱眉者：蘑菇帽上有明显的“愤怒面孔”标记 Frowners: Toadstools with distinctive “Angry Face” markings on Cap
+35	绞刑草：肉食性。小套索状环捕捉并悬挂蚂蚁/昆虫 Gallow-weed: Carnivorous. Little Noose-like Loops Trap, Suspend Ants/Insects
+36	牢狱兰：精致美丽，遇光枯萎/融化 Gaol Orchid: Delicate and Beautiful, withers/melts when exposed to Light
+37	宝石帽：名不符实，红色蘑菇的多面子实体 Gemcap: Dull despite their Name, faceted fruiting bodies of a Red Shroom
+38	幽灵刨花：在水浸木材中发现的卷曲暗淡银色碎屑 Ghost Swarf: Curly dull-silver Shavings found in water-logged Wood
+39	鳃根：红色细枝，如蝾螈颈部，发现于水坑附近 Gill-Root: Wispy Red Branches, like an Axolotl's Neck, found near Puddles
+40	暮光：对哥布林/兽人发光，其他情况下为模糊黑色结节 Gloamlight: Luminescent to Goblins/Orcs, otherwise fuzzy Black Nodules
+41	鼻涕吊坠：绿色细长藤蔓悬挂，每根末端有鼻涕状球体 Gobby Dangler: Stringy Green tendrils Hang, each tipped with snot-like Glob
+42	墓皮：在大理石上快速生长，几周内形成厚层 Grave Bark: Grows very fast on Marble, thick coating in a few weeks
+43	格里西尔帽：黏性蘑菇，从砖石接缝中冒出 Greasil's Cap: Sticky Mushrooms, sprouting from Masonry Joints
+44	灰鳞：在光线下枯萎成暗黑色，红外视觉下呈珍珠色霉菌 Gruescale: Withers dull Black in Light, nacreous Mold in Infravision
+45	女巫腿：石灰色苔藓，偏爱木制家具，聚集在腿部 Hag's Leg: Lime colored Moss, favors Wooden Furniture, pools at Legs
+46	皮癣：感染皮革/皮肤，产生瘙痒的紫褐色粉末 Hide Smut: Infests Leather/Skins with an itchy Puce Powder
+47	半身步：传说在赤脚半身人踏过处生长：向日葵色苔藓 Hin Step: Rumors say it grows where Bare Halfling Feet tread: Heliotrope Moss
+48	搭车者：聪明的刺果，很难从斗篷/织物中去除 Hitcher: Clever Burrs that can be a right pain to get out of Cloaks/Fabrics
+49	藏宝窥视者：苍白蘑菇，带有彩色“瞳孔”，传说它们凝视着黄金 Hoard Leer: Pale Puffballs with colored “Pupils” Legend says they stare toward Gold
+50	静步靴：据说鞋内衬此苔藓能消音脚步声，效果存疑 Hush Boot: Moss said to quiet Footsteps when lined in Shoes, dubious efficacy
+51	禁锢根：逼真的木质“手臂”从墙壁向外生长，相当吓人 Immure Roots: Life-like Woody “Arms” grow outward from Walls, quite startling
+52	瓶云：霜状紫色霉菌，附着在玻璃上 Jarcloud: Frost-like Purple Mold that clings to Glass wherever it's found
+53	卡尔弗盐：白色，几乎结晶的粉末，发现于锅碗瓢盆上 Kalfer's Salt: White, almost Crystalline Powder found on Pots and Pans
+54	膝红：喜欢在桌子/椅子下生长的毛茸茸菌丝 Knee Blush: Hairy fronds that like Growing Under Tables/Chairs
+55	狗头人梳：齿状，珊瑚状真菌，略带湿狗味 Kobold Comb: Toothy, Coral Like Fungus, smells a bit of Wet Dog
+56	骗子豆：多汁，常藏于砾石中，味如粉状催吐剂 Liar's Bean: Succulent, often concealed among Gravel, a mealy emetic
+57	巫妖须：通常发现于头骨下颌，透明触须 Lich Whiskers: Usually found on the Jaws of Skulls, Transparent Tendrils
+58	唇染：有时被矮人咀嚼，将嘴唇/胡须染蓝一周 Lipstain: Sometimes chewed by Dwarfs, dyes lips/beards Blue for a week
+59	小僧侣：可爱的剃度蘑菇，有时成列发现 Little Monk: Adorable Tonsured Mushrooms, sometimes found in Procession
+60	肺草：淡紫色草，生长在新鲜空气/微风源附近 Lungweed: Pale violet grasses that grow near sources of Fresh Air/Breeze
+61	米克鼻涕：从天花板缓慢滴下，似乎总能找到裸露的脖子 Meeksnot: Dribbles slowly from Ceilings, seems to always find Bare Necks
+62	假发苔：生长在雕像特定部位。石像鬼认为它时尚 Merkin Moss: Grows on Certain Areas of Statues. Gargoyles find it Fashionable
+63	螨碗：凹形顶针状菌盖，盛有水滴 Mite Bowls: Concave Thimble-like Caps hold droplets of Moisture
+64	月羞：蘑菇帽上有白色新月标记，深蓝色 Moon Shy: Mushrooms with White Crescent Markings on deep Blue Caps
+65	永不吻：发现于墙上，形似苍白、闪亮、诱人的嘴唇 Never-Kiss: Found on Walls, resembles Pale, Shiny, and Lucious Lips
+66	麻木枕：天鹅绒般苔藓，有时会使停留过久的老鼠麻痹 Numb Pillow: Velvety Moss, sometimes Paralyzes Mice who linger too long
+67	食人魔羊腿：形似羊毛羊腿，只有食人魔能忍受其味 Ogre Mutton: Resembles a wooly Sheep Shank, only Ogres can stomach it
+68	兽人辫：绳索状，纠缠的棕褐色根，似乎自己打结 Orcbraid: Ropey, Tangling Tan Roots that seem to Knot around themselves
+69	小仙烟斗：茎和斗，相当小，吹气时产生孢子云 Pixie's Pipe: Stem and Bowl, rather Small produces a Spore Cloud if Blown
+70	普莱弗脚趾：从天花板垂下，五根一组，木质“脚趾甲” Plever's Toes: Sprout down from Ceilings in groups of Five, woody “Toe-nails”
+71	里奇面条：扁平，带状绿色条，带有小蓝芽 Reache's Noodle: Flat, Ribbon like Green strips with small Blue buds
+72	环绒：白色绒毛，通常发现于门五金上 Ringwool: Fuzzy white fluff, generally found on Door Hardware
+73	绳垢：在绳索表面繁殖，使其相当滑腻 Rope Scum: Colonizes and renders the surface of Ropes quite Slick
+74	腐母：球状透明团块，带有带状菌丝 Rot Mother: Globular transparent Mass, with Ribbon like Fronds
+75	悔手套：在地板上生长成闪亮的项链形状，染黑手 Rue Glove: Grows in shiny Necklace Shapes on Floors, stains hands Black
+76	地毯虫：在地毯上啃出油腻洞，使其相当潮湿 Rug Worm: Eats Greasy Holes in Rugs/Carpets, leaves them quite Damp
+77	符文垂饰：蜘蛛网状红色蕾丝真菌，纠正拼写/语法错误 Rune Pedant: Spidery Red Lacey Fungus, Corrects Spelling/Grammar Errors
+78	锈侍从：难看的橙色苔藓，倾向于生长在剑鞘上 Rusty Squire: Unbecoming Orange Moss that tends to grow on Scabbards
+79	痂草：深红色且湿润，簇状物似乎在血迹处萌发 Scab Grass: Deep Red and moist, Tufts seem to sprout where Blood Spatters
+80	圣甲虫沙龙：黑色甲虫凶猛守护这种蘑菇 Scarab’s Saloon: Black Beetles defend this Mushroom Voraciously
+81	圣所寻觅者：形状错误的神圣符号的小块苔藓 Shrine Seeker: Small spots of Moss in the shape of incorrect Holy Symbols
+82	叹息汁：紫色凝块从木材中渗出，在热源附近发出轻柔声音 Sighing Sap: Violet Clots Ooze from Wood with a soft sound near Heat
+83	臭鼬苔：总是有条纹，你会习惯其气味 Skunk Moss: Invariably striped, you get used to the Smell
+84	泥草：排水沟和排水口被这种毛发状团块堵塞 Sludgewort: Gutters and Spouts get Clogged with this Hair-like Mass
+85	诱蛞蝓：蓬松橙色球体，约硬币大小，触碰时颤抖 Slugbait: Puffy Orange Spheres, about Coin-sized, Tremble if Touched
+86	汤茎：细长蘑菇，折断时散发鸡汤味，微毒 Soup Stalk: Narrow Mushroom, smell of Chicken Broth if broken, mildly Toxic
+87	酸塞：皱巴巴的蘑菇，常用作瓶塞，赋予苦味 Sour Stopper: Wrinkly Mushroom, often used as Corks, impart bitter taste
+88	法术芽：蓝色蘑菇，在曾施法处生长 Spell Sprout: Blue Mushrooms, grow at the site where a Spell was once Cast
+89	呕吐浆果：亮黄色核果，病态棕色藤蔓，引发呕吐 Spew Berries: Bright Yellow Drupes on sickly Brown Vines, induce Vomiting
+90	刺赖账：偏爱壁龛的凤梨科植物，扎根后难以移除 Spiny Welcher: Bromeliads that favor Sconces, tough to Remove if Rooted
+91	败饮：覆盖淡水表面的蓝色藻类 Spoil-Drink: Scummy Blue Algae that coats the surface of Fresh Water
+92	桌沫：泡沫状，唾液般黏液，倾向于在角落繁殖 Tablefroth: Foamy, spittle like Slime that tends to colonize Corners
+93	泪荨麻：带刺结节，有一滴粘液：捕捉蚊虫 Tear Nettle: Spiny nodules with a drop of Sticky Liquid: Catch Gnats
+94	喉痛：难以下咽的钉锤状蘑菇 Throatwoe: Unappetizing Spiked Mace-like Mushrooms
+95	趾雾：灰色苔藓斑块，踩踏时释放雾状孢子 Toe Haze: Patches of Grey Moss, when trampled exude Mist-like Spores
+96	墓响：干燥的种子荚有时会意外沙沙作响 Tomb Rattle: Dried Seed Pods sometimes Rustle unexpectedly
+97	桶酵母：哥布林用来酿造啤酒，发现于桶上，有体味 Tun Yeast: Used by Goblins to Brew Beer, found on Barrels, Body Odor Smell
+98	枝苹果：脆而干，在任何微风中像风滚草一样滚动 Twig Apple: Brittle and Dry, roll about like Tumbleweeds in any Breeze
+99	上滴：在排水口和水坑上方攀爬墙壁，蜿蜒的滑腻绿松石色 Updrip: Climbs Walls above Spouts and Puddles, snaking slick Turquoise
+100	扭曲泥：尽量避免，它最终还是会粘在鞋底 Warp Sludge: Try to avoid, it ends up coating the Soles of Shoes anyway

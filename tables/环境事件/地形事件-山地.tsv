@@ -1,0 +1,13 @@
+1d12	地形事件-山地
+1	山体滑坡；受到Td6点伤害 Rockslide; take Td6 damage
+2	山间伏击遭遇 Ambush from mountain Encounter
+3	坐骑或驮兽失足坠落身亡 Mount or pack animal falls to its death
+4	非魔法装备在使用过程中损坏 Non-magic gear item breaks during use
+5	无水；觅食减1，否则将遭受口渴之苦 No water; forage at -1 or suffer thirst
+6	盲谷；下一步必须原路返回 Blind canyon; next move must be back
+7	迷失方向；接下来的1d4次移动随机进行 Lost; next 1d4 moves are random
+8	扭伤脚踝；今天无法移动 Twisted ankle; can't move today
+9	滑倒并受到Td8点伤害 Slip and fall for Td8 damage
+10	暴露于恶劣天气中；受到1d4点伤害 Exposed to weather; take Td4 damage
+11	一次遭遇将你困在峡谷中 An Encounter traps you in a canyon
+12	一条蜿蜒的隧道通向一座地牢 A winding tunnel leads to a Dungeon

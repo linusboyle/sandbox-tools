@@ -1,0 +1,101 @@
+1d100	物品-药膏
+1	蛇毒解药：涂抹于蛇咬伤口，可吸出毒液（额外豁免机会） Asp Foiler: Applied to Snakebite, draws out Venom (extra Save)
+2	蝙蝠盲药：一小时内对回声定位无法察觉 Bat Blinder: Imperceptible to Echolocation for an Hour
+3	卧床疗养：每日使用后，休息时的恢复速度翻倍。 Bedbound: Doubles Healing Rate when Resting if applied Daily
+4	装订者之膏：涂抹于书脊，书页无法被撕下 Binder’s Balm: Massaged into Book Spines, Pages can’t be Torn Out
+5	主教油：缓解因频繁跪拜或跑步引起的腿部酸痛 Bishop Oil: Eases Aches in Legs from Frequent Kneeling or Running
+6	蓝鼻药剂：涂抹后使皮肤变为亮蓝色，但能嗅到银的气息。 Bluenose: Turns it bright Blue when Applied, but you can Smell Silver
+7	骨泥：死灵法师将其涂抹于骷髅之上，使其更难被驱散/更加强大 Bone Slime: Necromancers apply this to Skeletons, harder to Turn/Stronger
+8	枝握药膏：防止手掌因攀爬树木而磨伤树皮 Bough Grip: Barkburn from Brachiating/Climbing Trees prevented on Palms
+9	强盗的香脂：若在夜间睡眠前使用，可恢复1d10点生命值 Brigand’s Balsam: Restores 1d10 HP if applied before a Night’s Sleep
+10	亮疫药：涂抹于眼睑，消除对突然闪光的敏感 Brightblight: On Eyelids, sensitivity to Sudden Flashes Eliminated
+11	刺蕨膏：去除荆棘/木刺的药膏，对毒葛有疗效 Burr Bracken: Salve that remove Thorns/Splinters, helps with Poison Ivy
+12	尸泥：修复尸体上的任何致命伤口或损伤 Cadaver Clay: Repairs any Mortal Wounds/Injuries on a Corpse
+13	静足药膏：抗真菌足部护理，紧急情况下对某些真菌类怪物也有效 Calmfoot: Antifungal for Feet, works on some Fungi-based Monsters in a Pinch
+14	卡里亚蒂德香脂：两次涂抹可使石化者恢复血肉之躯 Caryatid Balm: Restores Flesh to Petrified Individuals with 2 Applications
+15	椅子弯曲剂：涂抹于双手，使木材变得柔软易弯曲 Chair Bender: On Hands, Renders Wood Supple and Bendable
+16	下巴淤泥：矮人胡须护理剂，均匀色泽，强韧毛囊 Chin Silt: Dwarf Beard Conditioner, evens Coloration, toughens Follicles
+17	牧师之瓶：在3/6概率下恢复1点生命值（极易变质） Cleric-in-a-Jar: Heals a single Hit Point on 3-in-6 (spoils very swiftly)
+18	斗篷膏：修补厚实织物上的小裂口或撕裂，并使该区域染成黑色 Cloak Plaster: Mends small Tears/Rips in thicker Fabrics, stains area Black
+19	圣化软膏：预先涂抹，使治疗魔法效果提升四倍 Consecrated Cerate: Applied Prior, Quadruples efficacy of Healing Magic
+20	灵巧收割：哦，双手，提升作物产量，同时对植物类敌人造成+2伤害 Deft Harvest: Oh Hands, Increase Crop Yields, also +2 damage vs Plant Foes
+21	鸭膏：涂抹后皮肤上凝结水珠，若食用：可防止回声 Duck Paste: Water/Moisture Beads on Skin, if eaten: Prevents Echoes
+22	耳盲药剂：涂抹于耳朵，可消除听力一小时（对塞壬或鹰身女妖尤为有效） Earblind: On Ears, eliminates Hearing for an Hour (useful vs Sirens/Harpies)
+23	鳗鱼捕捉者：涂抹于双手，使抓握或持有滑溜鱼类变得更为容易 Eel Catcher: On Hands, makes grabbing/holding Squirmy/Slippery Fish Easier
+24	肘部润滑剂：增强手臂力量以完成琐碎任务，效果持续一小时后会感到虚弱 Elbow Grease: Increase Arm Strength for Menial Tasks, Weak for an Hour after
+25	元素焦油：数周内保持粘稠温暖，永久性染皮肤 Elemental Tar: Stays Sticky and Warm for Weeks, Stains Skin Permanently
+26	褪隐膏：使涂抹的单一身体部位隐形，持续1d4+6轮 Fading Cream: Renders a single Body Part covered Invisible for an 1d4+6 Turns
+27	假热药膏：涂抹于额头，提升体温，有助于抵御寒冷 False Fever: Applied to Forehead, raises Body Temperature helps vs Cold
+28	投掷者之友：涂抹于手掌，可增加投掷匕首或飞镖的射程 Flinger’s Friend: On Palms, increases range of Thrown Daggers/Darts
+29	愚者黄油：迅速消退瘀伤，形似其名，实则剧毒 Fool’s Butter: Fades Bruises Swiftly, resembles Namesake, Poisonous
+30	锻工钳：使手指/双手短暂免疫极端高温 Forge Tongs: Renders Fingers/Hands briefly immune to Extreme Heat
+31	雀斑消散剂：通过反复使用，可去除痣、瑕疵和雀斑 Freckle Few: Removes Moles, Blemishes, Freckles with Repeated Application
+32	蛙油：加入浴水中，提供额外的对抗变形术的豁免检定 Frog Oil: Tincture in Bathwater, grants extra Save vs Polymorph
+33	赌徒之油：涂抹此物后，灌铅骰子或标记牌会粘在手上。 Gambler’s Grease: Loaded Dice/Marked Cards stick to Hands treated with this
+34	幽灵果冻：涂抹在手臂和手上，使其在1d4小时内变为虚体状态。 Ghost Jelly: Slather it on an Arm and Hand to render it Incorporeal for 1d4 Hours
+35	角斗士之友：涂抹于躯干，伤势看似严重，实则轻微 Gladiator’s Friend: Rubbed on Torso, Injuries look Severe, but are Minor
+36	手套皮肤：涂抹于双手，形成持续一小时的绝缘手套。 Glove Skin: Rub on Hands form Insulating Gloves that last an Hour
+37	蚊虫消解剂：缓解轻微虫咬，带有葡萄柚香气 Gnat Null: Soothes minor Insect Bites, smells of Grapefruit
+38	绿油膏：在眉心涂抹一坨油腻的膏体，有助于缓解晕船。 Green Balm: Greasy Dollop between the Eyes helps with Seasickness
+39	灰鳃药剂：涂抹于溺水者唇上，有2/6概率使其复苏 Grey Gill: On Lips of the Drowned, 2-in-6 chance of Reviving Them
+40	地狱蜡：在肉体上猛烈燃烧，留下不洁的烙印或疤痕 Hell Wax: Burns fiercely on Flesh, leaving behind Unholy Brands/Scars
+41	高行者：涂抹于耳后，增强平衡感，对抗眩晕 High Walker: Rub Behind Ears, Improves Balance/Fights Vertigo
+42	凝光果冻：涂抹于双手后，接下来一小时内触碰的物体将柔和发光，持续1轮 Jellied Wisp: On Hands, for next Hour objects touched Glow softly for 1 Turn
+43	珠宝匠的黏胶：无痛地将珠宝固定在皮肤上，持续长达两周 Jeweler’s Pitch: Painlessly affixes Jewelry to Skin for up to 2 Weeks
+44	关节凝胶：修复扭伤、撕裂的韧带，有4/6的几率治愈马匹的跛足 Joint Jelly: Repairs Sprains, Torn Ligaments, 4-in-6 it will Un-Lame a Horse
+45	养蜂人之泥：安抚蜜蜂，使其不易蜇伤佩戴者 Keeper’s Clay: Calms Bees, rendering them less likely to Sting wearer
+46	国王之印：用于诏书或公告上，防止伪造或篡改 King Seal: Used on Writs/Proclamations to Prevent Forgeries/Alterations
+47	拳击手之宝：备受拳击手珍视，保持拳头无损且伤害+2 Knuckle Saver: Prized by Pugilists, Un-marred Fists and +2 Damage
+48	克雷尔痰液：强效局部麻醉剂，麻木效果持续一周 Krell Phlegm: Powerful Topical Anesthesia, Numb for a Week
+49	芙拉夫人的眼霜：涂抹于眼睑，永久改变眼睛颜色 Lady Fula’s Eye Cream: On Eyelids, Changes Eye-Color Permanently
+50	荧光淤泥：暂时将被涂抹的皮肤转化为类似黄铜的金属 Lambent Sludge: Temporarily turns coated Skin to a Brass-like Metal
+51	驱蛭剂：涂抹于沼泽中的小腿或脚部，防止同名生物吸附 Leechbane: Applied to Calves/Feet in Swamps, prevents Namesakes Sticking
+52	麻风灵药：若在一小时内使用，可重新接合失去的手指或脚趾 Leper Last: Re-attach Lost Digits (Fingers/Toes) if applied within an Hour
+53	舔银露：涂抹于喉咙的药剂，赋予悦耳真诚的嗓音 Lick-Silver: Lotion applied to Throat grants Euphonious, Sincere Voice
+54	洛索的擦剂：修复由酸液造成的任何伤害 Lortho’s Liniment: Restores any Damage inflicted by Acids
+55	卢姆的斑点剂：涂抹之处显现时尚雀斑或美人痣 Lum’s Spotter: Fashionable Freckles/Beauty Marks Appear where applied
+56	肺空：涂抹于胸部的祛痰剂，对抗瘴气/毒气时豁免检定+2 Lung Void: Expectorant Applied to Chest, +2 Saves vs Miasmas/Gasses
+57	猛兽愈合剂：仅对肉食动物的咬伤或爪伤有效，可治疗2d6点生命值 Maul Mend: Only works on Bites/Claws from Carnivores, but Heals 2d6
+58	心智屏障：涂抹于额头，一日内免疫读心术 Mindscreen: Rub into Forehead, Immune to Mind-Reading for a Day
+59	姆涅斯特的助手：每瓶蕴含不同的法师法术，提供一日免疫效果 Mnester’s Helpers: Each a Different M-U Spell, Grants Immunity for a Day
+60	骡子泥：缓解因负重过多或强行军导致的背痛 Mule Mud: Soothes Backache from Carrying too Much, Forced Marches
+61	穆克斯脂膏：使手指灵活，足以辅助撬开某些锁具 Mux Tallow: Limbers Fingers, enough to assist with Picking some Locks
+62	拔钉剂：双手涂抹后，一回合内可从木料中拔出钉子 Nail Plucker: Hands Treated with this can Pull Nails from Wood for a Turn
+63	灵巧者的恶作剧：香气宜人，滋润肌肤，但会导致手指甲和脚趾甲脱落 Nimbler’s Prank: Smells nice, Moisturizes, but Fingernails/Toenails fall off
+64	水妖精泥浆：涂抹于鼻/口部，可使屏息时间延长一倍 Nixie Mud: Coat Nose/Mouth and Hold Breath for twice as Long
+65	绳结瓦解剂：预先涂抹于颈部、手腕或脚踝，可溶解绳索。 Noose Thwart: Dissolves Rope if applied to Neck, Wrists, Ankles in Advance
+66	仙女香膏：提升一日一夜的美貌，但使使用者失声 Nymph Salve: Increases Beauty for a Day and Night, but Mutes subject
+67	奥尼尔驱魔膏：涂抹于额头，一日内无法施法 Onril’s Obviator: Apply to Forehead, No Spellcasting for a Day
+68	瘟疫防护：胸膏，带有强烈的柑橘香气，对疾病的效力因病症而异 Plague-fend: Chest Rub, smells Strongly of Citrus, Efficacy varies by Disease
+69	波林之沥青：手可点燃如炬，持续一小时，无烧伤 Porrin’s Pitch: Hand can be lit on Fire, as Torch, lasts an Hour, no Burns
+70	负鼠口袋：涂抹于皮肤上，可形成一个隐蔽的小袋，容量为20铜币 Possum Pocket: On Skin, creates a Small Concealed Pouch for 20 cns worth
+71	拔箭膏：使拔箭更为轻松的敷药，治疗1d8点生命值 Pullshot: Poultice that makes Removing Arrows Easier, Heals 1d8
+72	兔耳膏：涂抹于耳部，能更专注于细微声响（聆听噪音+1） Rabbit Rub: Applied to Ears, Subtler sounds can be focused on (+1 Hear Noise)
+73	伦克尔的舒缓膏：安抚按摩油，带来放松与安眠 Runkle’s Lenitive: Soothing Rub induces Relaxation and Restful Sleep
+74	疤痕无踪：对小而干净的疤痕效果最佳，大疤痕会有所淡化 Scar-Be-Gone: Works Best on Smaller, Clean Ones. Large ones Fade a Bit
+75	抄写胶：涂抹于拇指或食指，可完全擦除你所书写的文字 Scribe Gum: On Thumb or Forefinger, Fully Erase Text you’ve Written
+76	森托之盾：涂抹于手臂，可在一小时内如同盾牌般格挡攻击 Sento’s Shield: Rub on Arm, it can Block Blows as a Shield for an Hour
+77	暗影药膏：提升潜行/隐匿几率，赋予光敏感特性 Shadow Salve: Increases Hiding/Sneaking Chances, imparts Light Sensitivity
+78	羊眼药水：涂抹于眼睑，可透视窗帘或挂毯 Sheepeye: Rubbed on Eyelids, see through Curtains/Tapestries
+79	灼伤舒缓膏：香脂可治疗晒伤，但会使你对寒冷易感 Singe Slake: Balsam treats Sunburns, but makes you Vulnerable to Cold
+80	熊肤药剂：初时微感刺痛，随后激发狂战士般的战斗怒火 Skin-of-Bear: Tingles at first, but Inspires Battle Rage as Berserker
+81	刺伤药膏：专治蜘蛛/蝎子毒液（提供一次新的豁免机会） Sting Salve: For Spider/Scorpion Venoms Only (grants a new Save)
+82	夏日舒缓：治疗中暑，涂抹于面部/脸颊 Summer Sooth: Treatment for Heatstroke, Apply to Face/Cheeks
+83	峰顶追寻者：涂抹于胸部的油性药剂，有助于缓解高原反应 Summit Seeker: Oily embrocation on Chest, helps with Altitude Sickness
+84	日光树脂：漆黑粘稠的物质，可恢复因阴影而失去的力量 Sun Sap: Piceous, Goopy Stuff, restores STR lost from Shadows
+85	酒杯胶：再也不会掉落杯子！整晚紧贴手掌 Tankard Glue: Never drop a Cup Again! Sticks to Hand for an Evening
+86	顶针焦油：涂抹于拇指，使其在一天的缝纫中免受伤害。 Thimble Tar: Coat a Thumb to render it Impervious for a Day of Sewing
+87	图尔黄油：涂抹后，每回合恢复1点生命值，持续1d20回合 Thoul Butter: Apply, Regenerate 1 HP per Round for 1d20 Rounds
+88	踮脚药水：涂抹于双脚，可消音脚步/提升潜行能力 Tip-Toe: Applied to Feet, Mutes Steps/Improves Move Silently
+89	踏足膏：一夜之间消除脚上的水泡！气味刺鼻难闻 Tread Plaster: Makes Blisters on Feet disappear Overnight! Smells Vile
+90	海神焊剂：手指或脚趾间会生出蹼，略微提升游泳速度 Triton Weld: Fingers/Toes will Web, slightly increasing Swim Speed
+91	真实之税：触碰劣质贵金属时，手与手指会变色 True Tax: On Hands, Fingers change Color touching Debased Precious Metals
+92	独角兽脂肪：能够恢复因中毒而失去的生命 Unicorn Fat: Can Restore Life Lost due to Poisoning
+93	维奇尔的药膏：治愈由魔法效果造成的任何伤害 Veecher’s Salve: Heals any Damage inflicted by a Magical Effect
+94	狼疫无虞：一回合内敷用的药膏，可预防狼人病感染 Were-Without: Poultice Applied in a Turn, Prevent Lycanthropy Infection
+95	冬霜膏：治愈冻疮，防止冻伤恶化一天 Winter Paste: Heals Chilblains, prevents Frostbite Progression for a Day
+96	巫土：鼻嗅，能探测魔法来源，据说过度使用会导致疣疮 Witchsoil: Nose, Sniff out sources of Magic, Said to Cause Warts with Overuse
+97	狼蜡：按摩耳垂以在月光下听得更清楚 Wolf Wax: Massage into Ear Lobes in order to Hear better in Moonlight
+98	蠕动软膏：持续一天，免疫束缚类攻击 Wriggle Balm: Lasts a Day, Immune to Constriction-type Attacks
+99	武麟树汁：涂抹于嘴唇，使其融合一小时（无法言语） Wulin’s Sap: Rubbed on Lips, Fuses them together for an Hour (no Speech)
+100	石巨蜥胆汁：双手涂抹此物后挖掘，速度惊人地迅捷。 Xorn Bile: Digging with Hands Coated in this is Incredibly Expeditious

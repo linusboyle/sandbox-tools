@@ -1,0 +1,101 @@
+1d100	物品-智能武器
+1	红爪阿姨：过度保护的鹰身女妖，倾向于魅惑敌人或盟友 Auntie Redclaw: Over-protective Harpy, prone to Charming Foes/Allies
+2	吸血男爵：一位健谈的食尸鬼贵族，能够麻痹敌人，但需要定期喂食。 Baron Leechy: Gregarious Ghoul Noble, can Paralyze Foes but must be fed.
+3	巴尔西娜：任何种类的魔法墙对持有者无效，并能探测秘密门 Barsine: Magic Walls of any kind do not affect Bearer, Detect Secret Doors
+4	害羞的赫什尼：暗恋赞美之词，能稳定濒死角色的生命 Bashful Hešni: Secretly loves Compliments, stabilizes Dying Characters
+5	誓言善德兄弟：因被困于剑中而感到尴尬，能够侦测亡灵与谎言 Brother Vowgood: Embarrassed about being in a Blade, Detects Undead/Lies
+6	博巴雷斯，智慧长者：异域文化的智者（4/6概率掌握一门语言） Bubares the Wizened: Sage of Distant Cultures (4-in-6 knows a Language)
+7	布尔格比：瞭望塔守卫，能提供三层楼高的视野/景观 Burglebee: Watch-Tower Guard, can provide Views/Vistas 3 Stories High
+8	卡斯蒂安涅拉：独眼酿酒师，她颇为傲慢，但能侦测毒素。 Castianiera: Cyclops Vintner, she's rather Snooty, but can Detect Poison
+9	西莉莎·强眉：一位为骑士精神哀叹的贵族女性，对龙族充满好奇 Cilissa Strongbrow: Noblewoman who rues Chivalry, Fascinated by Dragons
+10	蟋蟀：在陷阱附近轻声鸣叫（每日3次），其主人是个跳跃高手 Cricket: Chirps softly around Traps (3/day), owner is quite the Leaper
+11	倒霉的戴托尔：被绞刑的罪犯，能解开视线内的任何绳结 Daetor the Unlucky: Condemned Criminal (Hanged), untie any Knots in sight
+12	潮湿天气：健谈的幻术师，能够察觉它们（3/6概率），幻象之力 Dampweather: Chatty Illusionist, can Detect them (3-in-6), Phantasmal Force
+13	暗叶：被邪恶法术杀害的精灵，对抗法术时+2，喜欢打破第四面墙 Darkfrond: Elf Slain by Foul Sorcery, +2 vs Spells, fond of breaking 4th wall
+14	死亡迅捷：兽人刽子手，对非兽人者使用斩首之刃，拥有令人惊讶的法律知识 Deathswift: Orc Headsman, Vorpal on Non-Orcs, surprising Legal Knowledge
+15	德尔宾：末日教派信徒，灵魂转移至献祭武器，凶兆预言者 Delbin: Doomsday Cultist, Soul transferred to Sacrificial Weapon, Dire Portents
+16	德雷格斯·暗斗篷：工兵矮人，热衷于指出建筑结构的弱点 Dregus Duncloak: Sapper Dwarf, loves pointing out Structural Weaknesses
+17	德鲁斯金：公事公办，好斗成性，对带翅膀的敌人造成额外伤害 Druskin: Business-like, Belligerent, Extra-Damage to foes with Wings
+18	埃拉托斯：仁慈的锁匠：协助盗贼（成功率+20%），每周可使用一次敲击术 Elatos: Benevolent Locksmith: Helps Thieves (+20%), Knock 1/week
+19	元素吞噬者：前身是只蟾蜍魔宠，能用黏腻的舌头夺取法术（2/6概率） Elemanzer: Former Familiar (Toad), snatches Spells with Sticky Tongue (2-in-6)
+20	兴奋的利西达斯：昔日刺客，被潜行者所杀，能看见隐形之物 Excitable Lycidas: Erstwhile Assassin, slayed by a Stalker, can See Invisible
+21	法鲁尔·无能者：前扒手，持有者可如6级角色般潜行，需消耗银币 Farul the Feckless: Former Footpad, Owner can Sneak as 6th Level, costs Silver
+22	五号：寻找四位兄弟姐妹，提升一项属性值3点，降低另一项2点 Five: Searching for Four Siblings, raises one Score by 3, lowering one by 2
+23	弗里克：冷静的蛇人，具备热感应能力，每周可施放一次剧毒 Flick: Stoic Ophidian, Heat Sensing and can inflict a Vile Venom 1/week
+24	吉尔格林：臭名昭著的海盗，获得藏宝图后能估算宝藏价值 Gillgreen: Infamous Buccaneer, given a Treasure Map can estimate Hoard Value
+25	格拉德威克：前霍比特边界巡守员，擅长辨识蘑菇种类 Gladwick: Former Halfling Boundary Beater, good at ID-ing Mushrooms
+26	格利古特：前大地精赏金猎人，擅长追踪类人生物 Gleegut: Former Hobgoblin Bounty-Hunter, excellent Tracker of Humanoids
+27	忧郁的泰隆：掘墓人，凡被他埋葬者，亡灵永不复苏 Gloomy Tyron: Gravedigger, those Slain never rise as Undead
+28	好孩子：流浪狗的灵魂，憎恨闪烁猫，通过心灵感应发出低吼或吠叫 Good Boy: Soul of a Mangy Mutt, hates Blink Cats, telepathic growls/barks
+29	绿尖：恐高，灵魂因坠落而受困：漂浮术 Greenspire: Nervous around Heights, soul trapped during a Fall: Levitation
+30	阴森之门：持有者可化身为石，持续至多一小时，饶舌的石像鬼 Grimgate: Owner can turn to Stone for up to an hour, Garrulous Gargoyle
+31	"吞水者：渴求的霍比特园丁，能够“饮下”一整个池塘的水量 Gulper: Thirsty Halfling Gardener, can ""drink"" up to a Pond's worth of Water"
+32	霍尔施皮特：矮人，擅长判断距离和方向，对哥布林尤为厌恶 Hallspit: Dwarf, good judge of Distances/Direction, doubly detests Goblins
+33	高穗：果园照料者，施展植物生长或纠缠术时必须种植苹果树 Highcrop: Orchard Tender, Growth of Plants or Entangle must Plant Apple Trees
+34	圣光荣耀使者：（实际上是2d4只小妖精在玩一场长期恶作剧） Holy Glory-Bringer: (actually just 2d4 Pixies playing a long-term Prank)
+35	寒霜伊拉内克：极地屠龙者，依旧憎恨白龙，为主人保暖 Icy Ilarnek: Arctic Dragon Slayer, still hates White Wyrms, keeps Owner Warm
+36	伊纳罗斯，不合时宜者：永远的侍从，极其忠诚，穿戴/卸下盔甲速度提升两倍 Inaros the Unsuitable: Forever Squire, very Loyal Don/Doff Armor 2x faster
+37	伊帕库图姆，尖刻者：曾是狮身人面像，仍能咆哮，如今憎恨谜语 Ipqatum the Abrasive: Once a Sphinx, can still Roar, now hates Riddles
+38	贾鲁弗拉克斯：黑龙幼龙，持有者免疫酸蚀，赋予飞行能力 Jaluflax: Black Dragon Wyrmling, bearer Immune to Acid, grants Flight
+39	乔瑞瓦·汀风：美人鱼角斗士，无论在水下还是水上都能战斗与呼吸自如 Joreeva Tinewind: Mermaid Gladiator, Fight/Breath Underwater as well as above
+40	易惊：迅速跃入手中，曾是著名赌徒，把自己当赌注 Jumpy: Quick to Leap to Hand, formerly Famous Gambler, Bet themselves
+41	踢克威斯：快乐的马贩子，赋予马语能力，提升它们的士气 Kicklewith: Happy Horsemonger, grants Horsespeech, Improves their Morale
+42	抱怨鬼：一只尖酸刻薄、爱说俏皮话的小恶魔，擅长逃避承诺和誓言。 Kvetch: Snide, Wise-Cacking Imp good at weaseling out of Promises/Oaths
+43	雷瑟莉亚女士：圣徒的秘密恋人，守护剑柄中的圣物，能解除魅惑效果 Lady Rethelia: Secret Lover of a Saint, guards Relic in Hilt, Removes Charm
+44	马屁精：谄媚者，前狼鼠人：能与啮齿动物交谈，满月时+2 Lickspittle: Flatterer, former Were-Rat: Converse w/ Rodents, +2 on Full Moon
+45	平原的洛尔：半人马民间英雄，善待马匹并获取形态 Lorew of the Plain: Centaur Folk-Hero, treat Horses Well and gain Form
+46	不幸的菲格莫尔：巫师学徒/旁观者：仍能探测与阅读 Luckless Figmore: Wizard Apprentice/Bystander: Can still Detect and Read
+47	卢尔斯：牛头人雕塑家，能将岩石转化为泥浆，在迷宫中显得焦躁不安 Lurth: Minotaur Sculptor, Transmute Rock to Mud, frantic in Mazes
+48	玛莱奥萨夫人：曾经的占卜师，如今仍爱八卦，每周可施展一次通灵术 Madame Maleosa: Former Fortune Teller still a Gossip, Commune 1/week
+49	马尔雷克斯：穴居人臭气法师（能释放恶臭），并能辨识几乎所有气味 Malrex: Troglodyte Scent Mage (can Stench) and identify nearly all Smells
+50	迷魂者莱桑德罗斯：拥有平和、安抚的嗓音，在你睡眠时治愈2个生命骰。 Mesmeric Lysandros: Even, calming Voice, heals 2 HD while you Sleep
+51	米花：树精，赋予树融能力，但容易爱上持有者 Millflower: Dryad, grants Treemeld, but tends to fall in love with Owner
+52	莫尔修补匠：棕精灵，擅长缝补袜子与修复斗篷，模仿声音惟妙惟肖 Mor the Mender: Brownie, darns Socks/mends Cloaks, Mimics Voices well
+53	纽特沃特妈妈：诡计多端的沼泽女巫，精通毒药与毒素 Mother Newtwort: Conniving Swamp Hag, expert on Poisons/Toxins
+54	穆利乌斯：被此剑所杀的战士，借他人之身而活，酷爱奢华：英雄主义 Mulius: Fighter killed by this Blade, Lives vicariously, fond of Luxury: Heroism
+55	涅布内菲尔：与木乃伊同葬千年的抄写员，每月可复制一份卷轴 Nebnefer: Scribe Entombed with Mummies for Aeons, Copy a Scroll 1/month
+56	尼克弗拉斯：乐于助人的地精，其刻痕如同“实用长袍”般发挥作用 Nickelfrass: Helpful Goblin, etchings act as Robe of Useful Items
+57	诺普：诙谐的地精，渴望被宝石装饰，擅长鉴定宝石 Nop: Jocular Gnome, seeks to be embellished with Gems, Appraises them well
+58	奥格罗坦：喜好美酒与歌声，能提升随从的士气 Ogrothan: Fond of Drink and Song, improves Morale of Retainers
+59	油滑的瑟拉斯：健谈的鱼贩，能够在水面行走，钓鱼效果翻倍 Oily Theras: Loquacious Fishmonger, Walk on Water, Fishing doubly effective
+60	帕克威尔：咯咯笑的搬运工前身，可储存最多500枚硬币，收取1%的手续费 Packwell: Chuckling Ex-Porter, can store up to 500 coins for 1% cut
+61	帕尔温，干渴之人：沙漠中迷失的商队护卫：持有者永不口渴 Palwin the Parched: Caravan Guard, lost in the Sands: Bearer never Thirsts
+62	健忘的帕特罗巴斯：只有在掷出2点（六面骰）时，才能记起自己可以施展驱散魔法。 Patrobas the Forgetful: Only Remembers on a 2-in-6 they can Dispel Magic
+63	爪皱：狗头人陷阱密语者（每日可掷2次反应），酷爱甜菜 Pawcrumple: Kobold Trap Whisperer (roll Reaction 2/day), loves Beets
+64	帕克西亚：保持和平束缚，自然恢复速度提升三倍，若被拔出则效果停止一季 Paxia: Kept Peacebound, 3x Natural Healing Rate, if drawn ceases for a Season
+65	皮尔特罗斯：令人心碎的悲情故事，能够传送到其悲剧发生的场景 Peltros: Gut-wrenching Sob-Stories, can Teleport to scenes of their Tragedies
+66	普尔格斯·帕普尔韦尔特：挑剔的美食家，每周可创造一次食物 Plergus Papplewelt: Fastidious Gourmand, can Create Food 1/week
+67	普利戈·斯拉克斯特：大部分时间宿醉未醒，但若哨子湿润，则增益效果翻倍。 Pligo Slakethrist: Hungover mostly, but if whistle is wet, bonus Doubles
+68	池塘窃贼：巨魔，赋予使用者再生能力，但前提是使用者未曾制造过火焰。 Pondnapper: Troll, grants Regeneration but only if user has not made a Fire
+69	刺儿头夏里：除非每日打磨，否则会抱怨，对构装体和魔像造成双倍伤害 Prickly Xari: Complains unless Sharpened Daily, 2x damage Constructs/Golems
+70	安奇亚勒斯王子：自称拥有皇室血统，与贵族互动时有助于反应掷骰。 Prince Anchialus: Claims Royal Blood, does aid Reaction Rolls with Nobility
+71	挥霍者纳克：每日可施展三次任意门，常“跳跃”至其他武器处 Prodigal Nak: Dimension Door thrice daily, often “jumps” to other Weapons though
+72	节俭的皮瑟斯：死灵法师，骷髅专家，每日可召唤2d4具骷髅 Pythes the Frugal: Necromancer, Skeleton Specialist, can Summon 2d4 1/day
+73	疾风伊娜拉：曾为拯救城市而跑完马拉松，为赤足奔跑者施加速术。 Quick Inara: Ran a Marathon to save her City, grants Haste to barefoot runners
+74	炽热长矛：火焰蝾螈，不受火焰伤害，拥有热力光环与烈焰特性 Red-Hot-Poker: Flame Salamander, unharmed by Fire, Heat Aura and Flaming
+75	萨拉娜：严厉的女修道院长，能够施展复活术，但条件是你必须与她交换身份一个月。 Sarlana: Stern Abbess, can Raise Dead but only if you Swap Places for 1 Month
+76	梦寐熊：一只极其嗜睡的熊，持有者能嗅到数英里外的腐肉或蜂蜜气味 Scarmuzzle: A very sleepy Bear, Owner can smell Carrion/Honey for miles
+77	"谢鲁姐妹：一群女妖（每个可哀嚎一次，掷d12决定），“收养”新成员 Sheru Sisters: Bunch of Banshees (d12 each can Wail Once) ""Adopts"" new ones"
+78	盾噬者：狂战士，赋予战斗狂怒，平静时吟唱民谣 Shield-Biter: Berserker, grants Battle Rage, when Calm intones Ballads
+79	斯利瑟拉：美杜莎骗子，擅长辨识药水，协助主人讨价还价 Slithera: Medusa Mountebank, ID's Potions, helps owner Haggle and Bargain
+80	斯蒂尔顿：一位侍从的幽灵，只要向其家族捐赠，就能让你化为虚无之躯 Stilton: Ghost of a Retainer, can make you Incorporeal for donations to Family
+81	塔维克：曾为火炬手，燃烧时间延长一倍，能驱散阴影与吸血鬼 Tarwick: Once a Torchbearer, they burn 2x as long, Banish Shadows and Vampires
+82	荣誉之穆奇：前任地方法官，能侦测邪恶/善良，对此讳莫如深 The Honorable Mudge: Former Magistrate, Detects Evil/ Good, cagey about which
+83	女王：心灵感应，蜂巢思维。寻找其他魔法物品加入她的巢穴。 The Queen: Telepathic, Hive Mind. Seeks other Magic Items out for her Nest
+84	雷霆之音（声响）：元素之灵，能唤来降雨，但仅限于扑灭火焰。 Thunderclap (the sound): Elemental, can make Rain but only to douse Flames
+85	牙与爪：双头巨人，一头能见黑暗，另一头能见光明：每日选择其一 Tooth & Nail: Ettin, One can see in the Dark, the other Light: Choose Daily
+86	托姆：忧郁的束缚土元素，每周一次，可使目标石化三天 Torm: Broody Bound Earth Elemental, can Petrify target for 3 days, 1/week
+87	图索洛克：蜥蜴人勇士，持有者可游泳，并能变身为鳄鱼 Tuthorok: Lizard Man Champion, wielder can Swim, shapeshift to Crocodile
+88	乌尔格·床下鬼：熊地精般的噩梦，使用者在衣柜或同名之处无法被察觉 Ulg Underbed: Bugbear Boogeyman, user undetectable in Closets/Namesake
+89	朴素的特里菲娜：助产士/治疗师，每日追踪伤害，次日恢复同等量 Unadorned Tryphena: Midwife/Healer, track dmg Daily, Heal as much Next Day
+90	警觉之埃佩隆：每日一次重投突袭检定，还能准时唤醒你 Vigilant Eperon: Re-roll Surprise 1/day, wakes you up on time too
+91	邪恶的波利多拉：偶尔发表不当言论，拥有透视能力 Vile Polydora: Occasional Off-color Comments, X-Ray Vision
+92	瓦格钦：喋喋不休的奇美拉（拥有三个头/声音/阵营，每日投骰决定哪个主导） Wagchin: Chatty Chimera (3 Heads/Voices/Alignments, roll Daily for which)
+93	韦尔茨：瘙痒的山丘巨人，时不时会让主人变大 Welts: Itchy Hill Giant, prone to Enlarging Owner from time to time
+94	哄骗者：哥布林梦境嗅探者，每日一次可对任意单一目标施放睡眠术 Wheedle: Goblin Dreamsniffer, 1/day can cast Sleep on any single Target
+95	低语者：对过往的阴暗经历三缄其口，却极度热衷于偷听：拥有“天耳通”能力 Whisper: Terse about Shady Past, but positively loves to Eavesdrop: Clairaudience
+96	枯萎的卡莱托：命匣事故，近乎巫妖的无奈：七种法术 Withered Kaletor: Phylactery Mishap, resigned Near-Lich: seven Spells
+97	泽弗隆四世：寻求非传统永生的古代君王：引发恐惧 Xephulon IV: Ancient King sought unconventional Immortality: Cause Fear
+98	亚布拉努斯：致力于研究的魔法武器智者，能够协助鉴定物品 Yablanus: Sage of Magic Weapons who committed to study, can help Identify
+99	残酷者佐克鲁加：狂笑的豺狼人，持有者几乎可以食用任何东西 Zokruga the Cruel: Cackling Gnoll, Owner can eat just about anything
+100	泽莱斯里什：心灵鞭笞者，具备心灵感应能力，以换取更多力量为诱惑，索要智慧。 Zylethrish: Mind Lasher, ESP, tempts more Power in exchange for Brains

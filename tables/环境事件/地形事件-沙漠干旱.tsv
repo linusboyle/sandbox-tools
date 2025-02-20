@@ -1,0 +1,13 @@
+1d12	地形事件-沙漠干旱
+1	所有水源消失；觅食难度-2，否则将遭受口渴之苦 All water lost; forage at -2 or suffer thirst
+2	遭遇沙漠伏击 Desert ambush by an Encounter
+3	发热；无法移动1d4天 Feverish; can't move for 1d4 days
+4	迷路了；接下来的1d4次移动方向随机 Got lost; next 1d4 moves are random
+5	水桶漏水；损失一半的水 Leaks in the casks; lose half your water
+6	海市蜃楼误导方向；下一步移动随机 Mirage leads astray; next move is random
+7	一件非魔法装备被沙粒毁坏 Piece of non-magic gear ruined by sand
+8	沙子使1d4天的食物无法食用 Sand makes 1d4 days food inedible
+9	沙崩掩埋了一匹坐骑或驮兽 Sandslide buries a mount or pack beast
+10	沙尘暴；造成Td6点伤害，且无法移动 Sandstorm; Td6 damage and can't move
+11	日盲症；今日无法移动 Sun-blind; can't move today
+12	酷热造成Td4点伤害 Torrid heat does Td4 damage

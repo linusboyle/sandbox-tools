@@ -1,0 +1,13 @@
+1d12	地形事件-沼泽
+1	因真菌和腐烂而损失2d6天的食物 2d6 days food lost to fungus and rot
+2	一场遭遇从泥沼中突然爆发 An Encounter springs from the mud
+3	污水；需进行豁免检定，否则将无助状态持续1d4天 Bad water; save or helpless for 1d4 days
+4	沼泽吞噬了一匹坐骑或驮兽 Bogs swallow a mount or pack animal
+5	漂浮的草丘；下一步移动方向随机 Floating hummock; next move is random
+6	在沼泽中迷失；下一步行动随机 Lost in the swamp; next move is random
+7	霉菌毁坏了1d6天的食物 Mold ruins 1d6 days food
+8	腐烂侵蚀了一件非魔法装备 Rot claims a non-magic gear item
+9	腐烂的树木倒在你身上，造成Td6点伤害 Rotten tree falls on you for Td6 damage
+10	沼泽热；未通过豁免则被困1d6天 Swamp fever; save or stuck for 1d6 days
+11	有毒霉菌；未通过豁免则生病1d4天 Toxic mold; save or sick for 1d4 days
+12	蜿蜒小径；迷路1d4天 Twisting paths; lost for 1d4 days
