@@ -70,6 +70,14 @@ class RandomTableManager:
             path = os.path.join(directory, relative_dir, f"{table_name}.tsv")
             os.makedirs(os.path.dirname(path), exist_ok=True)
             table.save_to_tsv(path)
+   
+    def export_to_markdown(self, directory):
+        for table_name, table in self.tables.items():
+            original_path = self.original_path[table_name]
+            relative_dir = os.path.relpath(os.path.dirname(original_path), start=self.directory)
+            path = os.path.join(directory, relative_dir, f"{table_name}.md")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            table.save_to_markdown(path)
 
     def draw(self, name):
         table = self.tables[name]

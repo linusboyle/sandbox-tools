@@ -178,6 +178,32 @@ class RandomTable:
                 target_str = f"[[{entry.target}]]" if entry.type == "document" else entry.target
                 writer.writerow([range_str, target_str])
 
+    def save_to_markdown(self, file_path):
+        """
+        Exports a RandomTable object to a Markdown formatted string.
+
+        Args:
+            random_table (RandomTable): The RandomTable object to export.
+
+        Returns:
+            str: A Markdown formatted string representing the table.
+        """
+        markdown = f"# {self.name}\n\n"
+        markdown += f"`dice: [[{self.name}^table]]`\n\n"
+        markdown += f"| dice: {self.roll_formula}  | {self.name} |\n"
+        markdown += "| ---------- | ------- |\n"
+
+        for entry in self.entries:
+            dice_range = f"{entry.min_roll}-{entry.max_roll}" if entry.min_roll != entry.max_roll else str(entry.min_roll)
+            target = entry.target if entry.type == "text" else f"`dice: [[{entry.target}^table]]`"
+            markdown += f"| {dice_range} | {target} |\n"
+
+        markdown += "^table\n"
+
+        with open(file_path, 'w') as file:
+            file.write(markdown)
+        return markdown
+
 class Entry:
     def __init__(self, type, min_roll, max_roll, target):
         """

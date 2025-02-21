@@ -4,6 +4,7 @@ __pycache__
 *.tsv
 *.txt
 *.json
+*.md
 !tables/**
 
 .~*
