@@ -10,3 +10,7 @@ md_output
 
 .~*
 node_modules
+
+hexkit_util.py
+playground.py
+test-api.py
