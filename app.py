@@ -42,7 +42,7 @@ def add_tables_json():
 def get_table_entries(name):
     if name not in manager.tables:
         return jsonify({"error": "Table not found"}), 404
-    entries = [{'min_roll': entry.min_roll, 'max_roll': entry.max_roll, 'target': entry.target, 'type': entry.type} for entry in manager.tables[name].entries]
+    entries = [{'min_roll': entry.min_roll, 'max_roll': entry.max_roll, 'target': entry.target} for entry in manager.tables[name].entries]
     return jsonify({"table_name": name, "entries": entries}), 200
 
 @app.route('/tables', methods=['GET'])

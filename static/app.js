@@ -87,16 +87,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         const row = document.createElement('tr');
                         const minRollCell = document.createElement('td');
                         const targetCell = document.createElement('td');
-                        const typeCell = document.createElement('td');
+                        // const typeCell = document.createElement('td');
 
                         const rollRange = entry.min_roll === entry.max_roll ? entry.min_roll : `${entry.min_roll}-${entry.max_roll}`;
                         minRollCell.textContent = rollRange;
                         targetCell.textContent = entry.target;
-                        typeCell.textContent = entry.type;
+                        // typeCell.textContent = entry.type;
 
                         row.appendChild(minRollCell);
                         row.appendChild(targetCell);
-                        row.appendChild(typeCell);
+                        // row.appendChild(typeCell);
 
                         entryTableBody.appendChild(row);
                     });

@@ -2,21 +2,26 @@ import json
 import csv
 import os
 import re
-from dice_roller import roll_formula
+from dice_roller import *
 from dice_util import guess_dice_formula
 
 def flatten(xss):
     return [x for xs in xss for x in xs]
 
-def replace_inline_rolls(pattern):
+def replace_links_for_markdown(pattern):
     try:
         def replacer(match):
-            formula = match.group(1)
-            result = roll_formula(formula)
-            return str(result["result"])
+            link = match.group(1)
+            if is_dice_formula(link):
+                return f"`dice: {link}`"
+            else:
+                return f"`dice: [[{link}^table]]`"
         
         # Replace all occurrences of [[string]] with the result of roll_formula(string)
-        return re.sub(r'\[\[(.*?)\]\]', replacer, pattern)
+        result = re.sub(r'\[\[(.*?)\]\]', replacer, pattern)
+        # Escape reserved char of Markdown: |
+        result = re.sub(r'\|', r"\|", result)
+        return result
     except Exception as e:
         print(f"Error replacing inline rolls: {e}")
         return pattern
@@ -44,7 +49,7 @@ class RandomTable:
         save_to_json(file_path): Saves the random table to a JSON file.
         save_to_tsv(file_path): Saves the random table to a TSV file.
     """
-    def __init__(self, name, roll_formula, entries, displayRoll=True, replacement=True):
+    def __init__(self, name, roll_formula, entries, displayRoll=True, replacement=True, file_path=None, mtime=None):
         """
         Initializes a RandomTable object.
 
@@ -60,6 +65,10 @@ class RandomTable:
         self.replacement = replacement
 
         self.roll_results_stash = []
+
+        # For Manager Only
+        self.file_path = file_path
+        self.mtime = mtime
 
     def roll(self):
         """
@@ -82,6 +91,29 @@ class RandomTable:
         """
         return filter(lambda e: e.min_roll <= roll_result <= e.max_roll, self.entries)
 
+    def replace_links_with_draw_results(self, pattern, tables=None):
+        def replacer(match):
+            rep_string = match.group(1)
+            tree = try_parse(rep_string)
+            if tree:
+                # dice formula
+                result = transform_formula(tree)
+                return str(result["result"])
+            else:
+                # Not a dice formula, regarded as a table
+                if tables and rep_string in tables:
+                    #Recursively roll the linked table by name
+                    linked_table = tables[rep_string]
+                    linked_result = linked_table.draw(tables)
+                    self.roll_results_stash += linked_result['roll']
+                    return ' '.join(linked_result['result'])
+                else:
+                    print(f"Warning: No table named {rep_string} found, regarded as plain text")
+                    return rep_string
+        
+        # Replace all occurrences of [[string]] with the result of roll_formula(string)
+        return re.sub(r'\[\[(.*?)\]\]', replacer, pattern)
+
     def resolve_target(self, entry, tables=None):
         """
         Resolves the target of an entry.  If the target is a string, it returns the string.
@@ -94,18 +126,19 @@ class RandomTable:
         Returns:
             str: The resolved target.
         """
-        match entry.type:
-            case "text":
-                return [replace_inline_rolls(entry.target)]
-            case "document":
-                if tables and entry.target in tables:
-                    #Recursively roll the linked table by name
-                    linked_table = tables[entry.target]
-                    linked_result = linked_table.draw(tables)
-                    self.roll_results_stash += linked_result['roll']
-                    return linked_result['result']
-        print(f"Warning: Cann't resolve target for {entry}")
-        return []
+        return self.replace_links_with_draw_results(entry.target, tables)
+        # match entry.type:
+        #     case "text":
+        #         return [replace_inline_rolls(entry.target)]
+        #     case "document":
+        #         if tables and entry.target in tables:
+        #             #Recursively roll the linked table by name
+        #             linked_table = tables[entry.target]
+        #             linked_result = linked_table.draw(tables)
+        #             self.roll_results_stash += linked_result['roll']
+        #             return linked_result['result']
+        # print(f"Warning: Cann't resolve target for {entry}")
+        # return []
 
     def draw(self, tables=None):
         """
@@ -121,7 +154,7 @@ class RandomTable:
         self.roll_results_stash = [roll_result]
         entries = self.get_entry(roll_result)
         return {
-            'result': flatten([self.resolve_target(entry, tables) for entry in entries]),
+            'result': [self.resolve_target(entry, tables) for entry in entries],
             'roll': self.roll_results_stash
         }
 
@@ -140,14 +173,21 @@ class RandomTable:
             file_path (str): The path to the JSON file.
         """
         def prepare_entry(e):
+            entry_type = "text"
+            target = e.target
+            if e.target.startswith("[[") and e.target.endswith("]]"):
+                link = e.target.strip('[]')
+                if not is_dice_formula(link):
+                    entry_type = "document"
             res = {
-                'type': e.type,
-                'text': e.target,
+                'type': entry_type,
+                'text': target,
                 'range': [e.min_roll, e.max_roll]
             }
-            if e.type == "document":
+            if entry_type == "document":
                 res['documentCollection'] = "RollTable" # for FVTT
             return res
+            # TODO: 根据[[]]将target分割，然后产生多个object。在下面results中flatten
 
         data = {
             'name': self.name,
@@ -175,42 +215,51 @@ class RandomTable:
             writer.writerow([self.roll_formula, self.name])
             for entry in self.entries:
                 range_str = f"{entry.min_roll}-{entry.max_roll}" if entry.min_roll != entry.max_roll else f"{entry.min_roll}"
-                target_str = f"[[{entry.target}]]" if entry.type == "document" else entry.target
+                target_str = entry.target
                 writer.writerow([range_str, target_str])
 
     def save_to_markdown(self, file_path):
         """
         Exports a RandomTable object to a Markdown formatted string.
-
+    
         Args:
             random_table (RandomTable): The RandomTable object to export.
-
+    
         Returns:
             str: A Markdown formatted string representing the table.
         """
-        markdown = f"# {self.name}\n\n"
+        from datetime import datetime
+    
+        # Add YAML frontmatter
+        markdown = f"""---
+date: {datetime.now().strftime('%Y-%m-%d')}
+tags: 
+    - table
+---
+"""
+    
+        markdown += f"# {self.name}\n\n"
         markdown += f"`dice: [[{self.name}^table]]`\n\n"
         markdown += f"| dice: {self.roll_formula}  | {self.name} |\n"
         markdown += "| ---------- | ------- |\n"
-
+    
         for entry in self.entries:
             dice_range = f"{entry.min_roll}-{entry.max_roll}" if entry.min_roll != entry.max_roll else str(entry.min_roll)
-            target = entry.target if entry.type == "text" else f"`dice: [[{entry.target}^table]]`"
+            target = replace_links_for_markdown(entry.target)
             markdown += f"| {dice_range} | {target} |\n"
-
+    
         markdown += "^table\n"
-
+    
         with open(file_path, 'w') as file:
             file.write(markdown)
         return markdown
 
 class Entry:
-    def __init__(self, type, min_roll, max_roll, target):
+    def __init__(self, min_roll, max_roll, target):
         """
         Initializes an Entry object.
 
         Args:
-            type (str): The type of the entry (e.g., "text", "document").
             min_roll (int): The minimum roll for this entry (inclusive).
             max_roll (int): The maximum roll for this entry (inclusive).
             target (str or RandomTable): The target of this entry.  Can be a string or a link to another RandomTable.
@@ -222,14 +271,14 @@ class Entry:
         self.min_roll = min_roll
         self.max_roll = max_roll
         self.target = target
-        self.type = type
+        # self.type = type
 
     def __repr__(self):
-         return f"Entry(type={self.type}, min_roll={self.min_roll}, max_roll={self.max_roll}, target='{self.target}')"
+         return f"Entry: {self.min_roll}-{self.max_roll} '{self.target}'"
 
 def load_random_table_from_json(data):
     name = data['name']
-    entries = [Entry(e['type'] if e['type'] != 'pack' else 'text', e['range'][0], e['range'][1], e['text']) for e in data['results']]
+    entries = [Entry(e['range'][0], e['range'][1], e['text']) for e in data['results']]
 
     displayRoll = True
     if 'displayRoll' in data:
@@ -292,10 +341,10 @@ def load_random_table_from_tsv(src):
             min_roll_target.append(min_roll)
 
             target = row[1]
-            entry_type = "document" if target.startswith("[[") and target.endswith("]]") else "text"
-            if entry_type == "document":
-                target = target.strip('[]')
-            entry = Entry(entry_type, min_roll, max_roll, target)
+            # entry_type = "document" if target.startswith("[[") and target.endswith("]]") else "text"
+            # if entry_type == "document":
+                # target = target.strip('[]')
+            entry = Entry(min_roll, max_roll, target)
             entries.append(entry)
         except (ValueError, IndexError) as e:
             raise ValueError(f"Invalid TSV data: {e}") from e
@@ -310,5 +359,5 @@ def load_random_table_from_tsv(src):
     return RandomTable(name, roll_formula, entries)
 
 if __name__ == '__main__':
-    loaded_table = load_random_table_from_tsv_file("tables/Wilderness Tags.tsv")
+    loaded_table = load_random_table_from_tsv_file("tables/WWN/WWN Wilderness Tags.tsv")
     print(f"{loaded_table.formatted_draw()}")

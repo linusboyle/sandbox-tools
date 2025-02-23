@@ -158,6 +158,30 @@ class DiceTransformer(Transformer):
             return [maximum if i > maximum else i for i in x]
         return replace_max
 
+def try_parse(formula):
+    parser = Lark(dice_grammar)
+    tree = None
+    try:
+        _tree = parser.parse(formula)
+    except Exception as e:
+        # print(f"Error while parsing {formula}: {e}")
+        pass
+    else:
+        tree = _tree
+    finally:
+        return tree
+
+def is_dice_formula(formula):
+    return try_parse(formula) != None
+
+def transform_formula(tree):
+    transformer = DiceTransformer()
+    result = transformer.transform(tree)
+    return {
+        "result": result, # integer result
+        "rolls": transformer.rolls, # dice roll of simple dice formulas
+    }
+
 def roll_formula(formula):
     """
     Parses and evaluates a dice formula.
@@ -168,16 +192,8 @@ def roll_formula(formula):
     Returns:
         dict: A dictionary containing the result of the roll and the individual rolls.
     """
-    parser = Lark(dice_grammar)
-    tree = parser.parse(formula)
-    # print(tree.pretty())
-    # print(tree)
-    transformer = DiceTransformer()
-    result = transformer.transform(tree)
-    return {
-        "result": result, # integer result
-        "rolls": transformer.rolls, # dice roll of simple dice formulas
-    }
+    tree = try_parse(formula)
+    return transform_formula(tree)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Roll dice using a formula.")
