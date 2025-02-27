@@ -1,0 +1,101 @@
+1d100	城镇建筑
+1	屠宰场：锈迹斑斑，甜腻的金属气味，一桶桶肥皂水冲洗着污渍 Abattoir: Rusty, sweet, metal scent, pails of soapy water rinsing stains
+2	施舍所：将隔夜的面包块，递到饥渴难耐的手中 Almshouse: Chunks of day-old bread, placed in eager, hungry hands
+3	养蜂场：面戴篮筐的人影在嗡鸣的空气中缓缓穿行 Apiary: Basket-faced figures walking slowly through thrumming air
+4	药剂师：秃顶男子在头顶涂抹着难闻的液体 Apothecary: Bald man rubbing foul smelling fluid on their pate
+5	面包店：长长的浅色面包，从深棕色篮子中探出头来 Bakery: Long, light loaves, jutting from dark brown baskets
+6	理发师：一位顾客捂着血淋淋的下巴，表情痛苦地离开 Barber: Grimacing and gripping their jaw, a bloody customer exits
+7	篮匠：驱赶着好奇的骡子，防止它偷吃货物 BasketWeaver: Shooing away curious Mule, trying to snack on wares
+8	澡堂：搬运工们匆忙地提着热气腾腾的水桶穿梭其间 Bathhouse: Porters scurry with pails of piping hot water
+9	钟铸造厂：熔炉中炽热的金属溅射着倒入沙模 Bell Foundry: Crucible pours sputtering, bright hot metal into sand
+10	造船匠：新龙骨锯制时，木屑优雅地卷曲 Boatwright: Shavings expertly curl as a new keel is draw-sawn
+11	酿酒坊：正在烘烤啤酒花，空气中弥漫着轻微焦香 Brewery: Must be toasting the hops, slightly charred smell in the air
+12	砖厂：烘烤好的砖块以近乎节奏般的效率被堆叠起来 Brickyard: Baked bricks being stacked with almost rhythmic efficiency
+13	扫帚匠：外观略显破旧的二手商品，打折出售 Broom Maker: Slightly worse for wear used goods outside discounted
+14	屠夫：机灵的狗跃起偷走一串多汁的香肠 Butcher: Clever canine leaps and steals a string of juicy sausages
+15	木匠：熟练地在松木板上为棺材画线 Carpenter: Deftly chalking a plank of pine for a coffin
+16	牛棚：单调的哞哞声夹杂着沉闷的铃铛声 Cattle Barn: Monotonous moos punctuated with dull clanging bells
+17	地窖：一颗洋葱从满溢的蒲式耳中逃出，滚向自由 Cellar: Onion escapes from an overflowing bushel and rolls to freedom
+18	蜡烛匠：最新作品，蜡芯悬挂在室外架子上 Chandler: Latest creations, draped by their wicks on racks outside
+19	焚化屋：屋外每日由一位寡妇用鲜花装饰的骨灰坛 Charnel House: Urns outside filled with flowers by a widow daily
+20	奶酪商：苍白的奶酪轮在热盐水中漂浮 Cheesemonger: Pale wheels bobbing in hot brine
+21	鸡舍：哭泣的少年正在修补篱笆，显然无法防住狐狸 Chicken Coop: Sobbing lad, mending a fence, apparently not fox-proof
+22	布匹漂洗工：将坚韧柔软的布料卷绕成布卷 Cloth Fuller: Hardy, supple cloth being wound to form bolts
+23	煤工：满脸煤灰的烧炭人，推着炭车从林间归来 Colliers: Smudge-faced burners trundling a burn back from woods
+24	公共面包炉：新婚夫妇因面包塌陷而受到训诫 Communal Bread Ovens: Newlywed admonished for sagging loaf
+25	桶匠铺：以其巨大得离谱的桶形棚屋而闻名 Cooperage: Famous for their ridiculously large, barrel-shaped Shed
+26	科索尔/哈克尼曼：大声吹嘘自己货物的品质 Corsour/Hakneyman: Loudly exaggerating temperament of his stock
+27	刀具匠/磨刀师：刺耳的磨石声，火花飞溅直至深夜 Cutler/Knife Sharpener: Grating grindstone, sparks late into night
+28	乳品店：仍在处理因漏槽导致的酸臭液体泄漏问题 Dairy: Still dealing with a sour smelling spill from a leaky vat
+29	蒸馏坊：过度打磨的铜壶中蒸汽嘶鸣 Distillery: Steam squealing from an overly burnished copper kettle
+30	鸽舍：鸽子在巢中安顿时的鸣叫，旋律优美且令人心旷神怡 Dovecote: Melodious and soothing cooing as they settle on their nests
+31	粪堆：未见其形先闻其味，即便撒上陈年稻草也无济于事 Dungheap: Smelt before seen, even after sprinkled with old straw
+32	染匠大缸：刺鼻的气味仿佛连空气都被染上了颜色 Dyer's Vats: Stinging noses and seeming to stain the very air
+33	鳗鱼池塘：一只脾气极差的鹅视此地为其王国 Eel Pond: One very bad-tempered Goose considers this her Kingdom
+34	蹄铁匠：尽管身材魁梧，却温柔细致，正小心地从马蹄上拔钉子 Farrier: Gentle despite his size, a man carefully pulls nails from a hoof
+35	毛皮商：她挠着下巴，猎人展开满是箭孔的毛皮 Fellmonger: Scratching her chin, as Trapper unfurls arrow-pocked pelts
+36	鱼贩：银鳞闪烁，从编织的鱼篓中高高堆起 Fishmonger: Silvery scales glimmer, stacked high from a woven creel
+37	制箭师：学徒与师傅在门阶上剥树皮，笑声不断 Fletcher: Apprentice and Master laugh as they strip bark on a stoop
+38	面粉坊：一只饱食的雄猫看着磨坊主清扫沾满面粉的门阶 Flour Mill: Well-fed Tom Cat watches the Miller sweep a flour-y stoop
+39	护林员：褪色的狩猎特许状和公告在微风中飘动 Forester: Faded Hunting Charters and Proclamations flap in the breeze
+40	"算命师：一位年轻男子狐疑地盯着一瓶“爱情魔药” Fortune Teller: A young man looks dubiously at a ""Love Potion"" vial"
+41	水果摊：上周的苹果已开始招引昆虫 Fruiterers: Last week's apples have begun to attract insects
+42	真菌贩子：用细绳悬挂，土产在门口摇曳风干 Fungimonger: Strung on twine, earthy wares dangle & dry in a doorway
+43	绞刑架：幸好已经破败不堪、年代久远，多年未曾使用 Gallows: Thankfully tumbledown & timeworn, hasn't been used in years
+44	赌场：满脸怒容，空着口袋，还带着一只死公鸡离开 Gambling Den: Scowling, leaving with empty pockets and a dead Rooster
+45	监狱：从地面带铁栏的窗户中传出无辜者压抑的哭泣声 Gaol: Muffled cries of innocence from a barred window at ground level
+46	制带匠：精心制作并染色的腰带，招牌宣称品质保证 Girdler: Lovingly tooled and dyed belts, signs proclaim guarantee
+47	玻璃吹制工：孩子们聚集围观，鼓起的脸颊映照着发光的玻璃 Glassblower: Children gather to marvel, puffed cheeks to glowing glass
+48	山羊圈：用于分发食物，它们会隔着围栏用鼻子蹭人 Goat Pen: Used to handouts, they nuzzle their muzzles through the fence
+49	粮仓：谨慎看守：仍未从去年巨鼠侵扰的阴影中恢复 Granary: Warily watched: Still not over last year's Dire Mouse infestation
+50	墓地：每块墓碑上绘有被雨水冲刷褪色的温柔肖像 Graveyard: Each headstone tenderly painted with rain-faded portraits
+51	鹰隼舍：戴着头罩的猎鹰温顺地栖息在厚实手套上 Hawk Mews: Hooded falcons docilely perch on thick gloved hands
+52	干草堆：堆得有些摇摇欲坠，但茅草屋顶使它们保持干燥 Hayricks: Somewhat precariously heaped, but thatching keeps them dry
+53	收容所：一位过度操劳的医师与一群养得极好的水蛭 Hospice: One over-worked Leech and some very well-fed Leeches
+54	犬舍：一旦有狗开始吠叫，很快整个犬群都会跟着嚎叫起来。 Kennels: When one starts up, soon the whole pack starts a-howlin'
+55	皮革匠：与制革厂的争执使她正在寻找新的原料来源 Leatherworker: A spat with the tannery has left her looking for stock
+56	木材场：在没有锯木厂的情况下，两人合力处理一根大原木 Lumberyard: Making do without a Sawmill, too men tackle a big trunk
+57	"地方法官：偏好“决斗审判”，倾向于促成和解 Magistrate: Penchant for ""Trial by Combat"" tends to broker settlement"
+58	庄园宅邸：一代人前被遗弃，但仍顽强地维持着原貌 Manor House: Abandoned a generation ago, but still defiantly maintained
+59	市场：露天摊位每季一次熙熙攘攘，商贸繁忙 Market: Open Air stalls bustle with commerce about once a Season
+60	石匠铺：凿子声不绝于耳，饭点哨声偶尔打断 Mason: Constantly clanging chisels, interrupted by a meal whistle
+61	绸缎铺：炫耀的蕾丝、环扣与丝绸碎片：奢华的流苏 Mercery: Flaunting laces, loops, and silken scraps: extravagant tassels
+62	垃圾堆：拾荒者热切地在垃圾中翻找可用的破布和骨头 Middens: Rag and Bone Pickers eagerly glean through the garbage
+63	"修道院：坚固的石墙成为保护羊群的理想“最后避难所” Monastery: Sturdy stone makes for a suitable ""last resort"" to save flocks"
+64	钱庄：面无表情的打手们站岗守卫，但靠近时会露出微笑 Money Lender: Stoic Legbreakers stand guard, but smile on approach
+65	燕麦贩子：以免费提供饲料闻名：无法忍受坐骑挨饿 Oatmonger: Known to give out free Fodder: Can't stand a hungry steed
+66	果园：这些老树扭曲如老手，仍结出美味的果实 Orchard: Gnarled like old hands, these old Trees still bear delicious fruit
+67	锡匠铺：一堆形状歪斜的马克杯（学徒的失误之作），价格低廉如歌 Pewterer: A batch of misshapen mugs (apprentice mistakes) for a song
+68	馅饼师傅：技艺高超，店内摆满热气腾腾、香气四溢的美味馅饼 Pie Maker: Irresistible sills, lined with piping hot, fragrant treats
+69	猪圈：小猪在泥浆中满足地哼叫，跟随着母猪发出尖叫声 Pig Pen: Snuffing contentedly in slop, squealing piglets follow their sow
+70	枷锁/刑具：偷羊贼在经历一周的关押后揉着手腕 Pillory/Stocks: Sheep Rustler rubs his wrists after a weeklong stint
+71	泥瓦匠：为一项大工程做准备，因搅拌而全身沾满白色粉末 Plasterer: Preparing for a big job, coated in pale powder from mixing
+72	剧院：门前进行着拙劣的剑术练习 Playhouse: Unconvincing Swordfight practice out front
+73	药剂师：闪亮洁净的黄铜与锡器是绝佳的广告招牌 Potmender: Shiny and scoured brass/tin serve as great advertisements
+74	陶窑：泥土芬芳，满覆泥浆，热力四射 Pottery Kiln: earthy aromas, coated in mud. Radiating Heat
+75	兔舍：一位少女追逐着一只兔子，曲折地奔跑着 Rabbitry: A maiden chases one of the charges, darting in zigzags
+76	赛道：因最近的雨水冲刷而变得坑洼不平，难以使用 Racing Track: Hopelessly rutted from recent rains
+77	绳匠：门口和窗上装饰着前所未见的绳结 Ropemaker: Knots you've never seen adorn the doorways and windows
+78	地毯匠：微风拂过，编织品轻轻摇曳，专精于兽皮制品 Rug Maker: Some woven wares waving in the breeze, specializes in beasts
+79	马鞍匠：15年来一直在装饰某副马鞍：堪称一件艺术品 Saddler: Been embellishing a certain saddle for 15 years: a thing of beauty
+80	"盐商：自“拇指秤”事件后，如今受到严密监视 Salt Seller: Carefully watched these days after the ""Thumb Scale"" incident"
+81	抄写员：能用6种语言书写（精灵语拼写糟糕，矮人语过于正式） Scribe: Signs in 6 languages (atrocious Elf Spelling, overly formal Dwarf)
+82	羊圈：最近剪毛后显得颇为尴尬 Sheep Cote: Looking rather embarrassed after recent shearing
+83	鞋匠：褪色的黄招牌，尴尬之处：专做左脚鞋 Shoemaker: Faded Yellow Sign, embarrassing: Two Left Feet
+84	神殿：无人知晓是谁一直点燃着还愿蜡烛 Shrine: No one's quite sure who keeps the votive candles lit
+85	冶炼厂：肌肉发达的家伙敲打岩石以提取矿石 Smelter: Muscle-bound fellow hammering at rocks to extract ore
+86	熏肉房：无聊青年转动烤肉叉，发出令人垂涎的滋滋声 Smokehouse: Mouthwatering sizzles as a bored youth turns spits
+87	肥皂匠：整齐的模具，阳光下晾晒，但愿那些不是雨云 Soapmaker: Uniform molds, drying in the Sun hope those aren't rainclouds
+88	马厩：一个眼神明亮的男孩，梦想着冒险，倚靠在他的粪叉上 Stables: Bright eyed boy, dreaming of adventures, leans on his muckrake
+89	裁缝店：顾客正大声讨价还价，抱怨一件不合身的裙子 Tailor: Customer haggling loudly over an ill-fitting dress
+90	制革坊：兽皮紧绷展开，工匠们忙碌搅拌，刺鼻的气味弥漫其中 Tannery: Skins stretched tight while others churn, malodorous work
+91	税务评估员：门窗上残留着干涸的鸡蛋痕迹 Tax Assessor: Doors and windows streaked with dried egg
+92	剥制标本店：破旧不堪，枭熊头部的羽毛已脱落 Taxidermy Shop: Worse for wear, Owlbear head missing feathers
+93	什一税仓：交粮时伴随着半心半意的嘟囔声 Tithe Barn: Half-hearted grumbles as grain is handed over
+94	市政厅：正急需粉刷一新 Town Hall: Receiving a much-needed coat of whitewash
+95	殡葬师：温柔地抚摸着拉着灵车的黑色老马 Undertaker: Tenderly stroking the old black horse that pulls the Hearse
+96	菜园：破旧的盔甲，锈迹斑斑，披挂在稻草人身上 Vegetable Garden: Crumbling mail, orange with rust, draped on Scarecrow
+97	织工：穿梭声中夹杂着咯咯的闲言碎语 Weaver: Giggling gossip can be heard over the clack of the shuttle
+98	轮匠铺：步履蹒跚的马车耐心等待着修理 Wheelwright: Hopelessly hobbled carts patiently awaiting ministrations
+99	酒庄：踩踏葡萄后，脚掌发紫的孩童在户外嬉戏 Winery: Children with purple feet play outside after stomping
+100	木雕师：门、门槛、门廊柱，全都雕刻着精美的花卉图案 Woodcarver: Door, sills, porch pillars, all ornately carved with flowers

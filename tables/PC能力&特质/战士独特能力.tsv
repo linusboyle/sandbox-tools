@@ -1,0 +1,101 @@
+1d100	战士独特能力
+1	熟练拍卖师：在多位竞标者参与时获得更高价格 Accomplished Auctioneer: Fetch better Prices with Multiple Bidders
+2	合格推销员：当你叫卖时，会吸引更多随从或顾客前来 Adequate Advertiser: More Retainers/Customers show up when you Hawk
+3	灵巧艺术家：即便是速写也能准确描绘出相似之处 Adroit Artist: Even Quick Sketches produce Accurate Likenesses
+4	购船专家：判断适航性，快速舀水与修补漏洞 Boat Buyer: Judge of Water-worthiness, Fast Bailer and Leak Mender
+5	斗士恩赐：非致命伤害恢复速度加快五倍 Brawler Boon: Subdual Damage returns at a 5x faster Rate
+6	无畏之勇：对任何恐惧效果进行两次豁免检定 Brazenly Brave: Take Two Saves vs any kind of Fear Effect
+7	往昔营帐：从营地中辨识自然痕迹与人数 Bygone Bivouacs: Identify Nature/Number from an Encampment
+8	人肉指南针：即使在地下也能大致辨别方向 Capable Compass: Determine Rough Direction, even Underground
+9	谨慎露营者：拔营时不留下任何痕迹或线索 Careful Camper: Leave no Track or Trace behind when Breaking Camp
+10	寒霜冲锋：对生命骰较低的敌人进行士气检定时施加惩罚 Chilling Charge: Penalize Morale Check on Foes with Less HD
+11	巧手厨师：用生食材准备餐点，一位用餐者可选择一项豁免检定+1 Clever Cook: Prepare Meal from Raw Ingredients, one diner +1 save of choice
+12	战斗攀爬者：在梯子或攀爬时战斗，单手抓握无惩罚 Combat Climber: Fight on Ladders/Climbing, No Penalty with hand Holding On
+13	魅力指挥官：你雇佣的随从士气+1 Compelling Commander: Retainers in your Employ have +1 Morale
+14	熟练的柔术师：更容易从镣铐、束缚或狭窄空间中逃脱 Competent Contortionist: Escape from Fetters/Bonds/Tight Spaces easier
+15	完美信念：对抗影响心灵魔法时进行两次豁免检定 Consummate Conviction: Take Two Saves vs Mind-Affecting Magics
+16	绝顶头颅：若你愿意，可舍弃头盔，你的头骨异常坚固 Crackerjack Cranium: Forego a Helmet if you wish, your Skull is very Sturdy
+17	大胆潜水者：闭气时间延长三倍，水下视力清晰 Daring Diver: Hold your Breath for 3x as long, see Underwater Fine
+18	专注酒徒：对酒精有高耐受性，在受影响前可饮三倍量 Dedicated Drinker: High Tolerance for Alcohol, 3x as much before Impaired
+19	沙漠遗孤：比常人更耐渴，能坚持两倍时间不饮水 Desert Deprived: Go Longer than Most without Water, up to 2x as long
+20	勤奋挖掘者：在普通土壤中挖掘壕沟或散兵坑只需一半时间 Diligent Digger: Ditches/Foxholes in half the time with normal Soil
+21	破门者：在开门检定中获得额外+1加值 Door Defeater: Extra +1 to Open Doors Checks
+22	饮水占卜师：能判断水源是否安全饮用，寻找水源的运气比他人更好 Drink Dowser: Tell if Water is Safe to Drink, better luck Finding it than others
+23	坚韧二元性：愚弄依赖或揭示阵营的法术/物品 Durable Duality: Fool Spells/Items that Reveal/Depend on Alignment
+24	法术偏转者：在法术豁免掷出19-20时，法术反射回施法者 Dweomer Deflector: On Spell Save 19-20, Spell Reflects back on Caster
+25	动态驾驭者：驾驶马车/货车等，避开障碍，加速行进 Dynamic Driver: Piloting a Cart/Wagon/etc. Avoid Obstacles, Faster Travel
+26	高效劳作：直接劳动/建筑，减少时间/浪费 Efficient Effort: Direct Labor/Construction, reduce Time/Waste
+27	昔日博学者：能阅读（但不能说）两种额外语言 Erstwhile Erudite: Read (but not Speak) 2 Additional Languages
+28	经验丰富的骑手：骑行时间比大多数人更长，且速度更为稳定 Experienced Equestrian: Ride for Longer than Most, at more consistent Pace
+29	专家之眼：一眼从一堆物品中挑出最有价值的宝藏 Expert Eye: Pick out most Valuable Treasure from a Pile with a Glance
+30	家族声望：选择一项来唤起，诚实、慷慨、无情 Family Fame: Choose one to Invoke, Honesty, Generosity, Ruthlessness
+31	快速制箭师：拥有材料时，每小时可制作两支箭 Fast Fletcher: With access to Materials, make Two Arrows an Hour
+32	挑剔的点火者：使用火绒盒时，有4/6的成功几率 Fastidious Fire-Lighter: 4-in-6 for those Tinder Box Checks
+33	羽翼之友：鸟类对你友善（鹰、公鸡、巨鹰等） Feathered Friends: Birds well disposed to you (Hawks, Roosters, Rocs, etc.)
+34	强力前臂：在与生命骰数等于或低于自身的对手进行掰手腕时必定获胜 Forceful Forearms: Guaranteed to win at Arm Wrestling <= HD Foes
+35	常遇之敌：识别特定类型怪物的迹象或踪迹 Frequent Foe: Recognize the Sign/Spoor of a particular type of Monster
+36	节俭觅食者：从野生植物/浆果中能多养活一半的人 Frugal Forager: Half Again as many can be Fed from Wild Plants/Berries
+37	令人沮丧的防火性：减少来自热力或火焰攻击的伤害 Frustratingly Fireproof: Less Damage from Heat/Fire-based Attacks
+38	天赋八卦者：在散播此类流言时获得额外传闻 Gifted Gossiper: Gain Extra Rumors when Mongering for such things
+39	强力抓握：比大多数人更难被缴械，能在绳子上悬挂两倍时间 Good Grip: Harder to Disarm than Most, Hang Twice as long on a Rope
+40	精通马术：坐骑获得生命值的最高结果，士气+1 Handy with Horseflesh: Mount takes highest result for HP, +1 Morale
+41	强力重拳：每名敌人（HD≤施法者）一次，必须进行豁免检定，否则被击倒 Hearty Haymaker: Once per Foe (<= HD) must Save or be Knocked Down
+42	享乐治疗者：若在狂欢中，能更快从伤势中恢复 Hedonic Healer: Recover from Injury faster if Carousing
+43	助益异端：若你非自愿，神圣魔法常在你身上失效：需进行2次豁免 Helpful Heresy: Divine Magic often Fails on you if unwilling: 2 Saves
+44	猎犬训练师：经过一个月的训练，可教会一只狗最多2个技巧 Hound Handler: Teach up to 2 Tricks to a Dog after a Month's Training
+45	匆忙猎手：狩猎仅需半日（每日可进行两次检定） Hurried Hunter: Hunting only takes Half a Day (can make two checks/day)
+46	难以置信的免疫：对抗疾病/病痛时进行两次豁免检定 Implausible Immunity: Save twice versus Diseases/Illness
+47	珠宝鉴定师：能像盗贼听声辨位般准确评估珠宝价值 Judge of Jewelry: Can Accurately Appraise as Thieves Hear Noise
+48	可能为语言学家：学习语言时间减半，初始多掌握一门语言 Likely Linguist: Learn Languages in Half the Time, start with one more
+49	长寿：寿命可能为100+d20年，对抗衰老攻击时进行两次豁免检定 Long Lifespan: 100+d20 Years perhaps, Save twice versus Aging Attacks
+50	幸运着陆者：若你有一只手空闲，坠落距离减少20英尺 Lucky Lander: Reduce Falling Distance by 20' if you have a Free Hand
+51	近战医者：绷带/药膏/缝合可为伤者恢复1d4-1点生命值 Melee Medic: Bandages/Salves/Stitches can restore 1d4-1 HP to Wounded
+52	琐碎修补匠：缝纫、补缀、修理，对你来说都轻而易举 Menial Mender: Sewing, Patching, Repairing, all come easy to you
+53	细致制图师：每小时一次，向裁判展示以获得修正 Meticulous Mapper: Once Per Hour, Show it to the Ref for a Correction
+54	强力模仿：主要是鸟类和动物，但非常逼真 Mighty Mimicry: Mostly Birds/Animals, but very convincing
+55	马上射击：即使在马匹全速奔驰时也无任何惩罚 Mounted Missiles: No Penalties, even at a Full Gallop on Horseback
+56	杰出演说家：发表鼓舞人心的演讲时，反应检定+1 Outstanding Orator: +1 Reactions when giving Stirring Speeches and Such
+57	耐心打包者：给予一小时，可额外搬运100cns、10磅、1个槽位 Patient Packer: Given an hour, can Portage an extra 100cns, 10lbs., 1 Slot
+58	贫民出身：食量小于常人，通常一日一餐足矣 Pauper's Past: Eat Less than Most, 1 meal a Day is usually Sufficient
+59	无与伦比的撑杆跳高者：若需撑杆跳，距离为正常的两倍 Peerless Pole-Vaulter: Twice Normal Distance should this come up
+60	强力药剂：持续时间稍长，或对你产生增强效果 Potent Potions: Last a little Longer, or have a Heightened Effect on You
+61	强力拖拽：拖拽力量为正常的两倍，通常在拔河比赛中获胜，力量不超过生命骰数 Powerful Pulling: Drag 2x Normal, Usually Win Tug-Of War Contests <= HD
+62	熟练步调：在可导航的空间中能准确判断距离 Practiced Pacing: Good Judge of Distances in spaces you can Navigate
+63	刺痒掌心：若与变形者握手，有4/6几率手掌感到刺痛 Prickly Palms: If you shake Hands with a Shapeshifter, 4-in-6 Hand Tingles
+64	熟练护卫者：将任何盾牌加值翻倍给予相邻盟友 Proficient Protector: Grant any Shield Bonus x2 to an Adjacent Ally
+65	快速争执；即使在突袭轮次也能发射已装填的弩 Quick Quarrels; Fire a Loaded Crossbow, even on Surprise Rounds
+66	疾速奔跑者：无负重时，移动速度为150英尺（50英尺） Rapid Runner: Unencumbered, Movement is 150' (50')
+67	坚定恢复：自然愈合速度是正常的两倍 Resolute Recovery: Natural Healing happens at 2x Normal Rate
+68	强壮划手：不易疲劳，良好条件下划船速度翻倍 Robust Rower: Don't Tire from it Easily, Good Conditions and others 2x Speed
+69	啮齿动物亲和：永不伤害你，即便是异常体型者 Rodent Rapport: Never Harm You, even the ones of Unusual Size
+70	坚韧休憩者：在非极端天气下露宿无任何惩罚 Rugged Rester: No Penalties for Sleeping Rough in non-Extreme Weather
+71	经验丰富的水手：甲板上如鱼得水，擅长打结/渔网/擦洗 Seasoned Sailor: At Home on Decks, good at Knots/Nets/Swabbing
+72	似乎无味：中性气味，更难被野兽等追踪 Seemingly Scentless: Neutral Smell, harder to track by Beasts, etc.
+73	浅眠者：被惊醒时总能迅速起身并武装自己 Shallow Sleeper: Always Up and Armed when Disturbed
+74	熟练逃逸者：撤退或撤离时额外获得20英尺移动速度 Skillful Skedaddler: Extra 20' Movement on Retreat/Withdrawal
+75	隐秘匕首：藏于身上的匕首或小刀可避开大多数探测 Sneaky Stiletto: Dagger/Knife hidden on Person avoids most Detection
+76	声音哨兵：在警戒时，较不容易被普通敌人突袭 Sound Sentry: On Watch, less likely to be Surprised by Normal Foes
+77	特殊眯眼：需一轮准备，有4/6概率在1d4轮内看见隐形 Special Squint: With Turn to Prepare, 4-in-6 of See Invisible for 1d4 Rounds
+78	坚毅双肩：支撑重物，背负同伴无移动惩罚 Stalwart Shoulders: Support Heavy Things, Carry Comrade No MV Penalty
+79	坚定姿态：守卫门/传送门时无法被绕过 Steadfast Stance: Cannot be Bypassed when Guarding a Door/Portal
+80	洪亮之语：能在人群或嘈杂声中清晰传达 Stentorian Speech: Can be heard over Crowds/Loud Noises
+81	粘性马鞍：在被击落马下前，需两次豁免失败 Sticky Saddles: Two Saves must Fail before being Unhorsed
+82	鼓舞之歌：为你和同伴的强行军额外提供一天时间 Stirring Songs: Extra day for Forced Marches for you and Companions
+83	强壮肠胃：能够毫无问题地处理轻微变质的食物或饮料 Stout Stomach: Handle Mildly Spoiled Food/Drink without Issue
+84	强健骨骼：从未骨折，失去肢体的可能性降低 Strong Skeleton: Never had a Bone Break, Losing a Limb less Likely
+85	强健泳者：即使身着链甲（非板甲），也能在逆流中自如游动 Strong Swimmer: Manage even in Chain (no Plate), even against currents
+86	坚实脚底：行走于玻璃、炭火、铁蒺藜……对你来说毫无问题 Sturdy Soles: Walk on Glass, Coals, Caltrops...No Problem for you
+87	卓越伐木工：以双倍速度砍伐木材或伐倒树木 Superlative Sawyer: Chop wood or Fell Trees at twice the Speed
+88	超凡洞察：持有魔法物品时，有4/6的几率能感知其被附魔 Supernaturally Savvy: Hold a Magic Item 4-in-6 you can tell it's Enchanted
+89	天赋制表师：擅长简单数学/快速计算硬币与开销 Talented Tabulator: Simple Mathematics/Quick Sums of Coins/Expenses
+90	可怕顽强：在0生命值时，继续战斗1d4-1轮后倒下 Terrible Tenacity: At 0 HP, Fight on for 1d4-1 Rounds before Falling
+91	卓越的开拓者：经过一天的探索，找到前进的最轻松路径 Terrific Trail-Blazer: With a Day of Exploration, find Easiest Path forward
+92	火炬技巧：提供副手盾牌，但之后必须点燃另一支火炬 Torch Technique: Provides Shield Off Hand, but another must be lit After
+93	熟练运输者：高效打包马车/手推车/骡子（如第57项的三倍） Trained Transporter: Pack a Wagon/Cart/Mule Efficiently (as #57 x3)
+94	意外上勾拳：每个敌人一次，命中时，对方需进行豁免，否则被击倒（仅限生命骰数小于等于施法者） Unexpected Uppercut: Once per Foe, on Hit, they Save or KO (<= HD Only)
+95	对亡灵不屈：无视来自亡灵敌人的首次能量吸取 Unyielding to Undead: Ignore first Energy Drain from an Undead Foe
+96	毒物精通：选择其一：蜘蛛、蛇、刺胞动物，取两次豁免中较好的一次 Venom Versed: Choose one: Spider, Snake, Cnidarians, take better of 2 Saves
+97	活力充沛的吸血鬼猎人：+3 在将木桩刺入其心脏时的掷骰 Vigorous Vampire-Hunter: +3 to Drive Stakes through their Hearts
+98	武器通晓：对智能剑的控制检定获得+5加值 Weapon Wise: +5 to Control Checks for Sentient Swords
+99	天候伤痛：旧伤预警即将到来的雨/风暴，5/6概率 Weather Wound: Old Injury warns of Coming Rain/Storms 5-in-6
+100	昔日野人：自然动物/野兽对你反应更为友好（+1） Whilom Wildling: Natural Animals/Beasts React more favorably to you (+1)
