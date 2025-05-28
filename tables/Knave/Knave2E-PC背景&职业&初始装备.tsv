@@ -1,0 +1,101 @@
+1d100	Knave2E-PC背景&职业&初始装备
+1	侍僧：烛台、香炉、香 acolyte: candlestick, censer, incense
+2	杂技演员：闪光粉、球、灯油 acrobat: flash powder, balls, lamp oil
+3	演员：假发、化妆品、戏服 actor: wig, makeup, costume
+4	炼金术士：酸液、研钵/杵、6个小瓶 alchemist: acid, mortar/pestle, 6 vials
+5	古董商：旧钱币、旗帜、古籍 antiquarian: old coin, flag, lore book
+6	奥术师：法术书、奥术长袍、粉笔 arcanist: spell book, arcane robes, chalk
+7	建筑师：铅垂线、水平仪、直尺 architect: plumb line, level, ruler
+8	刺客：十字弩、绞索、软靴 assassin: crossbow, garrote, soft boots
+9	占星师：星图、历书、望远镜 astrologer: star charts, almanac, telescope
+10	面包师：擀面杖、面粉袋、猪油块 baker: rolling pin, flour bag, lard block
+11	强盗：面具、镣铐、铁蒺藜 bandit: mask, manacles, caltrops
+12	理发师：剪刀、发油、直剃刀 barber: scissors, hair oil, straight razor
+13	驯兽师：鞭子、手套、牵引绳 beast tamer: whip, gloves, leash
+14	养蜂人：蜂蜜、面罩、烟雾弹 beekeeper: honey, mask, smoke bomb
+15	铁匠：铁锤、风箱、火钳 blacksmith: hammer, bellows, tongs
+16	船夫：10英尺长杆、乐器、船桨 boatman: 10’ pole, instrument, paddle
+17	书籍装订师：缝纫工具、胶水、羽毛笔/墨水 bookbinder: sewing kit, glue, quill/ink
+18	酿酒师： brewer:
+19	麦芽搅拌工、啤酒桶搬运工、啤酒花窃贼：开锁工具、抓钩、绳索 mash paddle, beer keg, hops burglar: lockpicks, grappling hook, rope
+20	屠夫：砍肉刀、肉钩、熏肉 butcher: cleaver, meat hook, bacon
+21	蜡烛匠：10支蜡烛，灯油，蜡 candlemaker: 10 candles, lamp oil, wax
+22	木匠：锤子、锯子、一盒钉子 carpenter: hammer, saw, box of nails
+23	江湖骗子：戏服、假药、伪造文凭 charlatan: costume, fake elixir, degree
+24	鞋匠：皮革卷、精美鞋子、鞋钉 cobbler: leather roll, fancy shoes, tacks
+25	马车夫：鞭子、锁箱、油布大衣 coachman: whip, lockbox, oilskin coat
+26	厨师：平底锅、盐、橄榄油 cook: frying pan, salt, olive oil
+27	信使：油布包、当地地图、提灯 courier: oilskin bag, local map, lantern
+28	宫廷侍臣：香水、假发、扇子 courtier: perfume, wig, fan
+29	邪教徒：匕首、仪式长袍、护身符 cultist: dagger, ritual robes, amulet
+30	职业：扒手：匕首、铁蒺藜、麻袋 cutpurse: knife, caltrops, sack
+31	染匠：10英尺长杆，染料，肥皂 dyer: 10’ pole, dyes, soap
+32	探险家：六分仪、望远镜、冰爪 explorer: sextant, spyglass, crampons
+33	驯鹰师：鸟笼、手套、哨子 falconer: bird cage, gloves, whistle
+34	销赃者：短剑、锉刀、封蜡 fence: short sword, file, sealing wax
+35	渔民：鱼叉、渔网、钓具 fisherman: spear, net, fishing tackle
+36	民俗学者：预言、骨骼、鳞片 folklorist: prophecy, bones, scales
+37	赌徒：细剑、纸牌、骰子 gambler: rapier, card deck, dice
+38	猎场看守人：投石索、号角、绳梯 gamekeeper: sling, horn, rope ladder
+39	园丁：镰刀、铲子、剪刀 gardener: sickle, shovel, shears
+40	盗墓者：锯子、撬棍、滑轮 grave robber: saw, crowbar, pulleys
+41	掘墓人：铁锹、鹤嘴锄、水桶 gravedigger: shovel, pickaxe, bucket
+42	马夫：燕麦、马刷、马毯 groom: oats, horse brush, blanket
+43	卫兵：长戟、制服、号角 guard: halberd, livery, horn
+44	刽子手：斧头、头罩、绞索 headsman: axe, hood, garrote
+45	草药师：草药、镰刀、草药手册 herbalist: herbs, sickle, herb manual
+46	隐士：手杖、菌类、篮子 hermit: staff, fungi, basket
+47	猎人：帐篷、熊皮、捕熊夹 hunter: tent, bearskin, bear trap
+48	客栈老板：长柄勺、10支蜡烛、大锅 innkeeper: ladle, 10 candles, cauldron
+49	审判官：手册、法衣、钳子 inquisitor: manual, vestments, pliers
+50	调查员：笔记本、镣铐、小瓶 investigator: journal, manacles, vial
+51	狱卒：挂锁、10英尺长的铁链、酒壶 jailer: padlock, 10’ chain, wine jug
+52	小丑：权杖、驴头、杂色衣 jester: scepter, donkey head, motley
+53	珠宝匠：钳子、放大镜、镊子 jeweler: pliers, loupe, tweezers
+54	骑士：女士的垂青、旗帜、印章戒指 knight: lady’s favor, banner, signet ring
+55	绑匪：氯仿、手铐、头罩 kidnapper: chloroform, manacles, hood
+56	律师：华丽长袍、法律书籍、资格证书 lawyer: fancy robe, law book, certificate
+57	锁匠：撬棍、开锁工具、挂锁 locksmith: crowbar, picks, padlock
+58	石匠：凿子、锤子、粉笔 mason: chisel, hammer, chalk
+59	商人：天平、保险箱、香料袋 merchant: scales, strongbox, bag of spice
+60	矿工：十字镐、提灯、宠物金丝雀 miner: pickaxe, lantern, pet canary
+61	音乐家：精通三种乐器 musician: 3 instruments
+62	自然学家：化石、昆虫标本、晶洞 naturalist: fossil, insect case, geode
+63	军官：鞋油、勋章、望远镜 officer: shoe polish, medal, spyglass
+64	占卜师：茶叶、塔罗牌、水晶 oracle: tea leaves, tarot deck, crystal
+65	演说家：100颗弹珠，扩音器，蜡板 orator: 100 marbles, bullhorn, wax tablet
+66	画家：亚麻籽油、颜料、画笔 painter: linseed oil, pigments, brushes
+67	小贩：水桶、300英尺麻绳、镜子 peddler: bucket, 300’ twine, mirror
+68	哲学家： philosopher:
+69	职员、提灯、粉笔医生：锯子、手术刀、酒壶 staff, lantern, chalk physician: saw, scalpel, wine jug
+70	朝圣者：手杖、圣物、通行信件 pilgrim: staff, relic, letter of passage
+71	海盗：六分仪、炮弹、抓钩 pirate: sextant, cannonball, grappling hook
+72	角斗士：网、鞭、酒壶 pit fighter: net, whip, wine jug
+73	剧作家：羽毛笔/墨水，头骨，10支蜡烛 playwright: quill/ink, skull, 10 candles
+74	盗猎者：动物气味追踪，弓箭，20支箭 poacher: animal scent, bow, 20 arrows
+75	诗人：文具、铃铛、香水 poet: stationery, bell, perfume
+76	牧师：圣水、10根木桩、祈祷书 priest: holy water, 10 stakes, prayer book
+77	探矿者：10根铁钉、十字镐、淘金盘 prospector: 10 iron spikes, pickaxe, pan
+78	木偶师：彩纸、木偶、缝纫工具包 puppeteer: confetti, puppet, sewing kit
+79	捕鼠人：笼子、10个捕鼠夹、麻袋 rat catcher: cage, 10 rat traps, sack
+80	破坏者：气囊、撬棍、炸弹 saboteur: air bladder, crowbar, bomb
+81	水手：蜂蜡、滑轮、望远镜 sailor: beeswax, pullies, spyglass
+82	侦察兵：信号旗、黑油脂、骰子 scout: signal flags, black grease, dice
+83	抄写员：灯油、羽毛笔/墨水、封蜡 scribe: lamp oil, quill/ink, sealing wax
+84	雕塑家：凿子、黏土、卡尺 sculptor: chisel, clay, calipers
+85	仆人：海绵、银器、拨火棍 servant: sponge, silverware, poker
+86	牧羊人：牧羊杖、乐器、投石索 shepherd: crook, instrument, sling
+87	船匠：钻、锤、斧 shipwright: drill, hammer, axe
+88	歌手：镜子、化妆品、挂坠盒 singer: mirror, makeup, locket
+89	走私者：滑轮、绳索、化妆用品 smuggler: pulleys, rope, makeup
+90	士兵：帐篷、一副纸牌、铲子 soldier: tent, card deck, shovel
+91	间谍：铁蒺藜、毒药、伪造文件 spy: caltrops, poison, forged papers
+92	侍从：火把、盔甲抛光剂、号角 squire: torch, armor polish, trumpet
+93	裁缝：缝纫工具包、剪刀、肥皂 tailor: sewing kit, scissors, soap
+94	纹身师：墨罐、针具、十支蜡烛 tattooist: soot pot, needles, 10 candles
+95	捕贼人：捕熊夹、手铐、火把 thieftaker: bear trap, manacles, torch
+96	打手：毒药、匕首、灯油 thug: poison, knife, lamp oil
+97	拷问者：钻具、沙漏、10英尺长的锁链 torturer: drill, hourglass, 10’ chain
+98	捕兽者：捕熊夹、300英尺麻绳、熊皮 trapper: bear trap, 300’ twine, bear pelt
+99	守夜人：提灯、号角、长矛 watchman: lantern, trumpet, spear
+100	樵夫：斧头、柴火、50英尺绳索 woodcutter: axe, firewood, 50’ rope

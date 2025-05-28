@@ -1,0 +1,21 @@
+1d20	特殊个体-通用
+1	凶暴/精英。生命骰+2（+9 HP）。略增狡黠。 Dire / Elite. +2 HD (+9 HP). Slightly more cunning.
+2	拥有翅膀。正常飞行。若已具备飞行能力，则翅膀数量翻倍且飞行速度提升。 Winged. Fly normal. If already flying, double number of wings and fly speed.
+3	双头。获得一次额外的撕咬攻击。免疫心智影响效果。 Two-Headed. Gain an additional bite attack. Immune to mind-altering effects.
+4	剧毒。咬击造成额外1d6点毒素伤害。 Venemous. Bite attack deals +1d6 poison damage.
+5	再生。每回合恢复3点生命值。酸、火或极强魔法会阻止再生。 Regenerating. Regenerates 3 HP per round. Acid, fire, or very strong magic prevents regeneration.
+6	元素化。免疫[元素]伤害。每日一次，可喷吐40尺锥形[元素]气息，造成2d6伤害，通过豁免则减半。 Elemental. Immune to [element] damage. Once per day, can breathe a 40cone of [element]. 2d6 damage, Save for half.
+7	装甲化。将护甲等级提升一级（无甲、皮甲、链甲、板甲、板甲+盾牌）。若已为板甲+盾牌，则所有非魔法伤害减少2点。 Armoured. Increase armour by one level (none, leather, chain, plate, plate+shield). If armour is already plate+shield, reduce all incoming non-magical damage by 2.
+8	沸腾。每轮开始时，邻近生物受到1d4点[元素]伤害。 Fizzing. Adjacent creatures take 1d4 [element] damage at the start of each round.
+9	吸血鬼化。咬噬攻击对生物造成的伤害可为其恢复生命值。若该生物无咬噬攻击，则获得一个造成1d6伤害的咬噬攻击。 Vampiric. Bite attack heals the creature for damage dealt. If it doesn’t have a bite attack, it gains one, dealing 1d6 damage.
+10	水生生物。正常游泳。若已处于游泳状态，则身体流线化，游泳速度翻倍。 Aquatic. Swim normal. If already swimming, streamline, double swim speed.
+11	掘地。正常挖掘。爪击攻击造成+1伤害。 Tunneling. Burrow normal. Claw attacks deal +1 damage.
+12	石制构装体。对劈砍和穿刺伤害以及心智影响效果免疫。 Stone Construct. Immune to slashing and piercing damage and mind-altering effects.
+13	不死生物。移动速度减半。士气12。所有受到的伤害减少1点。 Undead. Halve movement speed. Morale 12. Reduce all incoming damage by 1.
+14	幽灵。免疫非魔法伤害、寒冷、闪电及精神影响效果。可穿透固体。近战攻击造成寒冷伤害并忽略护甲。 Ghost. Immune to non-magical damage, cold, lightning, and mind-altering effects. Can pass through solid objects. Melee attacks deal cold damage and ignore armour.
+15	相位转移。若单次受到超过其生命骰的伤害，可向任意方向传送至多30英尺。 Phasing. If dealt more than HD damage in a single hit, teleports up to 30' in any direction.
+16	变形术。可花费3轮时间转变为同等或更低生命骰的生物形态（参见第313-318页）。获得新形态的所有属性、攻击和能力。生命骰和当前生命值保持不变。 Shapeshifting. Can spend 3 rounds transforming into the form of a creature of equal or lower HD (see pp. 313-318). Gains all the stats, attacks, and abilities of its new form. HD and current HP remain the same.
+17	寄生化。当被杀死时，1d6轮后，一只较低生命骰的生物（参见HD(NA)第313-318页）会破体而出。 Parasitized. When killed, 1d6 rounds later, a creature of lower HD (see HD(NA) pp. 313-318) bursts out.
+18	天界生物。若未受伤，其他生物需进行豁免检定才能攻击。能像火把一样发光。 Celestial. If uninjured, other creatures must Save to attack. Casts light as a torch.
+19	炼狱生物。免疫火焰和寒冷伤害。攻击额外造成+1点火焰伤害。 Infernal. Immune to fire and cold damage. Attacks deal +1 fire damage.
+20	神童。+1生命骰（+4生命值）。智力大幅提升。善于交谈，精通多种语言，充满狡诈与秘密。备有多个应急计划。 Prodigy. +1 HD (+4 HP). Vastly more intelligent. Highly conversational, fluent in most languages, full of guile and secrets. Has several backup plans in place.

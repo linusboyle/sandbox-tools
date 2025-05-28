@@ -333,6 +333,7 @@ def load_random_table_from_tsv(src):
     for row in reader:
         try:
             range_str = row[0]
+            range_str = re.sub(r'–', '-', range_str) # U+2013
             if '-' in range_str:
                 min_roll, max_roll = map(int, range_str.split('-'))
             else:
